@@ -1,0 +1,1197 @@
+/*
+ Localizable.strings
+ Badi
+
+ Created by Jose Luis Lopez Redondo on 04/11/16.
+ Copyright © 2016 Badi. All rights reserved.
+ */
+
+// Common
+"Common.Ok" = "Ok";
+"Common.Done" = "Klaar";
+"Common.Cancel" = "Annuleer";
+"Common.Yes" = "Ja";
+"Common.No" = "Nee";
+"Common.Edit" = "Wijzig";
+"Common.Next" = "Volgende";
+"Common.Update" = "Update";
+
+// Internet
+"Error.ConectivityShort" = "Er is geen internetverbinding";
+"Error.Conectivity" = "Je bent offline. Controleer je internetverbinding en probeer het opnieuw.";
+"Error.SaveImage" = "Opslaan van afbeelding is mislukt";
+
+// Validation errors
+"Validation.AllFieldsNeeded" = "Alle velden moeten ingevuld worden";
+"Validation.InvalidEmail" = "Email moet geldig zijn";
+"Validation.InvalidPassword" = "Wachtwoord moet ten minste 6 tekens bevatten. Wachtwoord moet letters en cijfers combineren.";
+"Validation.TooYoung" = "Je moet minstens 18 jaar of ouder zijn om deze app te gebruiken.";
+"Validation.UploadInProgress" = "Wacht tot de afbeelding geüpload is om je profiel te updaten.";
+"VerificationError.InvalidCode" = "Oeps! De verificatiecode komt niet overeen.";
+"Validation.PriceRange" = "De vraagprijs moet tussen %d%@ en %d%@ liggen";
+
+// API Errors
+"APIError.InvalidToken" = "Oeps! Er ging iets fout tijdens de authenticatie. Probeer het opnieuw en neem contact op met de klantenservice als het probleem zich blijft voordoen.";
+"APIError.InvalidContext" = "Oeps! Je moet ingelogd zijn om dat te doen!";
+"APIError.InvalidOperation" = "Oeps! Je hebt hier geen toegang toe. Neem contact op met de klantenservice.";
+"APIError.ResourceNotFound" = "Oeps! Dit kan niet gevonden worden. Neem contact op met de klantenservice.";
+"APIError.ForbiddenOperation" = "Oeps! Je hebt geen toestemming om dat te doen! Neem contact op met de klantenservice.";
+"APIError.InvalidBody" = "";
+"APIError.InvalidParams" = "1 of meerdere velden ontbreken of zijn ongeldig. Probeer het opnieuw.";
+"APIError.InvalidRecord" = "Oeps! Er is een fout met enkele velden. Probeer het later opnieuw of neem contact op met de klantenservice.";
+"APIError.InvalidFacebookToken" = "Oeps! Er is een onbekende fout met Facebook. Probeer het later opnieuw of neem contact op met de klantenservice.";
+"APIError.InvalidSmsRequest" = "Oeps! Je verificatieverzoek kan niet verwerkt worden. Probeer het later opnieuw of neem contact op met de klantenservice.";
+"APIError.ConcurrentVerification" = "Je hebt al een SMS-verificatie aangevraagd. Als je binnen de 5 minuten geen bericht ontvangt kun je het opnieuw proberen.";
+"APIError.UnknownSmsException" = "Oeps! Er is een onbekende fout met de SMS-verificatiedienst. Probeer het later opnieuw of neem contact op met de klantenservice.";
+"APIError.NoMatchLoginType" = "Oeps! Er kan geen account gevonden worden met deze login gegevens. Weet je zeker dat je niet geregistreerd bent met een andere provider?";
+"APIError.EmailNotFound" = "Oeps! Er kan geen gebruiker gevonden worden met dat email adres.";
+"APIError.EmailExists" = "Oeps! Dit email adres bestaat al";
+"APIError.InvorrectPassword" = "Oeps! Het wachtwoord is niet correct.";
+"APIError.UnknownException" = "Oeps! Er is een onbekende fout opgetreden. Probeer het later opnieuw of neem contact op met de klantenservice.";
+
+"APIError.FacebookLoginExists" = "Oeps! Je Facebookaccount bestaat al";
+"APIError.GoogleLoginExists" = "Oeps! Je Googleaccount bestaat al";
+"APIError.NoMatchPasswordConfirmation" = "Oeps! Het lijkt erop dat de twee wachtwoorden niet overeenkomen.";
+"APIError.RequestAlreadyAnswered" = "Oeps! Dit verzoek werd al beantwoord";
+"APIError.RequestNonArchivable" = "Oeps! Dit verzoek kan niet gearchiveerd worden";
+"APIError.RoomIsFrozen" = "Oeps! Deze kamer kan niet geüpdatet worden";
+"APIError.UserWithNoPaymentData" = "Oeps! De betalingsinformatie ontbreekt";
+"APIError.UserWithNoPayoutData" = "Oeps! De uitbetalingsdata ontbreken";
+"APIError.BookingProposalInProgress" = "Oeps! Je hebt al een boekingsverzoek gestuurd voor deze kamer. Het is niet mogelijk om er nog een te sturen terwijl je het antwoord van een ander afwacht";
+"APIError.InvalidPostalCode" = "Oeps! Deze postcode komt niet overeen met het land van je rekening. Dubbelcheck je postcode.";
+"APIError.InvalidAccountNumber" = "Oeps! Er is een fout met je bankrekeningnummer. Dubbelcheck je rekeningnummer en contacteer de klantenservice als het probleem zich blijft voordoen";
+"APIError.InvalidAccountCountry" = "Oeps! Je bankrekening behoort niet tot het land dat je hebt opgegeven. Dubbelcheck je bankrekeningnummer";
+"APIError.CantLeaveChat" = "Oeps! Het is niet mogelijk om de chat te verlaten omdat er een gemeenschappelijke boeking is. Contracteer de klantenservice als je toch wilt vertrekken";
+"APIError.CantBlockChat" = "Oeps! Het is niet mogelijk om de chat te blokkeren omdat er een gemeenschappelijke boeking is. Contracteer de klantenservice als je deze toch wilt blokkeren";
+"APIError.ResourceAlreadyUsed" = "Oeps!  Deze informatie is al in gebruik door een andere gebruiker";
+
+"APIError.BookingProposalCreationForbidden" = "Oeps! Het lijkt erop dat deze gebruiker niet langer beschikbaar is";
+"APIError.BookingProposalAnswerForbidden" = "Oeps! Het is niet mogelijk om op je eigen boekingsverzoek te reageren";
+"APIError.BookingProposalAlreadyAnswered" = "Oeps! Je hebt dit boekingsverzoek al beantwoord";
+
+"APIError.UserAlreadyReported.Title" = "Oeps, je hebt deze gebruiker al aangegeven...";
+"APIError.UserAlreadyReported.Message" = "Maak je geen zorgen, onze team gaat het onderzoeken en onderneemt actie als het nodig is.";
+"APIError.RoomAlreadyReported.Title" = "Oeps, je hebt deze kamer al aangegeven...";
+"APIError.RoomAlreadyReported.Message" = "Maak je geen zorgen, onze team gaat het onderzoeken en onderneemt actie als het nodig is.";
+
+// Stripe
+"APIError.Stripe.InvalidNumber" = "Het kaartnummer is geen geldig creditcardnummer.";
+"APIError.Stripe.InvalidExpiryMonth" = "De vervaldatum van de kaart is niet geldig.";
+"APIError.Stripe.InvalidExpiryYear" = "Het vervaljaar van de kaart is niet geldig.";
+"APIError.Stripe.InvalidCvc" = "De beveiligingscode van de kaart is niet geldig.";
+"APIError.Stripe.InvalidSwipeData" = "De swipe-data van de kaart is niet geldig.";
+"APIError.Stripe.IncorrectNumber" = "Het kaartnummer is niet correct.";
+"APIError.Stripe.ExpiredCard" = "De kaart is vervallen.";
+"APIError.Stripe.IncorrectCvc" = "De beveiligingscode van de kaart is niet correct.";
+"APIError.Stripe.IncorrectZip" = "De postcode van de kaart kan niet gevalideerd worden.";
+"APIError.Stripe.CardDeclined" = "De kaart is geweigerd.";
+"APIError.Stripe.Missing" = "Er is geen kaart beschikbaar voor een klant die aangerekend is.";
+"APIError.Stripe.ProcessingError" = "Er is een fout opgetreden bij het verwerken van de kaart.";
+
+// Other errors
+"GPlacesError.Detail" = "Oeps! We konden dit adres niet vinden. Probeer het opnieuw met een meer verfijnde zoekopdracht.";
+"LocationError.Current" = "Oeps! We konden je huidige locatie niet vinden. Misschien heb je ons hier geen toegang toe gegeven. Ga naar Instellingen > Badi en activeer locatie services om dit te veranderen.";
+"Warning.CameraPermissions" = "We hebben geen toegang tot je camera. Klik hier om naar de Instellingen te gaan en ons toestemming te geven.";
+"Warning.AlbumPermissions" = "We hebben geen toegang tot je fotoalbum. Klik hier om naar de Instellingen te gaan en ons toestemming te geven.";
+
+// Login
+"Social.Title.First" = "Welkom bij badi";
+"Social.Subtitle.First" = "Registreer gratis en vind je GEWELDIGE huisgenoot!";
+"Social.Title.Second" = "Zoek";
+"Social.Subtitle.Second" = "Zoek kamers of huisgenoten op basis van je levensstijl.";
+"Social.Title.Third" = "Connect";
+"Social.Subtitle.Third" = "Vorm een klik en chat onmiddellijk met je toekomstige huisgenoten.";
+"Social.Title.Fourth" = "Boek";
+"Social.Subtitle.Fourth" = "Verzegel de overeenkomst met onze beveiligde boekingsfunctie.";
+
+"Access.WontPublish" = "We zullen niets publiceren zonder je toestemming";
+"Access.Facebook" = "Ga verder met Facebook";
+"Access.Google" = "Ga verder met Google";
+"Access.Email" = "Ga verder met e-mail";
+"Login.LoginTitle" = "Log in";
+"Login.LoginAction" = "Log in";
+"Login.RegisterAction" = "Registreer";
+"Login.ForgetAction" = "Verstuur";
+"Login.TermsAndPrivacy" = "Door verder te gaan accepteer ik de <b>Algemene Voorwaarden</b>.";
+"Login.GoToLogin" = "Ben je al een badi-gebruiker? Log in";
+
+"Login.Email" = "email";
+"Login.Password" = "wachtwoord";
+"Login.PasswordRules" = "6 tekens, letters en cijfers";
+"Login.Show" = "toon";
+"Login.Hide" = "verberg";
+"Login.ForgetPasswordButton" = "Wachtwoord vergeten?";
+"Login.ForgetPassword.Title" = "Wachtwoord herstellen";
+"Login.ForgetPassword.Subtitle" = "Gelieve het e-mailadres in te geven waarmee je hebt geregistreerd en wij sturen je een e-mail met je nieuwe wachtwoord.";
+"Login.ForgetPassword.Success.Title" = "Laatste stap";
+"Login.ForgetPassword.Success.Subitle" = "Je nieuwe wachtwoord is naar je email verstuurd";
+
+"Login.FailedPopUp.Title" = "Inloggen mislukt...";
+"Login.FailedPopUp.Subtitle" = "Het lijkt erop dat je niet geregistreerd bent op dezelfde manier waarop je je probeert in te loggen. Probeer het opnieuw met de correcte methode of lees de e-mail die we je zonet gestuurd hebben om meer te weten te komen.";
+"Login.FailedPopUp.ButtonTitle" = "Ga door!";
+
+// Lister Onboarding
+"Onboarding.Title1" = "Je kamer gratis aanmelden";
+"Onboarding.Body1" = "Ontvang dezelfde dag de verzoeken en verhuur lekker snel je kamer!";
+"Onboarding.Title2" = "Vind de juiste huisgenoot";
+"Onboarding.Body2" = "Aanbevelingen ontvangen van huisgenoten die goed bij jouw levensstijl passen.";
+"Onboarding.Title3" = "Goede match, meteen praten";
+"Onboarding.Body3" = "Kandidaten accepteren en met ze praten via onze beveiligde privé in-app chat.";
+"Onboarding.Title4" = "Je kamer zonder commissie boeken";
+"Onboarding.Body4" = "Beveiligde betalingen ontvangen en beschermen tegen laate annuleringen. ";
+"Onboarding.Button" = "Beginnen";
+
+// Search
+"Search.Title" = "Waar wil je wonen?";
+"Search.TypeLocation" = "Typ hier een stad of locatie";
+"Search.UserLocation" = "Zoek in de buurt";
+"Search.FindYourRoom" = "Vind je kamer in";
+"Search.Featured" = "Steden uitgelicht";
+"Search.GotARoom" = "Heb je een lege kamer over?";
+"Search.Neighbourhoods.title" = "Topburen";
+"Search.Neighbourhoods.subtitle" = "in %@";
+
+// Rooms
+"Rooms.Map" = "kaart";
+"Rooms.List" = "lijst";
+"Rooms.Searching" = "zoek in deze omgeving";
+"Rooms.RedoSearch" = "toon meer kamers";
+"Rooms.CurrentLocation" = "Mijn huidige locatie";
+"Rooms.MapArea" = "Geselecteerd kaartgebied";
+"Rooms.Meters" = "m";
+"Rooms.Kilometers" = "km";
+"Rooms.Filter" = "Filters";
+
+"Rooms.Month" = "maand";
+"Rooms.Day" = "dag";
+"Rooms.Hour" = "uur";
+
+"Rooms.Today" = "vandaag";
+"Rooms.Yesterday" = "gisteren";
+"Rooms.ThisWeek" = "deze week";
+"Rooms.OverAWeekAgo" = "meer dan een week geleden";
+"Rooms.WeekAgo" = "1 week geleden";
+"Rooms.WeeksAgo" = "%d weken geleden";
+"Rooms.Owned" = "mijn kamer";
+"Rooms.Request" = "Stuur verzoek";
+"Rooms.Share" = "Deel";
+"Rooms.RequestSent" = "Verzoek verstuurd";
+"Rooms.EmptyResult" = "Oeps!\nEr zijn geen kamers die aan deze criteria voldoen.\nProbeer te zoeken in een ander gebied of verander de toegepaste filters.";
+
+"Rooms.ComingSoon.Title" = "Bijna klaar...";
+"Rooms.ComingSoon.Subtitle" = "We zijn binnenkort ook te vinden in Italië! Kom binnen enkele dagen terug en vind jouw perfecte kamergenoot in dit fantastische land.";
+"Rooms.ComingSoon.FirstButton" = "Geweldig!";
+"Rooms.ComingSoon.SecondButton" = "";
+"Rooms.List.Footer" = "Wil je meer kamers zien? Zoek in een ander gebied of probeer je geselecteerde filters aan te passen.";
+
+// Filters
+"Filter.Title" = "Filters";
+"Filter.Clear" = "Wis alles";
+"Filter.Available" = "Beschikbaar";
+"Filter.Now" = "Nu";
+"Filter.From" = "Kies datum";
+"Filter.MaxPrice" = "Maandelijkse maximumprijs";
+"Filter.MaxPrice.Subtitle" = "(Landvaluta)";
+"Filter.Gender.Title" = "Badi's geslacht";
+"Filter.Gender.Subtitle" = "(Woont momenteel in het appartement)";
+"Filter.Gender.AllFemale" = "vrouwen";
+"Filter.Gender.AllMale" = "mannen";
+"Filter.Gender.Both" = "beide";
+"Filter.Roomates.Title" = "Totaal aantal Badi's";
+"Filter.Roomates.Subtitle" = "(Woont momenteel in het appartement)";
+"Filter.Roomates.Max" = "maximum";
+"Filter.Roomates.Min" = "minimum";
+"Filter.EmptyPrice" = "-";
+"Filter.BedType" = "Soort bed";
+"Filter.RoomAmenities" = "Voorzieningen";
+"Filter.FriendlyRules" = "Vriendschappelijke regels";
+"Filter.GeneralAmenities" = "Algemene voorzieningen";
+"Filter.Apply" = "Toepassen";
+
+// Room
+"Room.ShareText.Seeker" = "Kijk welke kamer ik gevonden heb met @badiapp #FindYourPlace";
+"Room.ShareText.Seeker.WithCity" = "Kijk welke kamer ik gevonden heb in %@ met @badiapp #FindYourPlace";
+"Room.ShareText.Lister" = "Ik heb een extra kamer te huur in mijn appartement. Is iemand geïnteresseerd? Bekijk hem op @badiapp";
+"Room.ShareText.Booking" = "Wil je mijn kamer boeken? Doe het met @badiapp";
+
+// Room detail
+"RoomDetail.Day" = "dag";
+"RoomDetail.Days" = "dagen";
+"RoomDetail.Week" = "week";
+"RoomDetail.Weeks" = "weken";
+"RoomDetail.Month" = "maand";
+"RoomDetail.Months" = "maanden";
+"RoomDetail.From" = "Vanaf";
+"RoomDetail.To" = "tot";
+
+"RoomDetail.YearsOld" = "jaar oud";
+
+"RoomDetail.RoomSettingsButton" = "Kamerinstellingen";
+"RoomDetail.SendRequestButton" = "Stuur verzoek";
+"RoomDetail.SeeAll" = "zie alle";
+
+"RoomDetail.PropertyType" = "De ruimte";
+"RoomDetail.PropertyType.PrivateRoom" = "Privé kamer";
+"RoomDetail.PropertyType.SharedRoom" = "Gedeelde kamer";
+"RoomDetail.PropertyType.EntirePlace" = "Heel gebouw";
+
+"RoomDetail.BedType" = "Soort bed";
+
+"RoomDetail.Flatmates" = "Huisgenoten";
+
+"RoomDetail.PreferredFlatmate" = "Gewenste huisgenoot";
+
+"RoomDetail.Availability" = "Beschikbaarheid";
+"RoomDetail.MinStay" = "Minimum duur";
+"RoomDetial.Location" = "Locatie";
+"RoomDetail.Description" = "Beschrijving";
+"RoomDetail.Amenities" = "Voorzieningen";
+"RoomDetail.HouseRules" = "Huisregels";
+"RoomDetail.Published" = "Gepubliceerd";
+"RoomDetail.Published.By" = "door";
+
+"RoomDetail.Action.Title" = "Weet je het zeker?";
+"RoomDetail.Action.Unpost.Subtitle" = "Waarom wil je het weghalen?";
+"RoomDetail.Action.Delete.Subtitle" = "Waarom wil je het verwijderen?";
+"RoomDetail.Action.Rent" = "Ik heb het gehuurd :)";
+"RoomDetail.Action.Hide" = "Ik wil het verbergen";
+"RoomDetail.Action.DontRent" = "Ik wil het niet huren";
+
+"RoomDetail.Report.Title" = "Aangeven";
+"RoomDetail.Report.ActionButton.First" = "Gebruiker";
+"RoomDetail.Report.ActionButton.Second" = "Kamer";
+
+"RoomDetail.Booking.Tip.Title" = "Je kunt deze kamer veilig, snel en gratis boeken met Badi";
+"RoomDetail.Booking.Tip.Secure" = "Veilige betalingen";
+"RoomDetail.Booking.Tip.Fast" = "Snel & gemakkelijk";
+"RoomDetail.Booking.Tip.Free" = "100% gratis";
+"RoomDetail.Booking.Tip.Subitle" = "Veilige betalingen met Stripe";
+
+"RoomDetail.Edition.Alert.Title" = "Plaatsing Editie";
+"RoomDetail.Edition.Alert.Message" = "Je kunt de details van je advertentie niet wijzigen wanneer je actieve boekingen hebt. Bekijk je boekingsactiviteit om de staat van je boekingen te zien.";
+
+"RoomDetail.BillsIncluded" = "Inclusief";
+"RoomDetail.BillsNotIncluded" = "Exclusief";
+
+"RoomDetail.Flatmate.Age" = "Leeftijd";
+"RoomDetail.Flatmate.YearsOld" = "jaar oud";
+"RoomDetail.Flatmate.Gender" = "Geslacht";
+"RoomDetail.Flatmate.CurrentSituation" = "Huidige situatie";
+
+"RoomDetail.Flatmate.Gender.Male" = "Man";
+"RoomDetail.Flatmate.Gender.Female" = "Vrouw";
+"RoomDetail.Flatmate.Gender.DontMind" = "Maakt niet uit";
+"RoomDetail.Flatmate.Occupation.Working" = "Werkend";
+"RoomDetail.Flatmate.Occupation.Studying" = "Studerend";
+"RoomDetail.Flatmate.Occupation.DontMind" = "Maakt niet uit";
+
+//Social connections
+"SocialConnections.Title" = "Sociale Connecties";
+"SocialConnections.SeeConnectionsOtherProfile" = "Ontdek je sociale connecties";
+"SocialConnections.SeeConnections" = "Bekijk hoe je verbonden bent met %@";
+"SocialConnections.NoConnectionsBoth" = "Oeps! Het lijkt erop dat jij en %@ nog geen gemeenschappelijke connecties hebben...";
+"SocialConnections.NoConnectionsOther" = "Oeps! Het lijkt erop dat %@ deze functie nog niet gebruikt...";
+"SocialConnections.NoConnectionsYou" = "Verbind je sociale media accounts om je connecties met %@ te ontdekken";
+"SocialConnections.NoConnectionsDirectFriends" = "Geweldig! Jij en 1%@ zijn directe vrienden. ";
+"SocialConnections.NoConnectionsMyProfile" = "Link je social media accounts om connecties te ontdekken";
+"SocialConnections.SeeAll" = "zie alle";
+"SocialConnections.Alert.Title" = "Ontdek je sociale connecties";
+"SocialConnections.Alert.Subtitle" = "Ontdek wie je aan je potentiële Badis koppelt en wees zeker van je nieuwe huisgenoot!";
+"SocialConnections.Alert.Button" = "Connect";
+"SocialConnections.Alert.ButtonWitouhtAction" = "Ga door!";
+"SocialConnections.NoConnectionsYet" = "We checken wie wie kent, kom snel terug om te kijken wie je connecties zijn!";
+
+// Room rental
+"RoomStatus.Published" = "geplaatst";
+"RoomStatus.Unpublished" = "weggehaald";
+"RoomStatus.Rented" = "gehuurd";
+"RoomStatus.Booked" = "geboekt";
+
+"RoomRent.Title" = "Aan wie heb je het verhuurd?";
+"RoomRent.NotAbove" = "Niet hierboven vermeld?";
+"RoomRent.NotThroughBadi" = "Niet gehuurd via Badi";
+
+"RoomRent.Republish.Title" = "Plan een herinnering";
+"RoomRent.Republish.Content" = "Wanneer zal de kamer weer beschikbaar zijn om gehuurd te worden?\nWe sturen je een herinnering";
+"RoomRent.Republish.No" = "Nee, bedankt";
+"RoomRent.Republish.Date" = "Kies datum";
+
+"RoomDelete.Title" = "Weet je het zeker?";
+"RoomDelete.Subtitle" = "Je staat op het punt deze kamer te verwijderen.";
+
+"BedType.Sofa" = "Bedbank";
+"BedType.Single" = "Enkel bed";
+"BedType.Double" = "Dubbel bed";
+"BedType.No" = "Geen bed";
+
+"Amenity.Title" = "Voorzieningen";
+"Amenity.Tv" = "TV";
+"Amenity.Wifi" = "Wifi";
+"Amenity.AirConditioner" = "airco";
+"Amenity.AC" = "Airconditioning";
+"Amenity.Parking" = "Parkeerplaats";
+"Amenity.SmokerFriendly" = "Roken toegestaan";
+"Amenity.PetFriendly" = "Huisdieren toegestaan";
+"Amenity.Elevator" = "Lift";
+"Amenity.Heating" = "Verwarming";
+"Amenity.WashingMachine" = "wasmachine";
+"Amenity.Dryer" = "Droger";
+"Amenity.Doorman" = "Portier";
+"Amenity.CouplesAccepted" = "Koppels toegestaan";
+"Amenity.Furnished" = "Gemeubileerd";
+"Amenity.Pool" = "Zwembad";
+"Amenity.OwnBathroom" = "Privé-badkamer";
+"Amenity.Terrace" = "Balkon";
+"Amenity.Window" = "Daglicht";
+"Amenity.Dishwasher" = "Vaatwasser";
+"Amenity.Wheelchair" = "Rolstoelvriendelijk";
+"Amenity.Garden" = "Tuin";
+"Amenities.Add" = "Voeg voorzieningen toe";
+"Amenities.SeeAll" = "Alles zien";
+
+// Room status actions
+"RoomStatusAction.Publish" = "Plaats - Zichtbaar";
+"RoomStatusAction.Unpublish" = "Weghalen - Niet zichtbaar";
+"RoomStatusAction.Detele" = "Verwijder";
+"RoomStatusAction.Edit" = "Wijzig";
+"RoomStatusAction.Share" = "Deel";
+"RoomStatusAction.MarkRented" = "Markeer als gehuurd";
+"RoomStatusAction.Cancel" = "Annuleer";
+
+"RoomDetailStatus.Rented" = "Gehuurd";
+"RoomDetailStatus.Unpublished" = "Weggehaald - Niet zichtbaar";
+"RoomDetailStatus.Booked" = "Geboekt";
+
+// Seeker rooms
+"SeekerRooms.Title" = "Verzoeken";
+"SeekerRooms.Invitations" = "ontvangen";
+"SeekerRooms.Requests" = "verstuurd";
+"SeekerRooms.Invitations.Empty.Title" = "Je inbox is leeg";
+"SeekerRooms.Invitations.Empty.Subtitle" = "Als een Badi geïnteresseerd is in je profiel zal je hier een uitnodiging ontvangen. ";
+"SeekerRooms.Requests.Empty.Title" = "Je hebt nog geen verzoeken verstuurd. ";
+"SeekerRooms.Requests.Empty.Subtitle" = "Wees niet verlegen en stuur een paar verzoeken.";
+
+// Language
+"Language.Arabic" = "Arabisch";
+"Language.Indonesian" = "Indonesisch";
+"Language.Chinese" = "Chinees";
+"Language.Czech" = "Tsjechisch";
+"Language.Danish" = "Deens";
+"Language.German" = "Duits";
+"Language.Greek" = "Grieks";
+"Language.English" = "Engels";
+"Language.Esperanto" = "Esperanto";
+"Language.Spanish" = "Spaans";
+"Language.French" = "Frans";
+"Language.Hindi" = "Hindi";
+"Language.Italian" = "Italiaans";
+"Language.Japanese" = "Japans";
+"Language.Corean" = "Koreaans";
+"Language.Hungarian" = "Hongaars";
+"Language.Dutch" = "Nederlands";
+"Language.Norwegian" = "Noors";
+"Language.Polish" = "Pools";
+"Language.Portuguese" = "Portugees";
+"Language.Romanian" = "Roemeens";
+"Language.Russian" = "Russisch";
+"Language.Finnish" = "Fins";
+"Language.Swahili" = "Swahili";
+"Language.Swedish" = "Zweeds";
+"Language.Thai" = "Thais";
+"Language.Turkish" = "Turks";
+"Language.Vietnamese" = "Vietnamees";
+"Language.Catalan" = "Catalaans";
+"Language.Euskera" = "Baskisch";
+"Language.Galician" = "Galliciaans";
+
+// Gender
+"Gender.Male" = "man";
+"Gender.Female" = "vrouw";
+"Gender.Male.Pronoun" = "hem";
+"Gender.Female.Pronoun" = "haar";
+
+// Ocupation
+"Ocupation.Student" = "student";
+"Ocupation.Worker" = "werkende";
+"Ocupation.StudentWorker" = "student en werkende";
+
+"Ocupation.Student.PreUniversity" = "MBO/HBO";
+"Ocupation.Student.University" = "Universiteit";
+"Ocupation.Student.Master" = "Master";
+"Ocupation.Student.PhD" = "PhD";
+
+"Ocupation.Worker.Beauty" = "Uiterlijke verzorging";
+"Ocupation.Worker.BussinessAndManagement" = "Business, consultancy en management";
+"Ocupation.Worker.Charity" = "Vrijwilligerswerk";
+"Ocupation.Worker.CreativeArtsAndDesign" = "Kunst en ontwerp";
+"Ocupation.Worker.CustomerService" = "Klantenservice";
+"Ocupation.Worker.Education" = "Onderwijs";
+"Ocupation.Worker.Entertainment" = "Entertainment";
+"Ocupation.Worker.Finance" = "Financiën";
+"Ocupation.Worker.Health" = "Gezondheidszorg";
+"Ocupation.Worker.HR" = "HR";
+"Ocupation.Worker.IT" = "IT";
+"Ocupation.Worker.Marketing" = "Marketing";
+"Ocupation.Worker.PublicServices" = "Overheid";
+"Ocupation.Worker.Law" = "Recht";
+"Ocupation.Worker.Logistics" = "Logistiek";
+"Ocupation.Worker.RealState" = "Makelaardij";
+"Ocupation.Worker.ResearchAndDevelopment" = "Research & development";
+"Ocupation.Worker.Retail" = "Winkel";
+"Ocupation.Worker.Sales" = "Verkoop";
+"Ocupation.Worker.Tourism" = "Toerisme";
+
+// Profile
+"Profile.RequestedYourRoom" = "Heeft je kamer aangevraagd";
+"Profile.Verified" = "geverifieerd";
+"Profile.Trusted" = "Trusted";
+"Profile.VerifyProfile.Title" = "Verifieer je profiel";
+"Profile.VerifyProfile.Subtitle" = "Je profiel verifiëren zodat het makkelijker is om te vinden. We laten deze informatie aan niemand zien.";
+"Profile.FriendsInCommon" = "Gemeenschappelijke vrienden";
+"Profile.AboutMe" = "Over mij";
+"Profile.Languages" = "Talen";
+"Profile.InterestsInCommon" = "Gemeenschappelijke Facebookinteresses";
+"Profile.ReportUser.Indication" = "Neem contact op over het slechte gedrag van deze persoon";
+"Profile.ReportUser" = "Gebruiker rapporteren";
+"Profile.Edit" = "profiel wijzigen";
+"Profile.Current.Study" = "Studeert";
+"Profile.Current.Work" = "Werkt";
+
+"ProfileView.Tags.Title" = "Persoonlijkheid en interesses";
+
+//Trusted user
+"Profile.VerifyAccount.Tip" = "Verifieer je account om een Trusted User te worden";
+"Profile.TrustedUserInProgress" = "Je informatie is succesvol verzonden en zal geverifieerd worden binnen de 4 tot 5 dagen. Zodra deze geverifieerd is zul je een Trusted User zijn!";
+"Payment.TrustedUserText" = "Vul je contact- en accountinformatie in om een Trusted User te worden. Dit staat je toe om boekingen te accepteren en je transacties te beveiligen. Je informatie zal geverifieerd worden binnen 4 tot 5 dagen.";
+
+// Profile report
+"Report.ErrorEmailNotAvailable" = "Het lijkt erop dat er geen email ingesteld is voor dit apparaat. Je hebt dit nodig om een gebruiker te rapporteren.";
+"Report.ErrorPhoneNotAvailable" = "Het lijkt erop dat er geen telefoonnummer ingesteld is voor dit apparaat. Je hebt dit nodig om een oproep te kunnen maken.";
+
+// Profile edit
+"Profile.Title" = "Mijn Profiel";
+"Profile.Name" = "Voornaam";
+"Profile.Name.Placeholder" = "Naam invoegen";
+"Profile.Surname" = "Achternaam";
+"Profile.Surname.Placeholder" = "Achternaam invoegen";
+"Profile.DateOfBirth" = "Geboortedatum";
+"Profile.DateOfBirth.Placeholder" = "Geboortedatum";
+"Profile.Gender.Title" = "Je geslacht kiezen";
+"Profile.Gender.Male" = "man";
+"Profile.Gender.Female" = "vrouw";
+"Profile.Occupation.Title" = "Vertel ons wat je doet";
+"Profile.Occupation.Student" = "studie";
+"Profile.Occupation.Worker" = "werk";
+"Profile.Occupation.Both" = "beide";
+"Profile.Occupation.View.Both" = "Studeren & werk";
+"Profile.Languages.Title" = "Welke talen kun je spreken?";
+"Profile.Languages.Content" = "Voeg de talen toe die je spreekt";
+"Profile.AboutMe.Title" = "Is er nog iets anders te vertellen?";
+"Profile.AboutMe.Limit" = "Maximum 600 tekens";
+"Profile.Update" = "Profiel updaten";
+"Profile.Description" = "Laat mensen iets over jezelf weten (optioneel)";
+"Profile.Languages" ="Talen";
+"Profile.Fields.Optional" = "(optioneel)";
+"Profile.Study.Title" = "Vertel ons wat je studeert";
+"Profile.Study.Placeholder" = "Kies je studie";
+"Profile.Work.Title" = "Wat doe je?";
+"Profile.Work.Placeholder" = "Kies je werkveld";
+
+"Profile.Tags.Title" = "Vertel ons iets over jezelf";
+"Profile.Tag.Personality.Title" = "Wat voor persoon ben je?";
+"Profile.Tag.Lifestyle.Title" = "Wat voor lifestyle heb je?";
+"Profile.Tag.Music.Title" = "Naar wat voor muziek luister je?";
+"Profile.Tag.Sport.Title" = "Van welke sporten hou je?";
+"Profile.Tag.Movie.Title" = "Van wat voor films hou je?";
+
+"ProfileTag.Tag.Personality.Title" = "Persoonlijkheid";
+"ProfileTag.Tag.Lifestyle.Title" = "Lifestyle";
+"ProfileTag.Tag.Music.Title" = "Muziek";
+"ProfileTag.Tag.Sport.Title" = "Sport";
+"ProfileTag.Tag.Movie.Title" = "Films";
+
+// Profile picture
+"Profile.Picture.Select" = "Selecteer bron";
+"Profile.Picture.Album" = "Album";
+"Profile.Picture.Camera" = "Camera";
+"Profile.Picture.Edit" = "uploaden";
+
+// Profile language
+"Profile.Language.Title" = "Ik spreek ...";
+"Profile.Language.Update" = "Update";
+
+// Profile verify
+"Profile.Verify.Action" = "Verifieer";
+"Profile.Verify.AlternativeAction" = "Ik heb al een code";
+"Profile.Confirm.Action" = "Stuur code";
+"Profile.Confirm.InputPlaceholder" = "code";
+
+"Profile.Verify.PhoneTitle" = "Verifieer telefoon";
+"Profile.Verify.PhoneContent" = "Typ een telefoonnummer en bevestig je identiteit met de code die we je zullen sturen.";
+"Profile.Verify.PhoneInputPlaceholder" = "Land";
+"Profile.Verify.PhoneSecondInputPlaceholder" = "Nummer";
+"Profile.Confirm.PhoneContent" = "Vul de verificatiecode in die we je per telefoon stuurden";
+
+"Profile.Verify.MailTitle" = "Verifieer email";
+"Profile.Verify.MailContent" = "Typ je emailadres en bevestig je identiteit met de code die we je zullen sturen.";
+"Profile.Verify.MailInputPlaceholder" = "email";
+"Profile.Confirm.MailContent" = "Vul de verificatiecode in die we je per email stuurden";
+
+"Tags.Title" = "Vertel ons iets over jezelf";
+"Tags.Subtitle" = "Je kunt per categorie maximaal 10 opties kiezen.";
+
+// Settings
+"Setting.Title" = "Instellingen";
+"Setting.Invite" = "Nodig een vriend uit";
+"Setting.Rate" = "Beoordeel de app";
+"Setting.Partner" = "Word onze partner";
+"Setting.Support" = "Ondersteuning en hulp";
+"Setting.Switch" = "Verander naar";
+"Setting.Logout" = "Log uit";
+"Setting.Contact" = "Chat met ons";
+"Setting.Report" = "Rapporteer een fout";
+"Setting.TermsAndConditions" = "Algemene Voorwaarden";
+"Setting.Faqs" = "Veelgestelde Vragen";
+"Setting.Delete" = "Verwijder account";
+"Setting.Delete.MyID" = "Mijn ID:";
+"Setting.PaymentData" = "Mijn account";
+"Setting.Privacy" = "Privacy";
+
+// Invite
+"Invite.Text" = "Toen ik Badi ontdekte dacht ik aan jou. Met de app kun je kamers in gedeelde appartementen vinden, huren en huisgenoten te ontmoeten. Ik denk dat je het leuk zal vinden 😉";
+
+// Partner
+"Partner.EmailTitle" = "Ik heb een partnervoorstel voor Badi";
+"Partner.EmailBody" = "";
+"Partner.Receiver" = "partnerships@badi.com";
+
+// Report
+"ReportError.EmailTitle" = "Er ging iets fout ...";
+"ReportError.Receiver" = "feedback@badi.com";
+"ReportError.Model" = "Device model";
+"ReportError.OS" = "OS versie";
+"ReportError.AppVersion" = "App versie";
+"ReportError.AppBuild" = "App bouw";
+"ReportError.UserId" = "Gebruikers-ID";
+
+// Delete
+"Delete.EmailTitle" = "Verwijder mijn account";
+"Delete.EmailBody" = "Mijn ID:";
+"Delete.Receiver" = "info@badi.com";
+
+// User type
+"UserType.Seeker" = "Zoeker";
+"UserType.Lister" = "Plaatser";
+
+// Lister rooms
+"ListerRoom.Title" = "Mijn kamers";
+"ListerRoom.ListRoom" = "Plaats kamer";
+"ListerRoom.ListRoomDescription" = "Om terug te keren naar de Zoeker-mode ga je naar je profiel en kies je de twee pijltjestoetsen";
+
+// Posted rooms
+"PostedRooms.Title" = "Vind een Badi";
+"PostedRooms.EmptyContent" = "Plaats of maak een kamer om verzoeken en aanbevelingen te ontvangen.";
+"PostedRooms.EmptyFooter" = "Ga naar Mijn Advertenties";
+
+// Requests
+"Request.Status.Pending" = "In afwachting";
+"Request.Status.Accepted" = "Geaccepteerd";
+"Request.Status.Rejected" = "Geweigerd";
+"Request.Status.NonAvailable" = "Kamer niet beschikbaar";
+"Request.Status.Expired" = "Vervallen";
+"Request.NewRequest" = "Nieuw Verzoek";
+"Request.NewRequests" = "Nieuw Verzoek";
+"Request.CardTitle" = "Heeft je kamer aangevraagd";
+"Request.ButtonNo" = "Weiger";
+"Request.ButtonYes" = "Accepteer & Chat";
+"Request.Title" = "verzoeken";
+"Request.Placeholder" = "Check hier verzoeken van Badi's die geïnteresseerd zijn in jouw kamer. ";
+
+// Invitations
+"Invitation.NewInvitation" = "Nieuwe Uitnodiging";
+"Invitation.NewInvitations" = "Nieuwe Uitnodigingen";
+"Invitation.AcceptedMessage" = "Je hebt de uitnodiging geaccepteerd. Klik hier om met de Zoeker te chatten.";
+"Invitation.Empty.Title" = "Je inbox is leeg";
+"Invitation.Empty.Subtitle" = "Als een kamergenoot geïnteresseerd is in je profiel zul je hier een uitnodiging krijgen.";
+"Invitation.Aprove" = "Accepteer";
+"Invitation.Reject" = "Weiger";
+"Alert.FirstInvitation.Title" = "Gefeliciteerd! Je hebt net je eerste verzoek van een Plaatser ontvangen";
+"Alert.FirstInvitation.Subtitle" = "Accepteer deze om een chat te starten of wijs deze af als je denkt dat jullie geen match zijn. ";
+"Alert.FirstInvitation.Button" = "Ga door!";
+
+// Recommendations
+"Recommendation.Success" = "Uitnodiging verstuurd. Zodra het geaccepteerd is kun je beginnen chatten met deze gebruiker.";
+"Recommendation.CardTitle" = "Aanbevolen";
+"Recommendation.ButtonNo" = "Verwijderen";
+"Recommendation.ButtonYes" = "Uitnodigen";
+"Recommendation.Placeholder" = "Check hier om Badi's te zien die aanbevolen zijn op basis van jouw profiel en interesses. ";
+"Recommendation.Title" = "aanbevelingen";
+
+//Trusted user alert
+"Alert.TrustedUser.Title" = "Trusted User";
+"Alert.TrustedUser.Subtitle" = "Deze gebruiker heeft alle rekeninggegevens geverifieerd en is klaar om een kamer te boeken";
+
+
+// Room create
+"RoomCreate.Title" = "Plaats kamer";
+"RoomCreate.TitleEdit" = "Wijzig kamer";
+"RoomCreate.TitlePictures" = "Afbeeldingen";
+"RoomCreate.Pictures" = "Prachtige foto's + Hoeveelheid = Meer kansen!";
+"RoomCreate.Picture.Cover" = "Omslag";
+"RoomCreate.Picture.Sort" = "Sleep om te ordenen";
+"RoomCreate.TitleAbout" = "Over de kamer";
+"RoomCreate.Title.Placeholder" = "Titel kamer";
+"RoomCreate.Title.Limit" = "Max. 35 tekens";
+"RoomCreate.Location.Wont" = "(We zullen niet je exacte locatie tonen)";
+"RoomCreate.Location.Placeholder" = "Locatie";
+"RoomCreate.Price" = "Prijs per maand";
+"RoomCreate.BillsIncluded" = "Rekeningen zijn inclusief";
+"RoomCreate.TitleAvailable" = "Beschikbaar";
+"RoomCreate.From" = "Van";
+"RoomCreate.To" = "tot";
+"RoomCreate.MinimumStay" = "Minimum duur (maanden)";
+"RoomCreate.TitleRoomates" = "Totaal aantal huisgenoten";
+"RoomCreate.DoYouHaveFlatmates" = "Heb je huisgenoten?";
+"RoomCreate.Roomates.Included" = "Jezelf inbegrepen";
+"RoomCreate.Roomates.Female" = "vrouw";
+"RoomCreate.Roomates.Male" = "man";
+"RoomCreate.TitleBadis" = "Badi's";
+"RoomCreate.EditBadis" = "wijzig Badi's";
+"RoomCreate.TitleBed" = "Soort bed";
+"RoomCreate.TitleAmenities" = "Voorzieningen";
+"RoomCreate.SelectAmenities" = "Selecteer voorzieningen";
+"RoomCreate.SeeAllAmenities" = "zie alle";
+"RoomCreate.TitleDescription" = "Beschrijving";
+"RoomCreate.Description.Placeholder" = ""; // Not used yet
+"RoomCreate.Description.MaxLenght" = "Max. 3000 tekens";
+"RoomCreate.ListRoomButton" = "Plaats kamer";
+"RoomCreate.EditRoomButton" = "Bewaar wijzigingen";
+"RoomCreate.Available.Now" = "nu";
+"RoomCreate.Available.Today" = "Vandaag";
+"RoomCreate.Available.Undefined" = "geen datum";
+"RoomCreate.Available.ChoseDate" = "kies datum";
+"RoomCreate.Error.MultipleImageUpload" = "Een afbeelding wordt geüpload. Wacht tot deze klaar is om de volgende te uploaden.";
+"RoomCreate.Error.CantMove" = "Een afbeelding wordt geüpload. Wacht tot deze klaar is om de afbeeldingen te ordenen.";
+"RoomCreate.Error.ImageUploading" = "Gelieve even te wachten terwijl wij je foto uploaden. Daarna is je zoekertje klaar om geplaatst te worden!";
+"RoomCreate.ListSuccessPopup.Title" = "Je advertentie is openbaar!";
+"RoomCreate.ListSuccessPopup.Subtitle" = "Goed bezig! Deel je advertentie om meer Badi's te bereiken. ";
+"RoomCreate.ListSuccessPopup.FirstButton" = "Deel je advertentie";
+"RoomCreate.ListSuccessPopup.SecondButton" = "Later";
+
+"RoomCreate.VerifyPhone.Title" = "Verifieer je telefoon";
+"RoomCreate.VerifyPhone.Subtitle" = "Dit is hoe we je veiligheid verzekeren en vertrouwen in onze community opbouwen. Je informatie blijft privé en wordt niet gedeeld.";
+"RoomCreate.VerifyPhone.Button" = "Verifieer telefoon";
+
+"RoomCreate.ContinueButton" = "Doorgaan";
+"RoomCreate.LocationStep.Title" = "Stap 1: Locatie";
+"RoomCreate.LocationStep.CitySection.Title" = "Stad";
+"RoomCreate.LocationStep.AddressSection.Title" = "Adres";
+"RoomCreate.LocationStep.Wont" = "Maak je geen zorgen, de exacte locatie wordt niet aangegeven. Dit is alleen om Zoekers te laten weten waar het ongeveer is.";
+"RoomCreate.LocationStep.CityPlaceholder" = "Stad intypen";
+"RoomCreate.LocationStep.AddressPlaceholder" = "Straat, huisnummer";
+"RoomCreate.LocationStep.CityExample" = "bv: Amsterdam, NL";
+"RoomCreate.LocationStep.AddressExample.spain" = "bv: Muntaner, 24";
+"RoomCreate.LocationStep.AddressExample.france" = "bv: Stationstraat 24";
+"RoomCreate.LocationStep.AddressExample.uk" = "bv: Minervalaan 24";
+"RoomCreate.LocationStep.AddressExample.italy" = "bv: Hoofdstraat 24";
+"RoomCreate.LocationStep.AddressExample.default" = "Naam van het Gebouw of Huis, Straat en Huisnummer";
+
+"RoomCreate.PropertyStep.Title" = "Stap 2: Eigendom";
+"RoomCreate.PropertyStep.FlatMatesTitle" = "Wie woont er op het moment hier?";
+"RoomCreate.PropertyStep.AmenitiesTitle" = "De voorzieningen kiezen";
+"RoomCreate.PropertyStep.TypeTitleWhatDoYouWantToList" = "Wat wil je vermelden?";
+"RoomCreate.PropertyStep.RulesTitle" = "Zijn er huisregels?";
+"RoomCreate.RoomStep.Title" = "Stap 3: Kamer";
+"RoomCreate.RoomStep.BedTitle" = "Soort bed kiezen";
+"RoomCreate.RoomStep.AvailabilityTitle" = "Wanneer is de kamer beschikbaar?";
+"RoomCreate.RoomStep.PriceTitle" = "Wat is de maandelijkse huur?";
+"RoomCreate.RoomStep.PerMonth" = "maand";
+"RoomCreate.PhotoStep.Title" = "Stap 4: Foto’s";
+"RoomCreate.PhotoStep.Remaining" = "%i tekens over";
+"RoomCreate.PhotoStep.Minimum" = "Minimaal %i tekens";
+"RoomCreate.PhotoStep.TitleSectionTitle" = "Geef je vermelding een titel";
+"RoomCreate.PhotoStep.TitleSectionPlaceholder" = "Geef een titel die anders is";
+"RoomCreate.PhotoStep.DescriptionSectionTitle" = "Vertel ons meer...";
+"RoomCreate.PhotoStep.DescriptionSectionPlaceholder" = "...wat vind jij leuk in jouw omgeving? Wat voor een persoon wil jij graag als kamergenoot? Laat het ons weten!";
+
+"RoomCreate.FlatmateStep.Title" = "Stap 5: Huisgenoot";
+"RoomCreate.FlatmateStep.Gender.Title" = "Met wie zou je het liefst samenwonen?";
+"RoomCreate.FlatmateStep.Gender.Male" = "Man";
+"RoomCreate.FlatmateStep.Gender.Female" = "Vrouw";
+"RoomCreate.FlatmateStep.Gender.DontMind" = "Maakt me niet uit";
+"RoomCreate.FlatmateStep.Occupation.Title" = "En zijn of haar huidige situatie?";
+"RoomCreate.FlatmateStep.Occupation.Working" = "Werkend";
+"RoomCreate.FlatmateStep.Occupation.Studying" = "Studerend";
+"RoomCreate.FlatmateStep.Occupation.DontMind" = "Maakt me niet uit";
+"RoomCreate.FlatmateStep.Age.Title" = "Welke leeftijdsgroep heeft je voorkeur?";
+"RoomCreate.FlatmateStep.Age.yearsOld" = "jaar oud";
+
+"RoomType.PrivateRoom" = "Privé kamer";
+"RoomType.SharedRoom" = "Gedeelde kamer";
+"RoomType.EntirePlace" = "Heel gebouw";
+
+// Badis
+"AddBadis.Title" = "Voeg Badi's toe";
+"AddBadis.AddButton" = "voeg Badi toe";
+"AddBadis.RemoveButton" = "verwijder";
+"AddBadis.TypeName" = "Typ naam hier";
+"AddBadis.Error.Title" = "Oeps!";
+"AddBadis.Error.Subtitle" = "Het lijkt erop dat je Badi er niet is";
+"AddBadis.CantFind" = "Je huisgenoten niet te vinden?";
+"AddBadis.Invite" = "Nodig huisgenoten uit";
+
+// Address search
+"AddressSearch.Search.Title" = "Waar wil je wonen?";
+"AddressSearch.RoomCreate.Title" = "Waar is het gebouw?";
+"AddressSearch.MyLocation" = "Mijn locatie";
+"AddressSearch.MyCity" = "Auto-detecteer je stad";
+"AddressSearch.SelectLocation" = "Bewaar locatie";
+
+// Chat
+"Chat.Popup.Title" = "Je hebt een nieuwe chat met\n%@ %d!";
+"Chat.Popup.AcceptAction" = "Chat nu";
+"Chat.Popup.CancelAction" = "Later";
+"Chat.Title" = "Chat";
+"Chat.ErrorTitle" = "Chat info kan niet opgevraagd worden :(\nTik op vernieuw om opnieuw te proberen";
+"Chat.Refresh" = "Vernieuw";
+"Chat.Empty.Title" = "Je hebt nog geen chats";
+"Chat.Empty.Subtitle" = "Wacht niet totdat ze naar jou toe komen, vind een kamer die je bevalt en stuur een verzoek!";
+"Chat.TypeMessage" = "Typ je bericht ...";
+"Chat.Map.CurrentLocation" = "Huidige locatie";
+"Chat.Action.Delete" = "Verwijder";
+"Chat.Action.Block" = "Blokkeer";
+"Chat.Action.Unblock" = "Deblokkeer";
+"Chat.UnknownMessage" = "Dit soort bericht kan niet weergegeven worden";
+
+"Chat.BookingMessage.New" = "Ik heb je een boeking verstuurd! Accepteer deze om de boeking te bevestigen";
+"Chat.BookingMessage.Accepted" = "Kamer geboekt! De boeking is bevestigd en jullie zullen samenwonen voor je het weet!";
+"Chat.BookingMessage.Rejected" = "De boeking is geweigerd :(";
+"Chat.BookingMessage.Expired" = "De boeking is vervallen :(";
+"Chat.BookingMessage.Request" = "Ik wil je kamer boeken! Stuur mij een boekingsverzoek :)";
+"Chat.BookingMessage.NotPossible" = "Boeking is niet mogelijk :(";
+"Chat.BookingMessage.AboutToExpire" = "De boeking zal vervallen in minder dan 4 uur!";
+
+// Push
+"push_user_match" = "Nieuwe match! Je hebt een match met %@";
+"push_user_request" = "Nieuw verzoek! %@ is geïnteresseerd in je kamer en wil chatten!";
+"push_user_invitation" = "Nieuw verzoek! %@ heeft een kamer te huur en is geïnteresseerd om met jou te chatten!";
+"push_republish" = "🗓 Het is zover! Is je kamer weer beschikbaar? Vergeet hem niet in Badi te plaatsen!";
+"push_warning_unpublished" = "🙁 Auwch! Je kamer is weggehaald omdat je niet op verzoeken reageerde. Plaats hem gerust terug, het duurt maar even!";
+"push_warning_pending_requests" = "📨 Klop-Klop! Er staan gebruikers voor de deur. Klik hier om op hun verzoeken te reageren.";
+// Booking push
+"push_booking_proposal_created" = "🛎 Je hebt een boekingsverzoek van %@! 😀 Schiet op! Bevestig deze voor het vervalt.";
+"push_booking_check_in_previous_day" = "Morgen is de grote dag! We wensen je een geweldige eerste dag toe";
+"push_booking_proposal_expired" = "⌛️ Het boekingsverzoek aan %@ is vervallen";
+"push_booking_proposal_rejected" = "Het boekingsverzoek aan %@ is geweigerd 😪";
+"push_booking_proposal_accepted" = "Kamer geboekt! Jullie zullen samenwonen voor je het weet!";
+"push_payout_created" = "Het boekingsbedrag voor je kamer %@ is overgemaakt. Je ontvangt dit in 2 of 3 dagen";
+"push_room_booked_to_rented" = "We hebben de status van je kamer %@ gewijzigd van 'geboekt' naar 'gehuurd'";
+"push_booking_proposal_about_to_expire" = "Het boekingsverzoek van %@ zal vervallen in minder dan 4 uur. Schiet op en accepteer het!";
+
+// Complete profile
+"CompleteProfile.Popup.Title" = "Voltooi je profiel";
+"CompleteProfile.Popup.Subtitle" = "Badi gaat over mensen. Introduceer jezelf aan je mede Badi's!";
+"CompleteProfile.Popup.FirstButton" = "Voltooi profiel";
+"CompleteProfile.Popup.SecondButton" = "Niet nu";
+
+// Location search
+"LocationSearch.TypeLocation" = "Typ een stad of locatie";
+"LocationSearch.TypeAddress" = "Typ het adres";
+"LocationSearch.TypeACity" = "Stad intypen";
+"LocationSearch.NotFound.Title" = "Oeps!";
+"LocationSearch.NotFound.Subtitle" = "Deze locatie kan niet gevonden worden";
+
+// Force update
+"ForceUpdate.Title" = "Nieuwe versie";
+"ForceUpdate.Subtitle" = "Er is een nieuwe versie van onze app beschikbaar. Ga naar de store om het te downloaden";
+"ForceUpdate.Button.Store" = "Ga naar de store";
+"ForceUpdate.Button.Later" = "Later";
+
+// Tips
+"Tip.ListRoom.Title" = "Heb je een lege kamer over?";
+"Tip.ListRoom.Subtitle" = "Plaats je kamer en begin contact te leggen met je toekomstige huisgenoten";
+"Tip.SwitchTab.Title" = "Wil je terugkeren naar Zoeker-mode?";
+"Tip.SwitchTab.Subtitle" = "Als je naar je profiel gaat kun je de modus wijzigen en kamers zoeken";
+"Tip.SwitchNav.Title" = "Verander naar Zoeker-mode:";
+"Tip.SwitchNav.Subtitle" = "Druk op deze knop om naar Zoeker-mode te veranderen en kamers te zoeken";
+"Tip.FindBadi.Title" = "Vind een Badi";
+"Tip.FindBadi.Subtitle" = "Hier ontvang je aanbevelingen en verzoeken van Badi's die interesse hebben in je kamer";
+"Tip.FindBadi.FirstButton" = "Ga door!";
+"Tip.FindBadi.SecondButton" = "";
+
+"Tip.RequestBooking.Title" = "Heb jij je ideale Badi al ontmoet?";
+"Tip.RequestBooking.Subtitle" = "Stuur een boekingsverzoek om te verzekeren dat je kamer gehuurd wordt. Veilig, gemakkelijk en snel.";
+"Tip.SendBooking.Title" = "Heb jij je ideale Badi gevonden?";
+"Tip.SendBooking.Subtitle" = "Boek deze kamer om de huur te garanderen. Veilig, gemakkelijk en snel.";
+
+// Rate the app
+"RateApp.Title" = "Vind je de app leuk?";
+"RateApp.Subtitle" = "Geef een beoordeling zodat je ons kunt helpen verbeteren. Bedankt ;)";
+"RateApp.Later" = "Herinner me later";
+"RateApp.Ok" = "Ok!";
+
+// Address type
+"AddressType.Region" = "Regio";
+"AddressType.Country" = "Land";
+"AddressType.Establishment" = "Etablissement";
+"AddressType.City" = "Stad";
+"AddressType.Neighborhood" = "Buurt";
+"AddressType.Street" = "Straat";
+"AddressType.District" = "Wijk";
+"AddressType.TransitStation" = "Station";
+
+// URLs
+"Url.FAQ" = "https://intercom.help/badi/english";
+"Url.T&C" = "https://badi.com/blog/en/general-conditions-use/";
+"Url.PrivacyPolicy" = "https://badi.com/blog/en/privacy-policy-and-data-protection/";
+"Url.T&C.Booking" = "https://badi.com/blog/en/conditions-of-booking-system/";
+"Url.Stripe.Terms" = "https://stripe.com/connect-account/legal";
+
+// Payment
+"Payment.Title.PersonalData" = "Contactgegevens";
+"Payment.Title.Bank" = "Bankrekeningnummer";
+"Payment.Subtitle.Bank" = "Om betaald te worden moet je een betaalrekening instellen.";
+"Payment.Title.Address" = "Adres";
+"Payment.Title.ResidenceCountry" = "Bankrekening";
+"Payment.Element.Phone" = "Verifieer telefoon:";
+"Payment.Element.Email" = "Email";
+"Payment.Element.CreditCard" = "Kaartnummer";
+"Payment.Element.Iban" = "IBAN 1111 2222 3333 4444";
+"Payment.Element.Iban.BottomHint" = "Badi geeft betalingen tot 48 uur vrij na de startdatum van de Zoeker. Wanneer de betaling op je rekening verschijnt hangt af van je betaalmethode.";
+"Payment.Element.Name" = "Voornaam:";
+"Payment.Element.Surname" = "Achternaam:";
+"Payment.Element.Birthdate" = "Geboortedatum:";
+"Payment.Element.ResidenceCountry" = "Selecteer je land";
+"Payment.Element.ResidenceCountry.Hint" = "Dit moet het land zijn waar je woont (het land waar je bankrekening geopend is)";
+"Payment.Element.City" = "Woonplaats:";
+"Payment.Element.PostalCode" = "Postcode:";
+"Payment.Element.Address" = "Volledig adres:";
+"Payment.Element.Country" = "Land:";
+"Payment.Title.Account" = "Mijn rekening";
+"Payment.Title.Account.InProgress" = "Rekeninggegevens";
+"Payment.Title.CreditCard" = "Betaalmethode";
+"Payment.Element.CreditCard.Hint" = "Kaartnummer";
+"Payment.Element.Iban.Hint" = "IBAN nummer";
+"Payment.Element.CreditCard.Disclaimer" = "Door deze kaart op te slaan ga ik akkoord met de Voorwaarden en het Privacybeleid van Stripe";
+"Payment.Button.Save" = "Opslaan";
+"Payment.Placeholder.Verify" = "Verifieer";
+"Payment.Element.Account.Hint" = "Rekeningnummer:";
+"Payment.Element.SortCode.Hint" = "Sorteer Code:";
+"Payment.Element.AccountNumber" = "Rekeningnummer";
+
+"Payment.Alert.CountryNotAvailable" = "We hebben dit land nog niet";
+"Payment.Alert.CountryConfirm.Title" = "Bevestig je land";
+"Payment.Alert.CountryConfirm.Description" = "Zodra het land geselecteerd is kun je het niet meer wijzigen en blijft de rekening verbonden aan het geselecteerde land.";
+
+// Booking
+"RoomRent.Booking.Title" = "Boek kamer aan ...";
+"RoomRent.Booking.NotThroughBadi" = "Boek aan iemand buiten Badi";
+
+"Booking.Chat.Description.Pending.Sent" = "In afwachting van bevestiging\n(Max. 24 uur)";
+"Booking.Chat.Description.Pending.Received" = "Je hebt een boekingsverzoek! Accepteer het voor het vervalt";
+"Booking.Chat.Description.Booked" = "Kamer geboekt!\nStartdatum %@";
+"Booking.Chat.Description.Allowed" = "Stuur een boekingsverzoek naar %@ om de kamer te boeken";
+
+"Deposit.RoomDetail.Allowed" = "Boek je kamer aan een Badi en vermijd verrassingen op het laatste moment!";
+"Deposit.RoomDetail.Expired" = "Je laatste boekingsverzoek is vervallen";
+"Deposit.RoomDetail.Rejected" = "Je laatste boekingsverzoek is geweigerd :( Je kan het opnieuw proberen";
+"Booking.RoomDetail.ViewActivity" = "Zie boekingsactiviteit";
+
+"Booking.Activity.Title" = "Boekingsactiviteit";
+"Booking.Activity.Answer" = "Antwoord";
+
+"Booking.Activity.Status.Pending" = "Antwoord in afwachting";
+"Booking.Activity.Status.Accepted" = "Geboekt";
+"Booking.Activity.Status.Rejected" = "Boeking afgewezen";
+"Booking.Activity.Status.Expired" = "Boeking vervallen";
+"Booking.Activity.Status.NotPossible" = "Niet mogelijk";
+
+"Booking.Activity.Subtitle.Accepted" = "Startdatum:";
+"Booking.Activity.Subtitle.Pending.LessThanOne" = "minder dan een uur";
+"Booking.Activity.Subtitle.Pending.Singular" = "uur resterend om te antwoorden";
+"Booking.Activity.Subtitle.Pending.Plural" = "uren resterend om te antwoorden";
+"Booking.Activity.Subtitle.NotPossible" = "Al gehuurd";
+
+"Deposit.Chat.Action.Pending.Lister" = "Boekingsdetails";
+"Deposit.Chat.Action.Pending.Seeker" = "Zie verzoeken";
+"Deposit.Chat.Action.Accepted" = "Boekingsdetails";
+"Deposit.Chat.Action.Allowed.Lister" = "Boek kamer";
+"Deposit.Chat.Action.Allowed.Seeker" = "Boek kamer";
+"Deposit.Chat.Disclaimer" = "Houd conversaties binnen de chat en verricht betalingen alleen op ons platform voor je eigen veiligheid";
+
+// Booking proposal request
+"BookingProposalRequest.Title" = "Boeking aangevraagd";
+"BookingProposalRequest.Lister.Subtitle" = "Stuur eerst een verzoek zodat de Zoeker de boeking kan bevestigen of afwijzen.";
+"BookingProposalRequest.Lister.SecondSubtitle" = "\U2022 De kamer zal ALLEEN geboekt worden als de Zoeker ACCEPTEERT en de BETALING verricht.\n\n\U2022 Badi houdt het boekingsbedrag VAST tot 48 uur na de startdatum.\n\n\U2022 De Zoeker moet het verzoek accepteren of weigeren, anders zal het na 24 uur vervallen.";
+
+"BookingProposalRequest.Seeker.Subtitle" = "Stuur eerst een verzoek zodat de Plaatser de boeking kan bevestigen of weigeren";
+"BookingProposalRequest.Seeker.SecondSubtitle" = "\U2022 De kamer zal ALLEEN geboekt worden als de Plaatser de Boeking ACCEPTEERT\n\n\U2022 Badi houdt het boekingsbedrag VAST tot 48 uur na de startdatum\n\n\U2022 De Plaatser moet het verzoek accepteren of weigeren, anders zal het na 24 uur vervallen.";
+
+"BookingProposalRequest.MyAccount" = "Mijn rekeninggegevens:";
+"BookingProposalRequest.Date" = "Startdatum:";
+"BookingProposalRequest.Date.Empty" = "Kies datum";
+"BookingProposalRequest.Amount" = "Boekingsbedrag:";
+
+"BookingProposalRequest.Free" = "Servicekosten: geen! Badi is 100% gratis";
+"BookingProposalRequest.Info" = "Meer info nodig? <u>Zie boekingsinformatie</u>";
+"BookingProposalRequest.Lister.Example.First" = "Bescherming van je persoonlijke informatie";
+"BookingProposalRequest.Lister.Example.Second" = "Betaling van boeking 100% gegarandeerd";
+"BookingProposalRequest.Lister.Example.Third" = "Krijg meldingen van het betalingsproces";
+
+"BookingProposalRequest.Seeker.Example.First" = "Bescherming van je persoonlijke gegevens";
+"BookingProposalRequest.Seeker.Example.Second" = "Online veilige betaling";
+"BookingProposalRequest.Seeker.Example.Third" = "48 uur om je kamer te controleren na de startdatum";
+"BookingProposalRequest.Seeker.Example.Fourth" = "100% terugbetaalbaar in geval van annulering";
+"BookingProposalRequest.Terms" = "Door een boekingsverzoek te sturen ga je akkoord met onze <b>Dienstovereenkomst</b> en de <b>Stripe Connected Account Overeenkomst</b>";
+
+"BookingProposalRequest.Button" = "Stuur boekingsverzoek";
+
+// Booking request
+"BookingRequest.Chat.Pending" = "Boekingsverzoek";
+"BookingRequest.Chat.Booked" = "Geboekt";
+"BookingRequest.RoomAddress" = "Kameradres";
+"BookingRequest.EntryDate" = "Startdatum:";
+"BookingRequest.BookingAmount" = "Boeking";
+"BookingRequest.BookingFee" = "Servicekosten (100% gratis)";
+"BookingRequest.TotalAmount" = "Totaalbedrag";
+"BookingRequest.Lister" = "Plaatser:";
+"BookingRequest.Seeker" = "Zoeker:";
+"BookingRequest.Info.MoreInfo" = "Meer info nodig? <u>Zie boekingsinformatie</u>";
+"BookingRequest.Info.Example.First" = "Bescherming van je persoonlijke informatie";
+"BookingRequest.Info.Example.Second" = "Veilige online betaling.";
+"BookingRequest.Info.Example.Third" = "24 uur om je kamer te controleren na de startdatum";
+"BookingRequest.Info.Example.Fourth" = "100% terugbetaling in geval van EXTERNE annulering";
+"BookingRequest.Info.Example.Lister.First" = "Bescherming van je persoonlijke informatie";
+"BookingRequest.Info.Example.Lister.Second" = "Boekingsbetaling 100% gegarandeerd";
+"BookingRequest.Info.Example.Lister.Third" = "Krijg meldingen over het betalingsproces";
+
+"BookingRequest.Request.Title" = "Boekingsverzoek";
+"BookingRequest.Request.Initial.Seeker.Subtitle" = "%@ is geïnteresseerd in jou om de kamer te huren en wil een boeking bevestigen.";
+"BookingRequest.Request.Initial.Seeker.SecondSubtitle" = "\U2022 Je hebt 24 uur om het boekingsverzoek te accepteren of te weigeren voor het vervalt. Schiet op en wees de eerste om de boeking te accepteren en te betalen\n\n\U2022 De kamer zal ALLEEN geboekt worden als je het verzoek accepteert en de boekingsbetaling hebt bevestigd\n\n\U2022 Badi houdt het boekingsbedrag VAST tot 24 uur na de startdatum";
+
+"BookingRequest.Request.Initial.Lister.Subtitle" = "%@ is geïnteresseerd om je kamer te huren en wil een boeking bevestigen.";
+"BookingRequest.Request.Initial.Lister.SecondSubtitle" = "\U2022Je moet het verzoek accepteren of weigeren, ander zal het na 24 uur vervallen\n\n\U2022De kamer zal ALLEEN geboekt worden als je het verzoek accepteert en je rekeninginformatie hebt bevestigd\n\n\U2022Badi houdt het boekingsbedrag VAST tot 48 uur na de startdatum";
+"BookingRequest.Request.Action.Reject" = "Weiger";
+"BookingRequest.Request.Action.Accept" = "Accepteer";
+
+"BookingRequest.PaymentInfo.Title" = "Betaalinformatie";
+"BookingRequest.PaymentInfo.Subtitle" = "Introduceer je betaalmethode en contactinformatie om veilig te betalen via Badi";
+
+"BookingRequest.Payment.Seeker.Title" = "Betaling";
+"BookingRequest.Payment.Lister.Title" = "Boekingsbevestiging";
+"BookingRequest.Payment.Seeker.Subtitle" = "Betaal om de boeking te bevestigen. We zullen je betaling veilig houden tot 24 uur na de startdatum.";
+"BookingRequest.Payment.Lister.Subtitle" = "Bevestig alle boekingsdetails en accepteer de boeking om het proces af te ronden.";
+"BookingRequest.Payment.Seeker.Agreement" = "Door te betalen ga je akkoord met onze <b>Dienstovereenkomst</b> en de <b>Stripe Connected Account Overeenkomst</b>";
+"BookingRequest.Payment.Lister.Agreement" = "Door de Boeking te Accepteren ga je akkoord met onze <b>Dienstovereenkomst</b> en de <b>Stripe Connected Account Overeenkomst</b>";
+"BookingRequest.Payment.Seeker.Button" = "Betaal & Bevestig";
+"BookingRequest.Payment.Lister.Button" = "Accepteer boeking";
+"BookingRequest.Confirmation.Title" = "Boeking bevestigd";
+"BookingRequest.Confirmation.Subtitle" = "De kamer werd succesvol geboekt!\nBoeking-ID: %@";
+"BookingRequest.Confirmation.ThirdTitle.Lister" = "Merk op dat indien je meerdere actieve boekingen hebt voor deze kamer, deze geannuleerd zijn";
+"BookingRequest.Confirmation.ThirdTitle.Seeker" = "Merk op dat indien je meerdere actieve boekingen hebt, deze geannuleerd zijn";
+"BookingRequest.Confirmation.Bottom" = "We sturen je de boekingsbevestiging per email";
+"BookingRequest.Waiting.Title" = "In afwachting van bevestiging";
+"BookingRequest.Waiting.Subtitle" = "Je boekingsverzoek is verstuurd";
+
+"BookingRequest.Waiting.ThirdTitle.Lister" = "De Zoeker zal 24 uur hebben om je verzoek te accepteren of te weigeren. De kamer zal ALLEEN geboekt worden wanneer de Zoeker accepteert en de betaling heeft voltooid.";
+"BookingRequest.Waiting.ThirdTitle.Seeker" = "De Plaatser heeft 24 uur om je boeking te accepteren of te weigeren. De kamer zal ALLEEN geboekt worden wanneer de Plaatser de boeking bevestigt.";
+"BookingRequest.Rejected.Title" = "Verzoek geweigerd";
+
+"BookingRequest.Rejected.Subtitle" = "%@ heeft je boekingsverzoek geweigerd :(";
+"BookingRequest.Expired.Title" = "Verzoek vervallen";
+"BookingRequest.Expired.Subtitle" = "Je boekingsverzoek is vervallen :(";
+"BookingRequest.NotPossible.Title" = "Boeking niet mogelijk";
+"BookingRequest.NotPossible.Subtitle" = "Deze gebruiker is niet meer beschikbaar om geboekt te worden";
+"BookingRequest.MissingAccount.Text" = "Vul alle velden in om het boekingsbedrag op de geplande datum over te maken.";
+"BookingRequest.MissingAccount.Button" = "Mijn rekening";
+"BookingRequest.ChatMessage" = "Je hebt een nieuw bericht met betrekking tot je boeking";
+
+// Help
+"Booking.Help.Title" = "Heb je een vraag?";
+"Booking.Help.Subtitle" = "Krijg onmiddellijk een antwoord als je hulp nodig hebt tijdens het boekingsproces. We zijn er om te helpen!";
+"Booking.Help.Email" = "booking@badi.com";
+"Booking.Help.Faq" = "Heb je meer informatie nodig? Ga naar de <u>Veelgestelde Vragen</u>";
+
+// Info
+"Booking.Info.Title" = "Boekingsinformatie";
+"Booking.Info.What" = "Wat is het?";
+"Booking.Info.What.First.Title" = "Als je een kamer hebt...";
+"Booking.Info.What.First.Content" = "Boeken is een veilige methode om een totale of gedeeltelijke betaling van de eerste huurmaand te garanderen.\n\nDoor het boekingsverzoek te accepteren gaat de Zoeker akkoord om de kamer op de afgesproken datum te bewonen.\n\nBlijf kalm en vermijd onaangename verrassingen!";
+"Booking.Info.What.Second.Title" = "Als je een kamer zoekt...";
+"Booking.Info.What.Second.Content" = "Het boekingsproces is een veilige methode om de reservering van de kamer te garanderen.\n\nDoor het boekingsverzoek te accepteren gaat de Zoeker akkoord om de kamer op de afgesproken datum te bewonen.\n\nDoe het rustig aan en vermijd lastminute zoektochten!";
+
+"Booking.Info.How" = "Hoe werkt het?";
+"Booking.Info.Seeker.Title" = "Er zijn twee manieren om een kamer te boeken. Door een boekingsverzoek te sturen of te ontvangen.";
+"Booking.Info.Seeker.Receive" = "Als je een boekingsverzoek ontvangt...";
+"Booking.Info.Seeker.Receive.Content" = "1.- Als je een boekingsverzoek ontvangt heb je 24 uur om het te accepteren of te weigeren. Als je niet reageert binnen 24 uur vervalt het verzoek en verlies je de kans.\n\n2.- Als je het boekingsverzoek ACCEPTEERT moet je je betaalmethode opgeven en een veilige online betaling uitvoeren met je kaart.\n\n3.- Zodra de betaling uitgevoerd is wordt de boeking bevestigd. Badi houdt het boekingsbedrag VAST. Als je geen fouten rapporteert zal het bedrag na 48 uur na de startdatum overgemaakt worden.";
+
+"Booking.Info.Seeker.Send" = "Als je een boekingsverzoek stuurt...";
+"Booking.Info.Seeker.Send.Content" = "1.- Vul eerst je persoonlijke gegevens en rekeninggegevens in. We hebben dit nodig om de betaling te verwerken, mocht de Plaatser het boekingsverzoek accepteren. .\n\n2.- Voeg altijd de startdatum van de huur en het boekingsbedrag in het boekingsverzoek toe.\n\n3.- Verstuur het boekingsverzoek naar de Plaatser. Deze heeft dan 24 uur om het verzoek te bevestigen of af te wijzen. ";
+
+"Booking.Info.Seeker.First.Subtitle" = "Wat nu?";
+"Booking.Info.SeekerFirst.Content" = "De Plaatser moet het verzoek accepteren of afwijzen, anders zal het na 24 uur vervallen. Tijdens deze periode kun je nog steeds boekingsverzoeken versturen. De eerste die geaccepteerd wordt, wordt bevestigd. Merk op dat, in geval van meerdere verzoeken, de anderen geannuleerd worden wanneer er één wordt geaccepteerd.";
+
+"Booking.Info.Seeker.Second.Subtitle" = "Hoe weet ik dat het boekingsproces beëindigd is?";
+"Booking.Info.Seeker.Second.Content" = "Als het boekingsproces eindigt zal de status 1 van de volgende zijn:\n\nBoeking bevestigd: de Plaatser accepteert het verzoek en Badi houdt het boekingsbedrag VAST. De kamer is nu geblokkeerd en geboekt. De betaling wordt gepland op 48 uur na de startdatum.\n\nVerzoek afgewezen: de Plaatser wijst de boeking af en je kunt het proces opnieuw beginnen.\n\nVerzoek vervallen: het verzoek is niet beantwoord.\n\nVerzoek niet mogelijk: de Plaatser heeft de kamer al aan een andere gebruiker verhuurd.";
+
+"Booking.Info.Seeker.Third.Subtitle" = "Wat gebeurt er op de startdatum?";
+"Booking.Info.Seeker.Third.Content" = "Vanaf de startdatum heb je 24 uur om je nieuwe kamer te bekijken en eventuele fouten aan onze klantenservice te rapporteren.\n\nAls je geen fouten rapporteert wordt het bedrag 24 uur na de startdatum overgemaakt.\n\nAls je een fout rapporteert zal onze klantenservice de situatie rechtstreeks en individueel analyseren. De volgende 24 uur wordt besteed aan het oplossen van het probleem:\n\n\U2022 Als het probleem opgelost is wordt het bedrag na deze 24 uur overgemaakt aan de plaatser (48 uur na de startdatum).\n\n\U2022 Als het probleem niet opgelost kan worden krijg je het bedrag volledig terugbetaald.";
+
+"Booking.Info.Seeker.Fourth.Subtitle" = "Annuleringsbeleid:";
+"Booking.Info.Seeker.Fourth.Content" = "Als de Plaatser de boeking annuleert krijg je het totaalbedrag 100% terugbetaald.\n\nAls je de boeking annuleert:\n\n\U2022 11 dagen voor de startdatum wordt niets in rekening gebracht en krijg je het bedrag voor 100% terugbetaald.\n\n\U2022 Tussen 10 en 6 dagen voor de startdatum krijg je een terugbetaling van 50% van het totaalbedrag.\n\n\U2022 Binnen de laatste 5 dagen voor de startdatum wordt het totaalbedrag volledig aan de Plaatser overgemaakt.\n\nIn elk geval nemen we contact met je op als een annulering plaatsvindt.";
+
+"Booking.Info.Lister.Title" = "Er zijn twee manieren om een kamer te boeken. Door een boekingsverzoek te sturen of te ontvangen.";
+"Booking.Info.Lister.Receive" = "Als je een boekingsverzoek ontvangt...";
+"Booking.Info.Lister.Receive.Content" = "1.- Als je een boekingsverzoek ontvangt heb je 24 uur om het te accepteren of te weigeren. Als je niet reageert binnen deze 24 uur zal het verzoek vervallen en ben je de kans kwijt.\n\n2.- Als je het boekingsverzoek ACCEPTEERT moet je je persoonlijke- en rekeninggegevens voltooien. Dit is nodig om het boekingsbedrag op de geplande datum over te maken.\n\n3.- Zodra de boeking geaccepteerd is, is deze bevestigd. Badi houdt het boekingsbedrag VAST tot 48 uur na de startdatum.";
+
+"Booking.Info.Lister.Send" = "Als je een boekingsverzoek verstuurt...";
+"Booking.Info.Lister.Send.Content" = "1.- Voltooi eerst je persoonlijke- en rekeninggegevens. Dit is nodig om het boekingsbedrag over te maken op de geplande datum (48 uur na de startdatum).\n\n2.- Geef de startdatum en het boekingsbedrag op.\n\n3.- Stuur het boekingsverzoek zodat de Zoeker deze kan bevestigen of afwijzen.";
+
+"Booking.Info.Lister.First.Title" = "Wat nu?";
+"Booking.Info.Lister.First.Content" = "De Zoeker moet het verzoek accepteren of weigeren, anders zal het na 24 uur vervallen. Tijdens deze periode kun je nog steeds boekingsverzoeken versturen.\n\n\Het eerste verzoek dat geaccepteerd wordt, wordt bevestigd. Merk op dat, in geval van meerdere verzoeken, de anderen geannuleerd worden als er één geaccepteerd wordt.";
+"Booking.Info.Lister.Second.Title" = "Hoe weet ik dat het boekingsproces beëindigd is?";
+"Booking.Info.Lister.Second.Content" = "Als het boekingsproces eindigt zal de status één van de volgende zijn:\n\nBoeking bevestigd: de Plaatser accepteert het verzoek en Badi houdt het boekingsbedrag VAST. De kamer is nu geblokkeerd en geboekt. De betaling wordt gepland op 48 uur na de startdatum.\n\nVerzoek afgewezen: de Plaatser wijst de boeking af en je kunt het proces opnieuw beginnen.\n\nVerzoek vervallen: het verzoek is niet beantwoord en je kan het proces opnieuw beginnen.\n\nVerzoek niet mogelijk: de Zoeker heeft al een kamer bij iemand anders geboekt.";
+"Booking.Info.Lister.Third.Title" = "Annuleringsbeleid:";
+"Booking.Info.Lister.Third.Content" = "Als de Zoeker de Boeking annuleert:\n\n\U2022 Binnen de laatste 5 dagen voor de verhuisdatum ontvang je 100% van het boekingsbedrag.\n\n\U2022 Tussen de 10 en 6 dagen voor de verhuisdatum ontvang je 50% van het boekingsbedrag.\n\n\U2022 11 dagen of meer voor de verhuisdatum ontvang je niets van het boekingsbedrag.\n\nIn elk geval nemen we contact met je op als een annulering plaatsvindt.";
+
+"Booking.Info.Chat" = "chat met ons";
+
+
+"Booking.Proposal.SendMultiple.Reminder.Title" = "Herinnering";
+"Booking.Proposal.SendMultiple.Reminder.Lister.Message" = "Je staat op het punt een nieuw boekingsverzoek te sturen. Het eerste verzoek dat een Zoeker accepteert zal geboekt worden en op je bankrekening betaald worden.";
+"Booking.Proposal.SendMultiple.Reminder.Seeker.Message" = "Het lijkt erop dat je al een actief boekingsverzoek hebt. Vergeet niet dat zodra een boekingsverzoek geaccepteerd wordt door jou of de Plaatser, je boekingsbedrag rechtstreeks naar de Plaatser gaat en alle andere boekingsverzoeken geannuleerd worden.";
+
+"Booking.Tutorial.First.Title" = "Ontmoet de nieuwe boeking!";
+"Booking.Tutorial.First.Subtitle" = "Boek je kamer nu met Badi.";
+"Booking.Tutorial.Second.Title" = "Veiligheid voor alles";
+"Booking.Tutorial.Second.Subtitle" = "Maak je geen zorgen om je geld. Badi zorgt voor de transacties!";
+"Booking.Tutorial.Third.Title" = "Snel en gemakkelijk!";
+"Booking.Tutorial.Third.Subtitle" = "Chat, stuur verzoeken en bevestig je nieuwe kamer of huisgenoot.";
+"Booking.Tutorial.Fourth.Title" = "100% gratis!";
+"Booking.Tutorial.Fourth.Subtitle" = "Stuur zoveel boekingsverzoeken als je wil. Het is volledig gratis!";
+"Booking.Tutorial.Button" = "Ga door!";
+
+"Booking.Chat.Ad.Text" = "Boek je kamer veilig met Badi";
+"Booking.Chat.Ad.Button" = "Meer info";
+
+// Social connections
+"Social.Connections.Title" = "Sociale Connecties";
+"Social.Connections.Amount" = "sociale connecties met %@";
+
+"Social.Paths.Title" = "Dit is hoe %@\nje verbindt met %@:";
+"Social.Paths.Me" = "Ik";
+
+// Neighbourhoods
+// Madrid
+"Neighbourhood.ChIJRzHcPCsmQg0R_0fI8f8DR-Y" = "Culturele diversiteit in een traditioneel oud stadje.";
+"Neighbourhood.ChIJz7ZjFH4oQg0RYS0zuSBBoxQ" = "Het stadscentrum dat de hele dag levendig is.";
+"Neighbourhood.ChIJ8ek8h2QoQg0RTBJi44fo6qA" = "Alternatieve stijlen, retro winkeltjes, hippe bars en Boheemse cafés.";
+"Neighbourhood.ChIJzfooVGkoQg0RUZNtUtm0hII" = "Groene plekjes, net buiten het stadscentrum.";
+"Neighbourhood.ChIJjXE4gW8vQg0RospLN-fgw1E" = "Moderne ontwikkelingen langs de rivier.";
+"Neighbourhood.ChIJ-TdI70IoQg0RLu_2APbEemw" = "Levendige nachten en een goede verbinding.";
+
+// Barcelona
+"Neighbourhood.ChIJ--Ln3n-ipBIRcvCCQOH6ACY" = "Stille parkjes, zonder dat je de stad moet verlaten.";
+"Neighbourhood.ChIJ4Q9lYYWipBIRgvCCQOH6ACY" = "Open cultuur, gevuld met brunch-plekjes.";
+"Neighbourhood.ChIJDwUiqL2ipBIRI6kV4Db90bQ" = "Boetiekjes en de meest trendy bars.";
+"Neighbourhood.ChIJ2b6UOeGipBIRGvrMS1jtefQ" = "Cultuur en moderniteit komen samen in het oude stadje.";
+"Neighbourhood.ChIJqf86DGKipBIRIOyOP4f4xrE" = "Gezellige bars en markten.";
+"Neighbourhood.ChIJmyCPhtuipBIRHIgYpfufcN0" = "Thuis aan Gaudí’s meesterwerk, centraal met een bezige atmosfeer.";
+
+// Paris
+"Neighbourhood.ChIJ6VVDJrN65kcRQBuUaMOCCwU" = "Museums in overvloed tussen groene plekjes en rijen aan restaurants.";
+"Neighbourhood.ChIJEcgELkNu5kcRjVQFUIvkPMY" = "Kunstig en authentiek, centraal gelegen met een dorpsgevoel.";
+"Neighbourhood.ChIJ9WBuGRRw5kcRMBuUaMOCCwU" = "Rust en geschiedenis, afgezonderd van de drukte van Parijs.";
+"Neighbourhood.ChIJf8gcz69v5kcRYEpIvGqyH-4" = "Traditionele architectuur in een trendy buurt.";
+"Neighbourhood.ChIJ59fvwcht5kcRcBuUaMOCCwU" = "Groene plekjes, leuke bars en culturele diversiteit.";
+"Neighbourhood.ChIJxSr71vZt5kcR8BqUaMOCCwU" = "Levendig nachtleven, vol met bars en restaurants.";
+"Neighbourhood.ChIJPStI0CVu5kcRUBqUaMOCCwU" = "Het luxueuze centrum, thuis aan het wereldberoemde museum.";
+"Neighbourhood.ChIJ_WhMlTxu5kcRYBqUaMOCCwU" = "Een drukke zakenbuurt, gemengd met vaak onopgemerkte antieke gebieden.";
+"Neighbourhood.ChIJw0-tXgRu5kcRcBqUaMOCCwU" = "Dit middeleeuwse gebied is het stille thuis van een aantal museums.";
+"Neighbourhood.ChIJo8SoIv1x5kcRgBqUaMOCCwU" = "Levendige nachten en cultuur in overvloed, thuis aan Notre-Dame.";
+"Neighbourhood.ChIJb_T3b-9x5kcRkBqUaMOCCwU" = "Thuis aan het beroemde Quartier-Latin, een divers universitair centrum.";
+"Neighbourhood.ChIJGcU48NBx5kcRoBqUaMOCCwU" = "Rustig, met open groene plekjes en oude straatjes.";
+"Neighbourhood.ChIJWWRTZChw5kcRsBqUaMOCCwU" = "Klassieke Parijse architectuur, een levendige mix aan restaurants, cafés en bars.";
+"Neighbourhood.ChIJdWkEFsZv5kcRwBqUaMOCCwU" = "Thuis aan de legendarische boulevard. Een bloeiende buurt.";
+"Neighbourhood.ChIJvdxBeEdu5kcR0BqUaMOCCwU" = "Levendig nachtleven middenin de klassieke cultuur van de stad.";
+"Neighbourhood.ChIJTbMkrQxu5kcR4BqUaMOCCwU" = "Een authentieke buurt in het centrum van de stad.";
+"Neighbourhood.ChIJR9fXt4xy5kcRABuUaMOCCwU" = "Open groene plekjes, vlak naast de rivier.";
+"Neighbourhood.ChIJgwVOTCdy5kcREBuUaMOCCwU" = "Rijk aan culturele diversiteit, compleet met een levendig nachtleven.";
+"Neighbourhood.ChIJT0ClqLNx5kcRIBuUaMOCCwU" = "Stil en residentieel, compleet met haar eigen populaire straatmarkt.";
+"Neighbourhood.ChIJ6_zai45t5kcRgBuUaMOCCwU" = "Rust en vrede alom, maar dan met populaire muziekclubs.";
+
+// London
+"Neighbourhood.ChIJqdKqVc0CdkgRgGe-JsaFEQQ" = "Goed verbonden, gigantische parken, gemengd met reusachtige wolkenkrabbers.";
+"Neighbourhood.ChIJ3ydEeZgDdkgRcGe-JsaFEQQ" = "Klassieke pubs en modieuze restaurants, thuis aan Borough Market.";
+"Neighbourhood.ChIJt1zJSGgEdkgRsEAeRjCuDgo" = "Langs de rivier, constant in beweging.";
+"Neighbourhood.ChIJBYyO7-8cdkgRLG8Z2Fn7scU" = "Hipster bars met groene plekjes en lange kanalen.";
+"Neighbourhood.ChIJPZprGOwadkgR4Ga-JsaFEQQ" = "Jong en levendig, maar toch een beetje retro.";
+"Neighbourhood.ChIJ5Tvr7V0bdkgRyWXsGMuF8FQ" = "Constant hippe straten, vol met prachtige huizen.";
+"Neighbourhood.ChIJX4XfTlUDdkgRwISR0ciFEQo" = "Iconische skyline in het hartje van Londen.";
+"Neighbourhood.ChIJkcYYXrKl2EcR0Ge-JsaFEQQ" = "Culturele diversiteit en een sterk gemeenschapsgevoel.";
+"Neighbourhood.ChIJT29HcDkXdkgR4Gfsoi2uDgQ" = "Open groene plekjes geven het een dorpsgevoel.";
+"Neighbourhood.ChIJIfhvfFqu2EcR8Ge-JsaFEQQ" = "Perfect voor families, betaalbare huisprijzen.";
+"Neighbourhood.ChIJq7AET3IRdkgRoH-R0ciFEQo" = "Thuis aan het beroemde Wembley stadion, cultureel diverse gemeenschap.";
+"Neighbourhood.ChIJUYUsD96q2EcRcGnsoi2uDgQ" = "Groene voorstad, de droom van elke pendelaar in het zuid-oosten van Londen.";
+"Neighbourhood.ChIJW_bCdKUAdkgREGjsoi2uDgQ" = "Een druk stadscentrum, meer betaalbare huisprijzen.";
+"Neighbourhood.ChIJD2fuc4gSdkgRIGjsoi2uDgQ" = "Groene straten en aantrekkelijke huizen, “koningin van de voorsteden”.";
+"Neighbourhood.ChIJ7Y9uo9MYdkgRgGnsoi2uDgQ" = "Lagere kosten voor stadsbewoners, goed verbonden.";
+"Neighbourhood.ChIJJc-4yymo2EcRwqZo5HwjGEk" = "Charmante markten en zichten op de stad.";
+"Neighbourhood.ChIJwzfTXMEPdkgRAGfsoi2uDgQ" = "Organische markten en wandelingen langs de rivier.";
+"Neighbourhood.ChIJZ1JpkPAbdkgREGfsoi2uDgQ" = "Residentiële atmosfeer, heel goede transportverbindingen.";
+"Neighbourhood.ChIJsdjk2n0TdkgRQGjsoi2uDgQ" = "Noordwestelijke grens van de stad, thuis aan de beroemde Harrow school.";
+"Neighbourhood.ChIJ1bfreqq72EcRUGjsoi2uDgQ" = "Betaalbare huur in een snel-ontwikkelend gebied. Goed verbonden.";
+"Neighbourhood.ChIJzWR_V5NtdkgRkf7edrEjoRI" = "Woon op het platteland, werk in Londen.";
+"Neighbourhood.ChIJNeMxAOgMdkgRWPTlACaTBHQ" = "Gevuld met open parken en betaalbare appartementen.";
+"Neighbourhood.ChIJQzlq8vcPdkgRMGfsoi2uDgQ" = "Onberispelijke tuinen en een eigen paleis in het hartje van de stad.";
+"Neighbourhood.ChIJ0ycUEikKdkgR6r_eW1XvlAQ" = "Groene stadjes, perfect voor winkelliefhebbers.";
+"Neighbourhood.ChIJmT6ce2sCdkgR4EAeRjCuDgo" = "Snel ontwikkelend. Heel goede transportverbindingen en waar voor je geld.";
+"Neighbourhood.ChIJbRcY2h0GdkgRQonYqyp5Fx8" = "Thuis aan Wimbledon, voor alle tennisliefhebbers.";
+"Neighbourhood.ChIJfRGCus6n2EcRYGfsoi2uDgQ" = "Geweldige diversiteit met een levendige atmosfeer.";
+"Neighbourhood.ChIJcWrvVrqm2EcRoGjsoi2uDgQ" = "Perfect voor families en een goede verbinding met de trein.";
+"Neighbourhood.ChIJlwfWmnIMdkgRrCdnqjiWZjo" = "Een dorpsgevoel in een van Londens meest prachtige wijken.";
+"Neighbourhood.ChIJEZ61rPwHdkgRwGjsoi2uDgQ" = "Groene plekjes in overvloed, op het randje van zuidwestelijk Groot-Londen.";
+"Neighbourhood.ChIJkRAw9uEddkgR0Gjsoi2uDgQ" = "Van theaters tot culturele centra, hier is iets voor iedereen.";
+"Neighbourhood.ChIJg-qP_4kFdkgR0mhvpZwsJTc" = "Grote, groene parken, omringd door aangename cafés en restaurants.";
+"Neighbourhood.ChIJxwN8mDUFdkgRoGfsoi2uDgQ" = "Thuis aan de grootste landmerken van de stad.";
+
+// Legal
+"Legal.PopUp.Title" = "Om het je even te laten weten...";
+"Legal.PopUp.Subtitle" = "Privacybeleid bijgewerkt in overeenstemming met de nieuwe wetten van de Europese Unie inzake gegevensbescherming (GDPR). <b>Hier</b> vind je een duidelijke uiteenzetting over hoe we met jouw gegevens omgaan bij badi.\n\nDoor hieronder te accepteren kun je de soort informatie die we naar jou versturen beheren en kun je je gegevens raadplegen wanneer je wilt.";
+"Legal.PopUp.Cancel" = "Weiger";
+"Legal.PopUp.Accept" = "Accepteer";
+
+"Legal.Settings.Title" = "Privacy";
+"Legal.Settings.Content" = "We willen dat je exact weet hoe badi werkt en waarom wij bepaalde details vragen. Je kunt er hieronder voor kiezen om bepaalde details niet te delen. Voor meer informatie kun je ons volledige privacybeleid <b>hier</b> lezen.";
+"Legal.Settings.Marketing.Title" = "Marketing";
+"Legal.Settings.Marketing.Content" = "Bij badi werken we altijd aan spannende nieuwe functies en hopen we dat je er graag meer over wilt horen. Wil je deze info van badi en haar partners graag ontvangen?";
+"Legal.Settings.Profiling.Title" = "Profileren";
+"Legal.Settings.Progiling.Content" = "Naast de gegevens die we van jou ontvangen kunnen we ook profielgegevens van derde partijen in overeenstemming brengen met je registratiegegevens. Ga je hiermee akkoord?";
+
+// Upload Photo
+"UploadPhoto.TitleAddSomePhotos" = "Foto's toevoegen";
+"UploadPhoto.UploadInOneGo" = "Alle foto's tegelijkertijd opladen";
+"UploadPhoto.ClickBrowseTakePhoto" = "Klik hier om door je album te bladeren of maak een foto.";
+"UploadPhoto.DragDrop" = "Druk en houd vast om de afbeeldingen te verplaatsen";
+
+// Report
+"Report.User.Title" = "Waarom wil je deze gebruiker aangeven?";
+"Report.User.Subtitle" = "Rapporteren is 100% anoniem";
+"Report.User.Button" = "Gebruiker rapporteren";
+"Report.Room.Title" = "Waarom wil je deze kamer aangeven?";
+"Report.Room.Subtitle" = "Maak je geen zorgen, ze weten niet door wie ze aangegeven zijn.";
+"Report.Room.Button" = "Kamer rapporteren";
+
+"Report.Reason.Spam" = "Spam";
+"Report.Reason.Fake" = "Nep";
+"Report.Reason.HolidayLet" = "Vakantie huur";
+"Report.Reason.ExplicitContent" = "Expliciete inhoud";
+"Report.Reason.Duplicated" = "Verdubbeld";
+"Report.Reason.BadBehaviour" = "Slecht gedrag";
+"Report.Reason.Scam" = "Scam";
+"Report.Reason.FakeProfile" = "Nep profiel";
+
+"Report.User.Success.Title" = "Deze gebruiker is al aangegeven";
+"Report.User.Success.Subtitle" = "Onze team gaat het onderzoeken en onderneemt actie als het nodig is.";
+"Report.Room.Success.Title" = "Deze kamer is al aangegeven";
+"Report.Room.Success.Subtitle" = "Onze team gaat het onderzoeken en onderneemt actie als het nodig is.";

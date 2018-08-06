@@ -1,0 +1,1197 @@
+/*
+ Localizable.strings
+ Badi
+
+ Created by Jose Luis Lopez Redondo on 04/11/16.
+ Copyright © 2016 Badi. All rights reserved.
+ */
+
+// Common
+"Common.Ok" = "Ok";
+"Common.Done" = "Fet!";
+"Common.Cancel" = "Cancel·lar";
+"Common.Yes" = "Sí";
+"Common.No" = "No";
+"Common.Edit" = "Editar";
+"Common.Next" = "Següent";
+"Common.Update" = "Guardar";
+
+// Internet
+"Error.ConectivityShort" = "No hi ha connexió a internet.";
+"Error.Conectivity" = "No tens connexió, si us plau comprova la teva xarxa i torna  a intentar-ho.";
+"Error.SaveImage" = "S'ha produït un error en desar la imatge al carret";
+
+// Validation errors
+"Validation.AllFieldsNeeded" = "Has d'emplenar tots els camps";
+"Validation.InvalidEmail" = "L'email ha de ser vàlid";
+"Validation.InvalidPassword" = "La contrasenya ha de contenir 6 caràcters mínim combinant lletres i números.";
+"Validation.TooYoung" = "🔞 Ets major d'edat? Has de tenir 18 anys o més per poder utilizar l'app.";
+"Validation.UploadInProgress" = "La teva foto s'està pujant, espera un moment per actualitzar el teu perfil.";
+"VerificationError.InvalidCode" = "Ep! El codi de verificació no és vàlid.";
+"Validation.PriceRange" = "L'import sol·licitat ha de ser entre %d%@ i %d%@";
+
+// API Errors
+"APIError.InvalidToken" = "Vaja! Sembla que quelcom ha fallat durant el procés d'autentificació. Si us plau, prova de nou i si l'error torna a aparèixer, contacta amb el nostre suport.";
+"APIError.InvalidContext" = "Ep! Has d'iniciar sessió prèviament amb el teu compte per poder fer això.";
+"APIError.InvalidOperation" = "Sembla ser que no hi tens accés. Si us plau, contacta amb el nostre suport.";
+"APIError.ResourceNotFound" = "Oh! No podem trobar això. Si us plau, contacta amb el nostre suport.";
+"APIError.ForbiddenOperation" = "Ep! No tens permís per fer això. Si us plau, contacta amb suport.";
+"APIError.InvalidBody" = "";
+"APIError.InvalidParams" = "Ei, falten un o més camps per emplenar o són invàlids. Podries revisar-ho?";
+"APIError.InvalidRecord" = "Ep! Hi ha hagut un error amb algun dels apartats enviats. Prova més tard o contacta amb el nostre suport.";
+"APIError.InvalidFacebookToken" = "Vaja! Hi ha hagut un error amb Facebook. Prova més tard o contacta amb el nostre suport.";
+"APIError.InvalidSmsRequest" = "Ep! No hem pogut processar la teva sol·licitud de verificació. Prova més tard o contacta amb el nostre suport.";
+"APIError.ConcurrentVerification" = "Ja has sol·licitat el teu missatge de verificació. Si no reps el missatge en 5 minuts, si us plau, prova de nou.";
+"APIError.UnknownSmsException" = "Ui! Hi ha hagut un error amb el servei de verificació de missatges. Prova més tard o contacta amb el nostre suport.";
+"APIError.NoMatchLoginType" = "Vaja! No hem pogut trobar cap compte d'usuari amb aquest email i login. Segur que no et vas registrar amb un altre?";
+"APIError.EmailNotFound" = "Ui! No hem trobat cap usuari amb aquest correu";
+"APIError.EmailExists" = "Vaja! Aquest correu ja existeix.";
+"APIError.InvorrectPassword" = "Ui! Aquesta contrasenya no és correcta.";
+"APIError.UnknownException" = "Ep! Hi ha hagut un error desconegut. Prova més tard o contacta amb el nostre suport.";
+
+"APIError.FacebookLoginExists" = "Oops! El teu compte de Facebook ja existeix";
+"APIError.GoogleLoginExists" = "Oops! El teu compte de google ja existeix ";
+"APIError.NoMatchPasswordConfirmation" = "Oops! Sembla que les dos contrasenyes no coincideixen.";
+"APIError.RequestAlreadyAnswered" = "Oops! Aquesta Sol·licitud ja s'ha respost";
+"APIError.RequestNonArchivable" = "Oops! Aquesta sol·licitud no es pot arxivar";
+"APIError.RoomIsFrozen" = "Oops! aquesta habitació no es pot actualitzar";
+"APIError.UserWithNoPaymentData" = "Oops! Falten dades de pagament";
+"APIError.UserWithNoPayoutData" = "Oops! Falta informació de pagament";
+"APIError.BookingProposalInProgress" = "Ups! Ja has enviat una Sol·licitud de Reserva per aquesta habitació. No és possible enviar-ne una altra si en tens una esperant resposta. ";
+"APIError.InvalidPostalCode" = "Oops! aquest codi postal i el país del teu compte no coincideixen. Si us plau, revisa'ls";
+"APIError.InvalidAccountNumber" = "Oops! hi ha hagut un error amb el teu número de compte. Si us plau, revisa'l i si l'error persisteix contacta suport";
+"APIError.InvalidAccountCountry" = "Oops! el compte bancari no pertany al país seleccionat. Si us plau, revisa el teu número de compte";
+"APIError.CantLeaveChat" = "Oops! no es pot deixar aquest xat perquè hi ha una reserva en comú. Si encara vols deixar-ho, contacta suport";
+"APIError.CantBlockChat" = "Oops! no es pot bloquejar aquest xat perquè hi ha una reserva en comú. Si encara vols bloquejar-ho, contacta suport";
+"APIError.ResourceAlreadyUsed" = "Vaja! Aquesta informació està sent utilitzada per un altre usuari.";
+
+"APIError.BookingProposalCreationForbidden" = "Oops! Sembla que aquest usuari ja no està disponible";
+"APIError.BookingProposalAnswerForbidden" = "Oops! No és possible respondre a la teva pròpia Sol·licitud de Reserva";
+"APIError.BookingProposalAlreadyAnswered" = "Oops! Ja has respost a aquest Sol·licitud de Reserva";
+
+"APIError.UserAlreadyReported.Title" = "Ui! Sembla que ja havies denunciat aquest usuari...";
+"APIError.UserAlreadyReported.Message" = "No et preocupis! El nostre equip farà un seguiment i prendrà mesures si es necessari.";
+"APIError.RoomAlreadyReported.Title" = "Ui! Ja havies denunciat aquesta habitació...";
+"APIError.RoomAlreadyReported.Message" = "No et preocupis! El nostre equip farà un seguiment i prendrà mesures si es necessari.";
+
+// Stripe
+"APIError.Stripe.InvalidNumber" = "El número de la targeta no és un número vàlid.";
+"APIError.Stripe.InvalidExpiryMonth" = "El mes de caducitat de la targeta és incorrecte.";
+"APIError.Stripe.InvalidExpiryYear" = "L'any de caducitat de la targeta és incorrecte.";
+"APIError.Stripe.InvalidCvc" = "El codi de seguretat de la targeta és incorrecte.";
+"APIError.Stripe.InvalidSwipeData" = "La informació de la targeta és incorrecta.";
+"APIError.Stripe.IncorrectNumber" = "El número de la targeta és incorrecte.";
+"APIError.Stripe.ExpiredCard" = "La targeta ha caducat.";
+"APIError.Stripe.IncorrectCvc" = "El codi de seguretat de la targeta és incorrecte.";
+"APIError.Stripe.IncorrectZip" = "Ha fallat la validació del codi zip de la targeta.";
+"APIError.Stripe.CardDeclined" = "La targeta ha estat rebutjada.";
+"APIError.Stripe.Missing" = "No s'està carregant cap targeta.";
+"APIError.Stripe.ProcessingError" = "Ha ocorregut un error processant la targeta.";
+
+// Other errors
+"GPlacesError.Detail" = "Oops! no hem pogut trobar la localització per a aquesta adreça. Si us plau, prova de nou amb una cerca més exacta.";
+"LocationError.Current" = "Oops! no hem pogut trobar la teva ubicació actual. Potser no ens has donat accés a ella. Per canviar-la, si us plau ves a Configuració > Badi i Permetre serveis de localització.";
+"Warning.CameraPermissions" = "No podem accedir a la teva càmera, fes clic aquí per anar a Configuració i donar-nos permís.";
+"Warning.AlbumPermissions" = "No podem accedir al teu Àlbum de fotos, fes clic aquí per anar a Configuració i donar-nos permís.";
+
+// Login
+"Social.Title.First" = "Benvingut a badi";
+"Social.Subtitle.First" = "Inscriu-te gratis i tropa el teu AMAZING company!";
+"Social.Title.Second" = "Buscar";
+"Social.Subtitle.Second" = "Troba habitacions o companys de pis amb estils de vida similars.";
+"Social.Title.Third" = "Connecta't";
+"Social.Subtitle.Third" = "Fes match i xateja de forma instantània amb futurs companys.";
+"Social.Title.Fourth" = "Reserva";
+"Social.Subtitle.Fourth" = "Tanca el tracte amb la nostra nova funció segura de reserves.";
+
+"Access.WontPublish" = "Mai publicarem res sense el teu permís";
+"Access.Facebook" = "Continuar amb Facebook";
+"Access.Google" = "Continuar amb Google";
+"Access.Email" = "Continua amb l'email";
+"Login.LoginTitle" = "Obre sessió";
+"Login.LoginAction" = "Obre sessió";
+"Login.RegisterAction" = "Registre";
+"Login.ForgetAction" = "Enviar";
+"Login.TermsAndPrivacy" = "A l'entrar, accepto <b>Termes & Condicions</b>";
+"Login.GoToLogin" = "Ets ja un usuari de badi?";
+
+"Login.Email" = "email";
+"Login.Password" = "contrasenya";
+"Login.PasswordRules" = "6 caràcters, lletres i números";
+"Login.Show" = "mostrar";
+"Login.Hide" = "amagar";
+"Login.ForgetPasswordButton" = "Has oblidat la teva contrasenya?";
+"Login.ForgetPassword.Title" = "Recuperar contrasenya";
+"Login.ForgetPassword.Subtitle" = "Si us plau, introdueix l'adreça de correu electrònic amb la que et vas donar d'alta i t'enviarem un correu amb la teva contrasenya.";
+"Login.ForgetPassword.Success.Title" = "Últim pas";
+"Login.ForgetPassword.Success.Subitle" = "Hem enviat la teva nova contrasenya al teu email";
+
+"Login.FailedPopUp.Title" = "L'inici de sessió ha fallat…";
+"Login.FailedPopUp.Subtitle" = "Sembla que no t'has registrat de la mateixa manera que estàs intentant iniciar sessió. Intenta-ho de nou iniciant de la forma correcta o llegeix el correu electrònic que t'acabem d'enviar per tenir més informació.";
+"Login.FailedPopUp.ButtonTitle" = "Entesos!";
+
+// Lister Onboarding
+"Onboarding.Title1" = "Puja la teva habitació gratis";
+"Onboarding.Body1" = "Rep peticions de lloguer el mateix dia i lloga la teva habitació ràpid!";
+"Onboarding.Title2" = "Troba el company de pis ideal";
+"Onboarding.Body2" = "Aconsegueix recomanacions de companys de pis que tinguin un mateix estil de vida i interessos.";
+"Onboarding.Title3" = "Troba el teu match i xateja immediatament";
+"Onboarding.Body3" = "Accepta candidats i parla amb ells amb el xat privat i segur de l'app.";
+"Onboarding.Title4" = "Reserva la teva habitació sense comissions";
+"Onboarding.Body4" = "Rep pagaments segurs i protegits de cancel·lacions d'última hora.";
+"Onboarding.Button" = "Comença!";
+
+// Search
+"Search.Title" = "On t'agradaria viure?";
+"Search.TypeLocation" = "Escriu una ciutat o ubicació";
+"Search.UserLocation" = "Buscar a prop meu";
+"Search.FindYourRoom" = "Troba la teva habitació";
+"Search.Featured" = "Ciutats destacades";
+"Search.GotARoom" = "Tens una habitació lliure?";
+"Search.Neighbourhoods.title" = "Els millors barris";
+"Search.Neighbourhoods.subtitle" = "En %@";
+
+// Rooms
+"Rooms.Map" = "mapa";
+"Rooms.List" = "llista";
+"Rooms.Searching" = "buscant en aquesta zona";
+"Rooms.RedoSearch" = "mostrar més habitacions";
+"Rooms.CurrentLocation" = "La meva ubicació actual";
+"Rooms.MapArea" = "Zona del mapa seleccionada";
+"Rooms.Meters" = "m";
+"Rooms.Kilometers" = "km";
+"Rooms.Filter" = "Filtres";
+
+"Rooms.Month" = "mes";
+"Rooms.Day" = "dia";
+"Rooms.Hour" = "hora";
+
+"Rooms.Today" = "avui";
+"Rooms.Yesterday" = "ahir";
+"Rooms.ThisWeek" = "aquesta setmana";
+"Rooms.OverAWeekAgo" = "fa més d'una setmana";
+"Rooms.WeekAgo" = "fa 1 setmana";
+"Rooms.WeeksAgo" = "fa %d setmanes";
+"Rooms.Owned" = "la meva habitació";
+"Rooms.Request" = "Sol·licitar";
+"Rooms.Share" = "Compartir";
+"Rooms.RequestSent" = "Sol·licitud enviada!";
+"Rooms.EmptyResult" = "Ups!\nNo hi ha habitacions amb aquests criteris.\nIntenta buscar en una altra àrea o canvia el filtres.";
+
+"Rooms.ComingSoon.Title" = "Gairebé hi som...";
+"Rooms.ComingSoon.Subtitle" = "Hem preparat amb amor la nostra arribada a Itàlia. Tingues paciència, l'oferta anirà creixent!";
+"Rooms.ComingSoon.FirstButton" = "Genial!";
+"Rooms.ComingSoon.SecondButton" = "";
+"Rooms.List.Footer" = "Vols veure més habitacions? Cerca en una altra àrea o intenta canviar els filtres seleccionats.";
+
+// Filters
+"Filter.Title" = "Filtres";
+"Filter.Clear" = "Borrar filtres";
+"Filter.Available" = "Disponible";
+"Filter.Now" = "Ara";
+"Filter.From" = "Escollir data";
+"Filter.MaxPrice" = "Preu màxim mensual";
+"Filter.MaxPrice.Subtitle" = "(Moneda del país)";
+"Filter.Gender.Title" = "Prefereixo viure amb...";
+"Filter.Gender.Subtitle" = "(Actualment vivint al pis)";
+"Filter.Gender.AllFemale" = "noies";
+"Filter.Gender.AllMale" = "nois";
+"Filter.Gender.Both" = "ambdós";
+"Filter.Roomates.Title" = "Nombre total de Badis";
+"Filter.Roomates.Subtitle" = "(Actualment vivint al pis)";
+"Filter.Roomates.Max" = "màxim";
+"Filter.Roomates.Min" = "mínim";
+"Filter.EmptyPrice" = "-";
+"Filter.BedType" = "Tipus de llit";
+"Filter.RoomAmenities" = "Comoditats de l'habitació";
+"Filter.FriendlyRules" = "Normes";
+"Filter.GeneralAmenities" = "Comoditats generals";
+"Filter.Apply" = "Aplicar";
+
+// Room
+"Room.ShareText.Seeker" = "Mira quina habitació he trobat a @badiapp #FindYourPlace";
+"Room.ShareText.Seeker.WithCity" = "Mira quina habitació he trobat a %@ amb @badiapp #FindYourPlace";
+"Room.ShareText.Lister" = "Tinc una habitació lliure per llogar, hi ha algú interessat? Fes-li una ullada a @badiapp";
+"Room.ShareText.Booking" = "Vols reservar la meva habitació? Fes-ho a @badiapp";
+
+// Room detail
+"RoomDetail.Day" = "dia";
+"RoomDetail.Days" = "dies";
+"RoomDetail.Week" = "setmana";
+"RoomDetail.Weeks" = "setmanes";
+"RoomDetail.Month" = "mes";
+"RoomDetail.Months" = "mesos";
+"RoomDetail.From" = "Des de";
+"RoomDetail.To" = "fins";
+
+"RoomDetail.YearsOld" = "anys";
+
+"RoomDetail.RoomSettingsButton" = "Configuració ";
+"RoomDetail.SendRequestButton" = "Enviar sol·licitud";
+"RoomDetail.SeeAll" = "veure-les totes";
+
+"RoomDetail.PropertyType" = "Espai publicat";
+"RoomDetail.PropertyType.PrivateRoom" = "Habitació privada";
+"RoomDetail.PropertyType.SharedRoom" = "Habitació compartida";
+"RoomDetail.PropertyType.EntirePlace" = "Allotjament sencer";
+
+"RoomDetail.BedType" = "Tipus de llit";
+
+"RoomDetail.Flatmates" = "Companys de pis";
+
+"RoomDetail.PreferredFlatmate" = "Company d'habitació preferit";
+
+"RoomDetail.Availability" = "Disponible";
+"RoomDetail.MinStay" = "Estada mínima de";
+"RoomDetial.Location" = "Ubicació";
+"RoomDetail.Description" = "Descripció";
+"RoomDetail.Amenities" = "Comoditats";
+"RoomDetail.HouseRules" = "Normes de la casa";
+"RoomDetail.Published" = "Publicat";
+"RoomDetail.Published.By" = "per";
+
+"RoomDetail.Action.Title" = "Estàs segur?";
+"RoomDetail.Action.Unpost.Subtitle" = "Per què vols despublicar-la?";
+"RoomDetail.Action.Delete.Subtitle" = "Per què vols eliminar-la?";
+"RoomDetail.Action.Rent" = "L'he llogat :)";
+"RoomDetail.Action.Hide" = "Vull ocultar l'anunci";
+"RoomDetail.Action.DontRent" = "No vull llogar-la";
+
+"RoomDetail.Report.Title" = "Denunciar";
+"RoomDetail.Report.ActionButton.First" = "Usuari";
+"RoomDetail.Report.ActionButton.Second" = "Habitació";
+
+"RoomDetail.Booking.Tip.Title" = "Ara pots Reservar de forma segura, ràpida i gratuïta amb Badi";
+"RoomDetail.Booking.Tip.Secure" = "Pagaments segurs";
+"RoomDetail.Booking.Tip.Fast" = "Ràpid i fàcil";
+"RoomDetail.Booking.Tip.Free" = "100% Gratis";
+"RoomDetail.Booking.Tip.Subitle" = "Pagaments segurs amb Stripe";
+
+"RoomDetail.Edition.Alert.Title" = "Modificació de l'habitació";
+"RoomDetail.Edition.Alert.Message" = "No és possible modificar els detalls de l'habitació quan tens reserves actives. Revisa la teva activitat de reserves per veure l'estat de les teves reserves.";
+
+"RoomDetail.BillsIncluded" = "Factures incloses";
+"RoomDetail.BillsNotIncluded" = "Factures no incloses";
+
+"RoomDetail.Flatmate.Age" = "Edat";
+"RoomDetail.Flatmate.YearsOld" = "anys";
+"RoomDetail.Flatmate.Gender" = "Sexe";
+"RoomDetail.Flatmate.CurrentSituation" = "Situació actual";
+
+"RoomDetail.Flatmate.Gender.Male" = "Home";
+"RoomDetail.Flatmate.Gender.Female" = "Dona";
+"RoomDetail.Flatmate.Gender.DontMind" = "Sense preferència";
+"RoomDetail.Flatmate.Occupation.Working" = "Treballant";
+"RoomDetail.Flatmate.Occupation.Studying" = "Estudiant";
+"RoomDetail.Flatmate.Occupation.DontMind" = "Sense preferència";
+
+//Social connections
+"SocialConnections.Title" = "Social Connections";
+"SocialConnections.SeeConnectionsOtherProfile" = "Coneix les vostres Social Connections";
+"SocialConnections.SeeConnections" = "Descobreix com estàs connectat amb %@";
+"SocialConnections.NoConnectionsBoth" = "Ups! Sembla que tu i %@ encara no teniu connexions en comú...";
+"SocialConnections.NoConnectionsOther" = "Ups! %@ encara no està fent servir aquesta funcionalitat";
+"SocialConnections.NoConnectionsYou" = "Vincula les teves xarxes socials i descobreix les teves connexions %@";
+"SocialConnections.NoConnectionsDirectFriends" = "Tu i %@ sou amics directes.";
+"SocialConnections.NoConnectionsMyProfile" = "Vincula les teves xarxes socials i descobreix les teves connexions";
+"SocialConnections.SeeAll" = "veure-les totes";
+"SocialConnections.Alert.Title" = "Descobreix les teves Social Connections";
+"SocialConnections.Alert.Subtitle" = "Descobreix qui et connecta amb altres badis i assegura't que són els adequats per tu!";
+"SocialConnections.Alert.Button" = "Connecta't";
+"SocialConnections.Alert.ButtonWitouhtAction" = "Entesos!";
+"SocialConnections.NoConnectionsYet" = "Estem mirant qui coneix a qui, intenta-ho en un minut i descobreix les teves connexions!";
+
+// Room rental
+"RoomStatus.Published" = "publicada";
+"RoomStatus.Unpublished" = "despublicada";
+"RoomStatus.Rented" = "llogada";
+"RoomStatus.Booked" = "reservada";
+
+"RoomRent.Title" = "A qui l'has llogat?";
+"RoomRent.NotAbove" = "No esmentat més amunt";
+"RoomRent.NotThroughBadi" = "No l'he llogat a través de Badi";
+
+"RoomRent.Republish.Title" = "Programar un recordatori";
+"RoomRent.Republish.Content" = "Quan estarà disponible una altra vegada?\nT'enviarem un recordatori";
+"RoomRent.Republish.No" = "No, gràcies";
+"RoomRent.Republish.Date" = "Escollir data";
+
+"RoomDelete.Title" = "Estàs segur?";
+"RoomDelete.Subtitle" = "Estàs a punt d'eliminar l'habitació";
+
+"BedType.Sofa" = "sofà llit";
+"BedType.Single" = "llit individual";
+"BedType.Double" = "llit de matrimoni";
+"BedType.No" = "sense llit";
+
+"Amenity.Title" = "Comoditats";
+"Amenity.Tv" = "TV";
+"Amenity.Wifi" = "Wifi";
+"Amenity.AirConditioner" = "aire condicionat";
+"Amenity.AC" = "Aire condicionat";
+"Amenity.Parking" = "aparcament";
+"Amenity.SmokerFriendly" = "es permet fumar";
+"Amenity.PetFriendly" = "s'accepten mascotes";
+"Amenity.Elevator" = "ascensor";
+"Amenity.Heating" = "Calefacció";
+"Amenity.WashingMachine" = "Rentadora";
+"Amenity.Dryer" = "Assecadora";
+"Amenity.Doorman" = "Porter";
+"Amenity.CouplesAccepted" = "s'accepten parelles";
+"Amenity.Furnished" = "habitació moblada";
+"Amenity.Pool" = "Piscina";
+"Amenity.OwnBathroom" = "Bany privat";
+"Amenity.Terrace" = "Balcó";
+"Amenity.Window" = "llum natural";
+"Amenity.Dishwasher" = "rentaplats";
+"Amenity.Wheelchair" = "Accessible";
+"Amenity.Garden" = "Jardí";
+"Amenities.Add" = "Afegeix comoditats";
+"Amenities.SeeAll" = "veure-les totes";
+
+// Room status actions
+"RoomStatusAction.Publish" = "Publicar - Visible";
+"RoomStatusAction.Unpublish" = "Despublicar - No visible";
+"RoomStatusAction.Detele" = "Eliminar";
+"RoomStatusAction.Edit" = "Editar";
+"RoomStatusAction.Share" = "Compartir";
+"RoomStatusAction.MarkRented" = "Marca com a llogat";
+"RoomStatusAction.Cancel" = "Cancel·lar";
+
+"RoomDetailStatus.Rented" = "Llogada";
+"RoomDetailStatus.Unpublished" = "Despublicada - No visible";
+"RoomDetailStatus.Booked" = "Reservada";
+
+// Seeker rooms
+"SeekerRooms.Title" = "Sol·licituds";
+"SeekerRooms.Invitations" = "rebudes";
+"SeekerRooms.Requests" = "enviades";
+"SeekerRooms.Invitations.Empty.Title" = "Ups! Això està molt buit";
+"SeekerRooms.Invitations.Empty.Subtitle" = "Si un badi està interessat en el teu perfil, rebràs la seva invitació aquí.";
+"SeekerRooms.Requests.Empty.Title" = "Encara no has enviat cap sol·licitud";
+"SeekerRooms.Requests.Empty.Subtitle" = "No siguis tímid i comença a enviar sol·licituds!";
+
+// Language
+"Language.Arabic" = "Àrab";
+"Language.Indonesian" = "Indonesi";
+"Language.Chinese" = "Xinès";
+"Language.Czech" = "Txec";
+"Language.Danish" = "Danès";
+"Language.German" = "Alemany";
+"Language.Greek" = "Grec";
+"Language.English" = "Anglès";
+"Language.Esperanto" = "Esperanto";
+"Language.Spanish" = "Espanyol";
+"Language.French" = "Francès";
+"Language.Hindi" = "Hindi";
+"Language.Italian" = "Italià";
+"Language.Japanese" = "Japonès";
+"Language.Corean" = "Coreà";
+"Language.Hungarian" = "Hongarès";
+"Language.Dutch" = "Holandès";
+"Language.Norwegian" = "Noruec";
+"Language.Polish" = "Polonès";
+"Language.Portuguese" = "Portuguès";
+"Language.Romanian" = "Romanès";
+"Language.Russian" = "Rus";
+"Language.Finnish" = "Finlandès";
+"Language.Swahili" = "Swahili";
+"Language.Swedish" = "Suec";
+"Language.Thai" = "Tailandès";
+"Language.Turkish" = "Turc";
+"Language.Vietnamese" = "Vietnamita";
+"Language.Catalan" = "Català";
+"Language.Euskera" = "Vasc";
+"Language.Galician" = "Gallec";
+
+// Gender
+"Gender.Male" = "home";
+"Gender.Female" = "dona";
+"Gender.Male.Pronoun" = "ell";
+"Gender.Female.Pronoun" = "ella";
+
+// Ocupation
+"Ocupation.Student" = "estudiant";
+"Ocupation.Worker" = "treballador/a";
+"Ocupation.StudentWorker" = "estudiant i treballador";
+
+"Ocupation.Student.PreUniversity" = "Estudis preuniversitaris";
+"Ocupation.Student.University" = "Grau universitari";
+"Ocupation.Student.Master" = "Màster";
+"Ocupation.Student.PhD" = "Doctorat";
+
+"Ocupation.Worker.Beauty" = "Bellesa";
+"Ocupation.Worker.BussinessAndManagement" = "Assessorament i consultoria d'empreses";
+"Ocupation.Worker.Charity" = "Voluntariat i causes benèfiques";
+"Ocupation.Worker.CreativeArtsAndDesign" = "Arts creatives i disseny";
+"Ocupation.Worker.CustomerService" = "Atenció al client";
+"Ocupation.Worker.Education" = "Educació";
+"Ocupation.Worker.Entertainment" = "Entreteniment";
+"Ocupation.Worker.Finance" = "Finances";
+"Ocupation.Worker.Health" = "Salut";
+"Ocupation.Worker.HR" = "Recursos Humans";
+"Ocupation.Worker.IT" = "Tecnologia";
+"Ocupation.Worker.Marketing" = "Màrqueting";
+"Ocupation.Worker.PublicServices" = "Serveis públics";
+"Ocupation.Worker.Law" = "Dret";
+"Ocupation.Worker.Logistics" = "Logística";
+"Ocupation.Worker.RealState" = "Immobiliària";
+"Ocupation.Worker.ResearchAndDevelopment" = "Investigació i desenvolupament";
+"Ocupation.Worker.Retail" = "Venda al detall";
+"Ocupation.Worker.Sales" = "Vendes";
+"Ocupation.Worker.Tourism" = "Turisme";
+
+// Profile
+"Profile.RequestedYourRoom" = "Ha sol·licitat la teva habitació";
+"Profile.Verified" = "verificat";
+"Profile.Trusted" = "de confiança";
+"Profile.VerifyProfile.Title" = "Verifiqueu el vostre compte.";
+"Profile.VerifyProfile.Subtitle" = "Verifica el teu perfil per fer-lo més visible. Només tu podràs veure aquesta informació";
+"Profile.FriendsInCommon" = "Amics en comú";
+"Profile.AboutMe" = "Sobre mi";
+"Profile.Languages" = "Idiomes";
+"Profile.InterestsInCommon" = "Interessos de Facebook en comú";
+"Profile.ReportUser.Indication" = "Contacta'ns sobre el mal comportament d'aquest usuari";
+"Profile.ReportUser" = "Denuncia a aquest usuari";
+"Profile.Edit" = "editar perfil";
+"Profile.Current.Study" = "Actualment estudio";
+"Profile.Current.Work" = "Actualment treballo";
+
+"ProfileView.Tags.Title" = "Personalitat i interessos";
+
+//Trusted user
+"Profile.VerifyAccount.Tip" = "Verifica el teu compte per convertir-te en un Usuari de confiança";
+"Profile.TrustedUserInProgress" = "La teva informació ha estat enviada amb èxit i serà verificada en 4-5 dies. Un cop verificada seràs un Usuari de confiança!";
+"Payment.TrustedUserText" = "Completa la teva informació bancaria i de contacte per ser un Usuari de confiança. Podràs acceptar reserves i protegir les teves transaccions. La teva informació es verificarà en 4-5 dies.";
+
+// Profile report
+"Report.ErrorEmailNotAvailable" = "Ups! Sembla que no tens una adreça de correu configurada al teu dispositiu. En necessites una si vols denunciar a un altre usuari.";
+"Report.ErrorPhoneNotAvailable" = "Sembla que no hi ha cap número associat a aquest dispositiu.";
+
+// Profile edit
+"Profile.Title" = "El meu perfil";
+"Profile.Name" = "Nom";
+"Profile.Name.Placeholder" = "Posa el teu nom";
+"Profile.Surname" = "Cognom";
+"Profile.Surname.Placeholder" = "Posa el teu cognom";
+"Profile.DateOfBirth" = "Data de naixement";
+"Profile.DateOfBirth.Placeholder" = "Posa la teva data de naixement";
+"Profile.Gender.Title" = "Escull el teu gènere";
+"Profile.Gender.Male" = "home";
+"Profile.Gender.Female" = "dona";
+"Profile.Occupation.Title" = "Digue'ns què fas";
+"Profile.Occupation.Student" = "estudio";
+"Profile.Occupation.Worker" = "treballo";
+"Profile.Occupation.Both" = "ambdós";
+"Profile.Occupation.View.Both" = "Estudio i treballo";
+"Profile.Languages.Title" = "Quines llengües parles?";
+"Profile.Languages.Content" = "Afegeix els teus idiomes";
+"Profile.AboutMe.Title" = "Alguna altra cosa que t'agradaria explicar-nos?";
+"Profile.AboutMe.Limit" = "600 caràcters màxim";
+"Profile.Update" = "Actualitzar perfil";
+"Profile.Description" = "Explica als altres usuaris com ets (opcional)";
+"Profile.Languages" ="Idiomes";
+"Profile.Fields.Optional" = "(opcional)";
+"Profile.Study.Title" = "Què estàs estudiant?";
+"Profile.Study.Placeholder" = "Selecciona els teus estudis";
+"Profile.Work.Title" = "Explica'ns a què et dediques";
+"Profile.Work.Placeholder" = "Selecciona el teu camp de treball";
+
+"Profile.Tags.Title" = "Explica'ns alguna cosa sobre tu";
+"Profile.Tag.Personality.Title" = "Com ets?";
+"Profile.Tag.Lifestyle.Title" = "Quin és el teu estil de vida?";
+"Profile.Tag.Music.Title" = "Quina música escoltes?";
+"Profile.Tag.Sport.Title" = "Quins esports practiques?";
+"Profile.Tag.Movie.Title" = "Quins tipus de pel·lícules t'agraden?";
+
+"ProfileTag.Tag.Personality.Title" = "Personalitat";
+"ProfileTag.Tag.Lifestyle.Title" = "Estil de vida";
+"ProfileTag.Tag.Music.Title" = "Música";
+"ProfileTag.Tag.Sport.Title" = "Esports";
+"ProfileTag.Tag.Movie.Title" = "Tipus de pel·lícules";
+
+// Profile picture
+"Profile.Picture.Select" = "Escollir imatge";
+"Profile.Picture.Album" = "Àlbum";
+"Profile.Picture.Camera" = "Obrir càmera";
+"Profile.Picture.Edit" = "Pujar";
+
+// Profile language
+"Profile.Language.Title" = "Parlo...";
+"Profile.Language.Update" = "Guardar";
+
+// Profile verify
+"Profile.Verify.Action" = "Verificar";
+"Profile.Verify.AlternativeAction" = "Ja tinc un codi";
+"Profile.Confirm.Action" = "Enviar codi";
+"Profile.Confirm.InputPlaceholder" = "codi";
+
+"Profile.Verify.PhoneTitle" = "Verificar telèfon";
+"Profile.Verify.PhoneContent" = "Introdueix el teu número de telèfon per a rebre el codi de verificació";
+"Profile.Verify.PhoneInputPlaceholder" = "País";
+"Profile.Verify.PhoneSecondInputPlaceholder" = "Número de telèfon";
+"Profile.Confirm.PhoneContent" = "Introdueix el codi de verificació que t'hem enviat al mòbil";
+
+"Profile.Verify.MailTitle" = "Verificar email";
+"Profile.Verify.MailContent" = "Introdueix la teva adreça de correu electrònic per a rebre el codi de verificació";
+"Profile.Verify.MailInputPlaceholder" = "email";
+"Profile.Confirm.MailContent" = "Introdueix el codi promocional que t'hem enviat per correu electrònic.";
+
+"Tags.Title" = "Explica'ns alguna cosa sobre tu";
+"Tags.Subtitle" = "Pots escollir fins a 10 opcions per a cada categoria.";
+
+// Settings
+"Setting.Title" = "Configuració";
+"Setting.Invite" = "Convida a un amic";
+"Setting.Rate" = "Valora la app";
+"Setting.Partner" = "Col·labora amb nosaltres";
+"Setting.Support" = "Suport i Ajuda";
+"Setting.Switch" = "Canviar a";
+"Setting.Logout" = "Tanca sessió";
+"Setting.Contact" = "Contacta amb nosaltres";
+"Setting.Report" = "Informa'ns d'un problema";
+"Setting.TermsAndConditions" = "Termes i Condicions d'ús";
+"Setting.Faqs" = "FAQs";
+"Setting.Delete" = "Eliminar compte";
+"Setting.Delete.MyID" = "El meu ID:";
+"Setting.PaymentData" = "El meu compte";
+"Setting.Privacy" = "Privacitat";
+
+// Invite
+"Invite.Text" = "Quan he vist aquesta app, m'ha fet pensar en tu. Et permet buscar una habitació o llogar l'habitació lliure que tens al teu pis i trobar nous companys de pis segons la teva edat, aficions i gustos. Segur que t'encantarà 😉";
+
+// Partner
+"Partner.EmailTitle" = "Tinc una proposta de col·laboració per Badi";
+"Partner.EmailBody" = "";
+"Partner.Receiver" = "partnerships@badi.com";
+
+// Report
+"ReportError.EmailTitle" = "Ups! Alguna cosa no va bé...";
+"ReportError.Receiver" = "feedback@badi.com";
+"ReportError.Model" = "Model de dispositiu";
+"ReportError.OS" = "Versió del Sistema Operatiu";
+"ReportError.AppVersion" = "Versió de l'App";
+"ReportError.AppBuild" = "App Build";
+"ReportError.UserId" = "ID d'usuari";
+
+// Delete
+"Delete.EmailTitle" = "M'agradaria eliminar el meu compte";
+"Delete.EmailBody" = "El meu ID:";
+"Delete.Receiver" = "info@badi.com";
+
+// User type
+"UserType.Seeker" = "Busco habitació";
+"UserType.Lister" = "Llogo habitació";
+
+// Lister rooms
+"ListerRoom.Title" = "Les meves habitacions";
+"ListerRoom.ListRoom" = "Publicar habitació";
+"ListerRoom.ListRoomDescription" = "Per tornar al mode \"busco habitació\", vés al teu perfil i selecciona el botó amb les fletxetes ";
+
+// Posted rooms
+"PostedRooms.Title" = "Troba el teu Badi";
+"PostedRooms.EmptyContent" = "Publica o crea una nova habitació per a rebre sol·licituds i recomanacions";
+"PostedRooms.EmptyFooter" = "Anar a Les meves habitacions";
+
+// Requests
+"Request.Status.Pending" = "Pendent";
+"Request.Status.Accepted" = "Acceptada";
+"Request.Status.Rejected" = "Denegada";
+"Request.Status.NonAvailable" = "Habitació no disponible";
+"Request.Status.Expired" = "Caducada";
+"Request.NewRequest" = "Nova sol·licitud";
+"Request.NewRequests" = "Noves sol·licituds";
+"Request.CardTitle" = "Vol ser el teu Badi";
+"Request.ButtonNo" = "Rebutjar";
+"Request.ButtonYes" = "Acceptar & Xatejar";
+"Request.Title" = "sol·licituds";
+"Request.Placeholder" = "Aquí podràs veure les sol·licituds dels badis que estan interessats en la teva habitació.";
+
+// Invitations
+"Invitation.NewInvitation" = "Nova invitació";
+"Invitation.NewInvitations" = "Noves invitacions";
+"Invitation.AcceptedMessage" = "Has acceptat la invitació, clica aquí i podreu començar a parlar";
+"Invitation.Empty.Title" = "Ups! Això està molt buit";
+"Invitation.Empty.Subtitle" = "Si un Badi que lloga habitació s'interessa pel teu perfil, rebràs les invitacions aquí.";
+"Invitation.Aprove" = "Acceptar";
+"Invitation.Reject" = "Rebutjar";
+"Alert.FirstInvitation.Title" = "Felicitats! Has rebut la teva primera sol·licitud d'un anunciant";
+"Alert.FirstInvitation.Subtitle" = "Accepta per xatejar o descarta si no creus que és un bon matx.";
+"Alert.FirstInvitation.Button" = "Entesos!";
+
+// Recommendations
+"Recommendation.Success" = "Invitació enviada. Un cop sigui acceptada podreu començar a parlar!";
+"Recommendation.CardTitle" = "Recomanats per a tu";
+"Recommendation.ButtonNo" = "Descartar";
+"Recommendation.ButtonYes" = "Convidar";
+"Recommendation.Placeholder" = "Aquí trobaràs badis recomanats basats en el teu perfil i interessos.";
+"Recommendation.Title" = "recomanacions";
+
+//Trusted user alert
+"Alert.TrustedUser.Title" = "Usuari de confiança";
+"Alert.TrustedUser.Subtitle" = "Aquest usuari ha verificat el seu compte i està disponible per reservar l'habitació";
+
+
+// Room create
+"RoomCreate.Title" = "Publicar habitació";
+"RoomCreate.TitleEdit" = "Editar Habitació";
+"RoomCreate.TitlePictures" = "Imatges";
+"RoomCreate.Pictures" = "Fotos horitzontals + llum=\nmés oportunitats!";
+"RoomCreate.Picture.Cover" = "Portada";
+"RoomCreate.Picture.Sort" = "Arrossega per moure";
+"RoomCreate.TitleAbout" = "Sobre l'habitació";
+"RoomCreate.Title.Placeholder" = "Títol de l'habitació";
+"RoomCreate.Title.Limit" = "(ex: Habitació gran i lluminosa)";
+"RoomCreate.Location.Wont" = "(No mostrarem la localització exacta)";
+"RoomCreate.Location.Placeholder" = "Ubicació";
+"RoomCreate.Price" = "Preu mensual";
+"RoomCreate.BillsIncluded" = "Despeses incloses";
+"RoomCreate.TitleAvailable" = "Disponible";
+"RoomCreate.From" = "Des de";
+"RoomCreate.To" = "Fins";
+"RoomCreate.MinimumStay" = "Estança mínima (mesos)";
+"RoomCreate.TitleRoomates" = "Quants companys sou al pis?";
+"RoomCreate.DoYouHaveFlatmates" = "Tens companys de pis?";
+"RoomCreate.Roomates.Included" = "Tu inclòs";
+"RoomCreate.Roomates.Female" = "dona";
+"RoomCreate.Roomates.Male" = "home";
+"RoomCreate.TitleBadis" = "Badis";
+"RoomCreate.EditBadis" = "edita badis";
+"RoomCreate.TitleBed" = "Tipus de llit";
+"RoomCreate.TitleAmenities" = "Comoditats";
+"RoomCreate.SelectAmenities" = "Selecciona les comoditats";
+"RoomCreate.SeeAllAmenities" = "veure-les totes";
+"RoomCreate.TitleDescription" = "Descripció";
+"RoomCreate.Description.Placeholder" = ""; // Not used yet
+"RoomCreate.Description.MaxLenght" = "3000 caràcters màxim";
+"RoomCreate.ListRoomButton" = "Publicar habitació";
+"RoomCreate.EditRoomButton" = "Guardar canvis";
+"RoomCreate.Available.Now" = "ara";
+"RoomCreate.Available.Today" = "Avui";
+"RoomCreate.Available.Undefined" = "sense data";
+"RoomCreate.Available.ChoseDate" = "escull data";
+"RoomCreate.Error.MultipleImageUpload" = "Una imatge s'està pujant, si us plau espera a que acabi per seleccionar la següent. ";
+"RoomCreate.Error.CantMove" = "Una imatge s'està pujant. Si us plau, espera a que acabi per ordenar les imatges. ";
+"RoomCreate.Error.ImageUploading" = "Si us plau, espera un segon mentre pugem la teva foto, llavors el teu anunci estarà llest per ser publicat!";
+"RoomCreate.ListSuccessPopup.Title" = "El teu anunci ja està publicat";
+"RoomCreate.ListSuccessPopup.Subtitle" = "Bona feina! Arriba a més badis compartint el teu anunci.";
+"RoomCreate.ListSuccessPopup.FirstButton" = "Comparteix anunci";
+"RoomCreate.ListSuccessPopup.SecondButton" = "Després";
+
+"RoomCreate.VerifyPhone.Title" = "Verifica el teu telèfon";
+"RoomCreate.VerifyPhone.Subtitle" = "Així és com garantim la teva seguretat i generem confiança en la nostra comunitat. La teva informació no serà mai compartida i romandrà privada.";
+"RoomCreate.VerifyPhone.Button" = "Verificar Telèfon";
+
+"RoomCreate.ContinueButton" = "Continuar";
+"RoomCreate.LocationStep.Title" = "Pas 1: Localització";
+"RoomCreate.LocationStep.CitySection.Title" = "Ciutat";
+"RoomCreate.LocationStep.AddressSection.Title" = "Direcció";
+"RoomCreate.LocationStep.Wont" = "No et preocupis, la localització exacta no serà visible. Només és per donar a la gent que busca una idea de l’àrea.";
+"RoomCreate.LocationStep.CityPlaceholder" = "Escriu una ciutat";
+"RoomCreate.LocationStep.AddressPlaceholder" = "Nom del carrer, número";
+"RoomCreate.LocationStep.CityExample" = "ex: London, GB";
+"RoomCreate.LocationStep.AddressExample.spain" = "ex.: Muntaner, 24";
+"RoomCreate.LocationStep.AddressExample.france" = "ex: Rue Saint - Martin";
+"RoomCreate.LocationStep.AddressExample.uk" = "ex: Harbury Street 24";
+"RoomCreate.LocationStep.AddressExample.italy" = "ex: Via Lombardi, 24";
+"RoomCreate.LocationStep.AddressExample.default" = "Nom de la casa o de l'edifici, nom del carrer & número";
+
+"RoomCreate.PropertyStep.Title" = "Pas 2: Propietat";
+"RoomCreate.PropertyStep.FlatMatesTitle" = "Qui viu aquí ara mateix?";
+"RoomCreate.PropertyStep.AmenitiesTitle" = "Selecciona les comoditats";
+"RoomCreate.PropertyStep.TypeTitleWhatDoYouWantToList" = "Què t'agradaria publicar?";
+"RoomCreate.PropertyStep.RulesTitle" = "Hi ha alguna norma de la casa?";
+"RoomCreate.RoomStep.Title" = "Pas 3: Habitació";
+"RoomCreate.RoomStep.BedTitle" = "Escull un tipus de llit";
+"RoomCreate.RoomStep.AvailabilityTitle" = "Quan està l’habitació disponible?";
+"RoomCreate.RoomStep.PriceTitle" = "Quant val el lloguer?";
+"RoomCreate.RoomStep.PerMonth" = "mes";
+"RoomCreate.PhotoStep.Title" = "Pas 4: Fotos";
+"RoomCreate.PhotoStep.Remaining" = "Et queden %i caràcters";
+"RoomCreate.PhotoStep.Minimum" = "%i caràcters com a mínim";
+"RoomCreate.PhotoStep.TitleSectionTitle" = "El títol del teu anunci";
+"RoomCreate.PhotoStep.TitleSectionPlaceholder" = "Escriu un títol que destaqui";
+"RoomCreate.PhotoStep.DescriptionSectionTitle" = "Explica'ns més...";
+"RoomCreate.PhotoStep.DescriptionSectionPlaceholder" = "...que t'agrada del teu barri? Que valores d'un company de pis? Explica'ns!";
+
+"RoomCreate.FlatmateStep.Title" = "Pas 5: Company d'habitació";
+"RoomCreate.FlatmateStep.Gender.Title" = "Amb qui preferiries viure?";
+"RoomCreate.FlatmateStep.Gender.Male" = "Home";
+"RoomCreate.FlatmateStep.Gender.Female" = "Dona";
+"RoomCreate.FlatmateStep.Gender.DontMind" = "Sense preferència";
+"RoomCreate.FlatmateStep.Occupation.Title" = "I la seva situació actual?";
+"RoomCreate.FlatmateStep.Occupation.Working" = "Treballant";
+"RoomCreate.FlatmateStep.Occupation.Studying" = "Estudiant";
+"RoomCreate.FlatmateStep.Occupation.DontMind" = "Sense preferència";
+"RoomCreate.FlatmateStep.Age.Title" = "Quin grup d'edat prefereixes?";
+"RoomCreate.FlatmateStep.Age.yearsOld" = "anys";
+
+"RoomType.PrivateRoom" = "Habitació privada";
+"RoomType.SharedRoom" = "Habitació compartida";
+"RoomType.EntirePlace" = "Allotjament sencer";
+
+// Badis
+"AddBadis.Title" = "Afegir badis";
+"AddBadis.AddButton" = "afegeix badi";
+"AddBadis.RemoveButton" = "eliminar";
+"AddBadis.TypeName" = "Escriu el nom aquí";
+"AddBadis.Error.Title" = "Ups!";
+"AddBadis.Error.Subtitle" = "Sembla que el teu badi no és aquí";
+"AddBadis.CantFind" = "No trobes els teus companys de pis?";
+"AddBadis.Invite" = "Convidar companys de pis";
+
+// Address search
+"AddressSearch.Search.Title" = "On t'agradaria viure?";
+"AddressSearch.RoomCreate.Title" = "On està la propietat?";
+"AddressSearch.MyLocation" = "La meva ubicació";
+"AddressSearch.MyCity" = "Detecta la teva ciutat automàticament";
+"AddressSearch.SelectLocation" = "Guardar localització";
+
+// Chat
+"Chat.Popup.Title" = "Tens un nou xat amb\n%@ %d!";
+"Chat.Popup.AcceptAction" = "Xatejar ara";
+"Chat.Popup.CancelAction" = "Després";
+"Chat.Title" = "Xat";
+"Chat.ErrorTitle" = "No es pot trobar la informació dels xats :(\nPrem refrescar per tornar a carregar";
+"Chat.Refresh" = "Refresca";
+"Chat.Empty.Title" = "Encara no tens cap xat!";
+"Chat.Empty.Subtitle" = "No esperis que vinguin a tu! Troba l'habitació que t'agrada i envia una sol·licitud";
+"Chat.TypeMessage" = "Escriu el teu missatge...";
+"Chat.Map.CurrentLocation" = "La meva ubicació";
+"Chat.Action.Delete" = "Eliminar";
+"Chat.Action.Block" = "Bloquejar";
+"Chat.Action.Unblock" = "Desbloquejar";
+"Chat.UnknownMessage" = "No es pot mostrar aquest tipus de missatge ";
+
+"Chat.BookingMessage.New" = "T'he enviat una Sol·licitud de Reserva! Accepta-la per confirmar la Reserva";
+"Chat.BookingMessage.Accepted" = "Habitació Reservada! La sol·licitud s'ha confirmat i ben aviat estareu vivint plegats!";
+"Chat.BookingMessage.Rejected" = "La Reserva ha estat Rebutjada :(";
+"Chat.BookingMessage.Expired" = "La Reserva ha caducat :(";
+"Chat.BookingMessage.Request" = "M'encanta l'habitació! Envia'm una Sol·licitud per poder reservar-la :)";
+"Chat.BookingMessage.NotPossible" = "La Reserva és Inviable :(";
+"Chat.BookingMessage.AboutToExpire" = "La Reserva caducarà en menys de 4 hores!";
+
+// Push
+"push_user_match" = "Nou match! Tens un nou match %@";
+"push_user_request" = "Nova Sol·licitud! %@ mostra interès en la teva habitació i vol xatejar!";
+"push_user_invitation" = "Nova Sol·licitud! %@, que té una habitació per llogar, s'ha interessat per tu i vol xatejar!";
+"push_republish" = "🗓 Ha arribat el dia! Tens la teva habitació disponible? Torna-la a publicar a Badi!";
+"push_warning_unpublished" = "🙁 Ups! La teva habitació ha estat despublicada per no contestar a sol·licituds. Ens encantaria que la tornessis a publicar-la!";
+"push_warning_pending_requests" = "📨 Toc-Toc! Tens usuaris trucant a la porta. Respon les sol·licituds el més aviat possible.";
+// Booking push
+"push_booking_proposal_created" = "🛎 Tens una Sol·licitud de Reserva de %@! 😀 Dóna't pressa! Accepta-la abans de que caduqui.";
+"push_booking_check_in_previous_day" = "Demà és el gran dia! Et desitgem un primer dia immillorable";
+"push_booking_proposal_expired" = "🔑 ⌛️ La Sol·licitud de Reserva per %@ ha caducat";
+"push_booking_proposal_rejected" = "La Sol·licitud de Reserva per %@ ha estat rebutjada 😪";
+"push_booking_proposal_accepted" = "Habitació reservada! Ben aviat estareu vivint plegats!";
+"push_payout_created" = "L'import de la Reserva de la teva habitació %@ ha estat transferida. Ho rebràs en 2 o 3 dies laborables";
+"push_room_booked_to_rented" = "La teva habitació %@ ha deixat d'estar reservada i s'ha marcat com a llogada";
+"push_booking_proposal_about_to_expire" = "La Reserva de %@ caducarà en menys de 4 hores. Dona't pressa per acceptar-la!";
+
+// Complete profile
+"CompleteProfile.Popup.Title" = "Completa el teu perfil";
+"CompleteProfile.Popup.Subtitle" = "A badi el que és important són les persones. Presenta't a la resta de badis!";
+"CompleteProfile.Popup.FirstButton" = "Completar perfil";
+"CompleteProfile.Popup.SecondButton" = "Ara no";
+
+// Location search
+"LocationSearch.TypeLocation" = "Escriu una ciutat o ubicació";
+"LocationSearch.TypeAddress" = "Escriu l'adreça aquí";
+"LocationSearch.TypeACity" = "Escriu una ciutat";
+"LocationSearch.NotFound.Title" = "Ups!";
+"LocationSearch.NotFound.Subtitle" = "No es pot trobar aquesta ubicació";
+
+// Force update
+"ForceUpdate.Title" = "Nova versió";
+"ForceUpdate.Subtitle" = "Estrenem nova versió de la nostra app, vés a l’store i descarrega-la per provar-la";
+"ForceUpdate.Button.Store" = "Anar a l'store";
+"ForceUpdate.Button.Later" = "Després";
+
+// Tips
+"Tip.ListRoom.Title" = "Tens una habitació lliure?";
+"Tip.ListRoom.Subtitle" = "Comença publicant l'habitació i connecta amb els teus futurs companys de pis";
+"Tip.SwitchTab.Title" = "Vols tornar al mode \"Busco habitació\"?";
+"Tip.SwitchTab.Subtitle" = "Si vas al teu perfil, podràs canviar de mode i buscar habitacions";
+"Tip.SwitchNav.Title" = "Canvia al mode \"Busco habitació\"";
+"Tip.SwitchNav.Subtitle" = "Aquí podràs canviar de mode i buscar habitacions";
+"Tip.FindBadi.Title" = "Troba el teu Badi";
+"Tip.FindBadi.Subtitle" = "Aquí rebràs les recomanacions i les sol·licituds dels Badis interessats en la teva habitació";
+"Tip.FindBadi.FirstButton" = "Entesos!";
+"Tip.FindBadi.SecondButton" = "";
+
+"Tip.RequestBooking.Title" = "Has conegut ja al teu badi ideal?";
+"Tip.RequestBooking.Subtitle" = "Envia una Sol·licitud de Reserva per assegurar el lloguer de l'habitació. Segur, fàcil i ràpid.";
+"Tip.SendBooking.Title" = "Has conegut ja al teu badi ideal?";
+"Tip.SendBooking.Subtitle" = "Reserva la teva habitació per garantir el lloguer. Segur, fàcil i ràpid.";
+
+// Rate the app
+"RateApp.Title" = "Et mola la nostra app?";
+"RateApp.Subtitle" = "Valorant-nos, ens ajudaràs a millorar. Gràcies!";
+"RateApp.Later" = "Recordar més tard.";
+"RateApp.Ok" = "Ok!";
+
+// Address type
+"AddressType.Region" = "Regió";
+"AddressType.Country" = "País";
+"AddressType.Establishment" = "Establiment";
+"AddressType.City" = "Ciutat";
+"AddressType.Neighborhood" = "Barri";
+"AddressType.Street" = "Carrer";
+"AddressType.District" = "Districte";
+"AddressType.TransitStation" = "Estació";
+
+// URLs
+"Url.FAQ" = "https://intercom.help/badi/espanol";
+"Url.T&C" = "https://badi.com/blog/condiciones-generales-de-uso/";
+"Url.PrivacyPolicy" = "https://badi.com/blog/privacy-policy-data-protection/";
+"Url.T&C.Booking" = "https://badi.com/blog/condiciones-uso-reserva/";
+"Url.Stripe.Terms" = "https://stripe.com/connect-account/legal";
+
+// Payment
+"Payment.Title.PersonalData" = "Informació de Contacte";
+"Payment.Title.Bank" = "Número de compte bancari";
+"Payment.Subtitle.Bank" = "Per poder cobrar, cal que configuris un mètode de cobrament.";
+"Payment.Title.Address" = "Direcció";
+"Payment.Title.ResidenceCountry" = "Compte bancari";
+"Payment.Element.Phone" = "Telèfon Verificat: ";
+"Payment.Element.Email" = "Email de contacte:";
+"Payment.Element.CreditCard" = "Número de targeta";
+"Payment.Element.Iban" = "IBAN 1111 2222 3333 4444";
+"Payment.Element.Iban.BottomHint" = "Badi t'envia els pagaments 48 hores (aproximadament) després de la Data d'Entrada del futur company de pis. El temps que trigui l'import a aparèixer al teu compte dependrà del mètode de cobrament que hagis escollit.";
+"Payment.Element.Name" = "Nom:";
+"Payment.Element.Surname" = "Cognom:";
+"Payment.Element.Birthdate" = "Data de naixement:";
+"Payment.Element.ResidenceCountry" = "Selecciona el teu país";
+"Payment.Element.ResidenceCountry.Hint" = "Aquest ha de ser el teu País de Residencia (el país on tens el teu compte bancari)";
+"Payment.Element.City" = "Ciutat de residencia:";
+"Payment.Element.PostalCode" = "Codi Postal:";
+"Payment.Element.Address" = "Direcció completa:";
+"Payment.Element.Country" = "País:";
+"Payment.Title.Account" = "El meu compte";
+"Payment.Title.Account.InProgress" = "Informació del compte";
+"Payment.Title.CreditCard" = "Mètode de pagament";
+"Payment.Element.CreditCard.Hint" = "Número de targeta";
+"Payment.Element.Iban.Hint" = "Número IBAN";
+"Payment.Element.CreditCard.Disclaimer" = "Guardant aquesta targeta accepto les Condicions i Política de Stripe";
+"Payment.Button.Save" = "Guardar";
+"Payment.Placeholder.Verify" = "Verificar";
+"Payment.Element.Account.Hint" = "Número de compte:";
+"Payment.Element.SortCode.Hint" = "Sort Code:";
+"Payment.Element.AccountNumber" = "Número de compte";
+
+"Payment.Alert.CountryNotAvailable" = "Encara no estem a aquest país";
+"Payment.Alert.CountryConfirm.Title" = "Confirma el país";
+"Payment.Alert.CountryConfirm.Description" = "Un cop el país estigui seleccionat no podràs canviar-lo i el teu compte es mantindrà associat al país seleccionat.";
+
+// Booking
+"RoomRent.Booking.Title" = "Reservar a...";
+"RoomRent.Booking.NotThroughBadi" = "Reservar a algú fora de Badi";
+
+"Booking.Chat.Description.Pending.Sent" = "Esperant confirmació\n(màx 24h)";
+"Booking.Chat.Description.Pending.Received" = "Tens una Sol·licitud de Reserva! Accepta-la abans de que caduqui";
+"Booking.Chat.Description.Booked" = "Habitació Reservada!\nData d'entrada %@";
+"Booking.Chat.Description.Allowed" = "Envia una Sol·licitud de Reserva a %@ per reservar l'habitació";
+
+"Deposit.RoomDetail.Allowed" = "Reserva la teva habitació i evita sorpreses d'última hora!";
+"Deposit.RoomDetail.Expired" = "La teva última sol·licitud de reserva a Caducat :(";
+"Deposit.RoomDetail.Rejected" = "La teva última sol·licitud de reserva ha estat Rebutjada :(";
+"Booking.RoomDetail.ViewActivity" = "Veure activitat de reserva";
+
+"Booking.Activity.Title" = "Activitat de Reserva";
+"Booking.Activity.Answer" = "Respondre";
+
+"Booking.Activity.Status.Pending" = "Esperant resposta";
+"Booking.Activity.Status.Accepted" = "Reservada";
+"Booking.Activity.Status.Rejected" = "Reserva rebutjada";
+"Booking.Activity.Status.Expired" = "Reserva caducada";
+"Booking.Activity.Status.NotPossible" = "Inviable";
+
+"Booking.Activity.Subtitle.Accepted" = "Data d'entrada:";
+"Booking.Activity.Subtitle.Pending.LessThanOne" = "menys d'una hora perquè caduqui";
+"Booking.Activity.Subtitle.Pending.Singular" = "hora perquè caduqui";
+"Booking.Activity.Subtitle.Pending.Plural" = "hores perquè caduqui";
+"Booking.Activity.Subtitle.NotPossible" = "Ja llogada";
+
+"Deposit.Chat.Action.Pending.Lister" = "Detalls de la Reserva";
+"Deposit.Chat.Action.Pending.Seeker" = "Veure Sol·licitud";
+"Deposit.Chat.Action.Accepted" = "Detalls de la Reserva";
+"Deposit.Chat.Action.Allowed.Lister" = "Reservar Habitació";
+"Deposit.Chat.Action.Allowed.Seeker" = "Reservar Habitació";
+"Deposit.Chat.Disclaimer" = "     Protegeix la teva seguretat conversant dins del xat i realitzant els pagaments amb la nostra app";
+
+// Booking proposal request
+"BookingProposalRequest.Title" = "Sol·licitud de Reserva";
+"BookingProposalRequest.Lister.Subtitle" = "Envia primer la Sol·licitud perquè el futur company de pis pugui acceptar o rebutjar la reserva de l'habitació";
+"BookingProposalRequest.Lister.SecondSubtitle" = "\U2022  L'habitació només quedarà reservada quan el futur company de pis ACCEPTI i PAGUI.\n\n\U2022  Badi guardarà l'import de la Reserva fins a 48 hores després de la data d'entrada.  \n\n\U2022  El futur company de pis ha d'acceptar o rebutjar la Sol·licitud o caducarà en 24 hores.";
+
+"BookingProposalRequest.Seeker.Subtitle" = "Envia primer la Sol·licitud perquè l'anunciant del pis pugui acceptar o rebutjar la reserva de l'habitació";
+"BookingProposalRequest.Seeker.SecondSubtitle" = "\U2022  L'habitació només quedarà reservada quan l'anunciant del pis ACCEPTI la Reserva\n\n\U2022  Badi guardarà l'import de la Reserva fins a 48 hores després de la data d'entrada.  \n\n\U2022  L' anunciant ha d'acceptar o rebutjar la Sol·licitud o caducarà en 24 hores.";
+
+"BookingProposalRequest.MyAccount" = "Informació del meu compte:";
+"BookingProposalRequest.Date" = "Data d'entrada:";
+"BookingProposalRequest.Date.Empty" = "Escollir data";
+"BookingProposalRequest.Amount" = "Import de la reserva:";
+
+"BookingProposalRequest.Free" = "Cost del servei: no n'hi ha! Badi és 100% gratuït";
+"BookingProposalRequest.Info" = "Vols saber algo més? <u>Veure info sobre la Reserva</u>";
+"BookingProposalRequest.Lister.Example.First" = "Protecció de la teva informació personal";
+"BookingProposalRequest.Lister.Example.Second" = "Cobrament de la reserva 100% garantit";
+"BookingProposalRequest.Lister.Example.Third" = "Rep notificacions del progrés del cobrament";
+
+"BookingProposalRequest.Seeker.Example.First" = "Protecció de la teva informació personal";
+"BookingProposalRequest.Seeker.Example.Second" = "Pagament ONLINE segur";
+"BookingProposalRequest.Seeker.Example.Third" = "48 hores per revisar l'habitació després de la data d'entrada";
+"BookingProposalRequest.Seeker.Example.Fourth" = "100% reemborsable en cas de cancel·lació";
+"BookingProposalRequest.Terms" = "Enviant la Sol·licitud de Reserva, acceptes <b>l' Acord de Serveis</b> i l' <b>Acord de Conexió de Compte d'Stripe </b>";
+
+"BookingProposalRequest.Button" = "Enviar Sol·licitud de Reserva";
+
+// Booking request
+"BookingRequest.Chat.Pending" = "Sol·licitud de Reserva";
+"BookingRequest.Chat.Booked" = "Reservada";
+"BookingRequest.RoomAddress" = "Direcció de l'habitació:";
+"BookingRequest.EntryDate" = "Data d'entrada:";
+"BookingRequest.BookingAmount" = "Reserva";
+"BookingRequest.BookingFee" = "Cost del servei (100% gratuït)";
+"BookingRequest.TotalAmount" = "Import total";
+"BookingRequest.Lister" = "Anunciant:";
+"BookingRequest.Seeker" = "Futur company de pis:";
+"BookingRequest.Info.MoreInfo" = "Vols saber algo més? <u>Veure info sobre la Reserva</u>";
+"BookingRequest.Info.Example.First" = "Protecció de la teva informació personal";
+"BookingRequest.Info.Example.Second" = "Pagament ONLINE segur";
+"BookingRequest.Info.Example.Third" = "24h per revisar la teva habitació després de la data d'entrada";
+"BookingRequest.Info.Example.Fourth" = "100% reemborsable en cas de cancel·lació EXTERNA";
+"BookingRequest.Info.Example.Lister.First" = "Protecció de la teva informació personal";
+"BookingRequest.Info.Example.Lister.Second" = "Cobrament de la reserva 100% garantit";
+"BookingRequest.Info.Example.Lister.Third" = "Rep notificacions del progrés del cobrament";
+
+"BookingRequest.Request.Title" = "Sol·licitud de Reserva";
+"BookingRequest.Request.Initial.Seeker.Subtitle" = "%@ té interès a llogar-te la seva habitació i vol confirmar una Reserva.";
+"BookingRequest.Request.Initial.Seeker.SecondSubtitle" = "\U2022  Tens 24 hores per acceptar o rebutjar la Sol·licitud de Reserva abans de que caduqui. Dona't pressa i sigues el primer en acceptar i pagar la Reserva\n\n\U2022  L'habitació només estarà reservada si acceptes la Sol·licitud i confirmes el pagament \n\n\U2022  Badi guardarà l'import de la Reserva fins a 24 hores després de la data d'entrada";
+
+"BookingRequest.Request.Initial.Lister.Subtitle" = "%@ té interès a llogar-te la seva habitació i vol confirmar una Reserva.";
+"BookingRequest.Request.Initial.Lister.SecondSubtitle" = "\U2022  Accepta o rebutja la Sol·licitud o caducarà passades 24 hores\n\n\U2022  L'habitació només estarà reservada si acceptes la Sol·licitud i confirmes la teva informació de compte bancari\n\n\U2022  Badi guardarà l'import de la Reserva fins a 48 hores després de la data d'entrada";
+"BookingRequest.Request.Action.Reject" = "Rebutjar";
+"BookingRequest.Request.Action.Accept" = "Acceptar";
+
+"BookingRequest.PaymentInfo.Title" = "Informació de Pagament";
+"BookingRequest.PaymentInfo.Subtitle" = "Introdueix el teu mètode de pagament i dades de contacte per fer un pagament segur a través de Badi";
+
+"BookingRequest.Payment.Seeker.Title" = "Pagament";
+"BookingRequest.Payment.Lister.Title" = "Confirmació de Reserva";
+"BookingRequest.Payment.Seeker.Subtitle" = "Paga per confirmar la Reserva. El pagament serà retingut de forma segura fins la data d'entrada";
+"BookingRequest.Payment.Lister.Subtitle" = "Confirma tots els detalls de la Reserva i Accepta la Reserva per acabar el procés.";
+"BookingRequest.Payment.Seeker.Agreement" = "Al pagar, acceptes <b>l' Acord de Serveis</b> i l' <b>Acord de Conexió de Compte d'Stripe</b>";
+"BookingRequest.Payment.Lister.Agreement" = "Acceptant la Reserva, acceptes <b>l' Acord de Serveis</b> i l' <b>Acord de Conexió de Compte d'Stripe</b>";
+"BookingRequest.Payment.Seeker.Button" = "Pagar i confirmar";
+"BookingRequest.Payment.Lister.Button" = "Acceptar Reserva";
+"BookingRequest.Confirmation.Title" = "Reserva Confirmada";
+"BookingRequest.Confirmation.Subtitle" = "L'habitació ha estat reservada correctament!\nID de la Reserva: %@";
+"BookingRequest.Confirmation.ThirdTitle.Lister" = "Tingues en compte que les Reserves que estaven actives han estat cancel·lades";
+"BookingRequest.Confirmation.ThirdTitle.Seeker" = "Tingues en compte que les Reserves actives han estat cancel·lades";
+"BookingRequest.Confirmation.Bottom" = "Hem enviat la confirmació de Reserva al teu email";
+"BookingRequest.Waiting.Title" = "Esperant Confirmació";
+"BookingRequest.Waiting.Subtitle" = "La teva Sol·licitud de Reserva ha estat enviada";
+
+"BookingRequest.Waiting.ThirdTitle.Lister" = "El futur company de pis tindrà 24 hores per acceptar o rebutjar la teva Sol·licitud. L'habitació SOLAMENT estarà reservada un cop el teu futur company de pis accepti i pagui.";
+"BookingRequest.Waiting.ThirdTitle.Seeker" = "L' Anunciant tindrà 24 hores per acceptar o rebutjar la teva Sol·licitud de Reserva. L'habitació SOLAMENT estarà reservada un cop l' anunciant confirmi la Reserva.";
+"BookingRequest.Rejected.Title" = "Sol·licitud Rebutjada";
+
+"BookingRequest.Rejected.Subtitle" = "%@ ha rebutjat la teva Sol·licitud de Reserva :(";
+"BookingRequest.Expired.Title" = "Sol·licitud Caducada";
+"BookingRequest.Expired.Subtitle" = "La teva Sol·licitud de Reserva ha caducat :(";
+"BookingRequest.NotPossible.Title" = "Reserva Inviable";
+"BookingRequest.NotPossible.Subtitle" = "L' usuari ja no està disponible per reservar";
+"BookingRequest.MissingAccount.Text" = "Falten dades! Si us plau, acaba de completar els detalls del teu compte per poder fer la transferència el dia previst.";
+"BookingRequest.MissingAccount.Button" = "El meu Compte";
+"BookingRequest.ChatMessage" = "Tens un nou missatge de reserva";
+
+// Help
+"Booking.Help.Title" = "Cap dubte?";
+"Booking.Help.Subtitle" = "Si necessites ajuda amb la reserva, contacta'ns i rebràs una resposta de seguida. Estem aquí per ajudar-te!";
+"Booking.Help.Email" = "booking@badi.com";
+"Booking.Help.Faq" = "Necessites més informació? Ves a <u>FAQs</u>";
+
+// Info
+"Booking.Info.Title" = "Informació de reserva";
+"Booking.Info.What" = "Què és?";
+"Booking.Info.What.First.Title" = "Si tens una habitació...";
+"Booking.Info.What.First.Content" = "La Reserva és un mètode segur per garantir el pagament parcial o total del lloguer del primer mes.\n\nAcceptant la Reserva el futur company de pis es compromet a mudar-se el dia establert.\n\nEvita riscos i sorpreses d'última hora!";
+"Booking.Info.What.Second.Title" = "Si busques una habitació...";
+"Booking.Info.What.Second.Content" = "La Reserva és un mètode segur per garantir que l'habitació on aniràs a viure estarà disponible per a tu.\n\nAmb la Reserva, l'Anunciant accepta reservar l'habitació per a tu fins al dia d'entrada.\n\nNo t'estressis i evita buscar a l'últim moment!";
+
+"Booking.Info.How" = "Com funciona?";
+"Booking.Info.Seeker.Title" = "Hi ha dues maneres de reservar una habitació: enviant una Sol·licitud de Reserva o rebent una.";
+"Booking.Info.Seeker.Receive" = "Si rebs una Sol·licitud de Reserva...";
+"Booking.Info.Seeker.Receive.Content" = "1.- Un cop rebis una Sol·licitud de Reserva, tindràs 24 hores per acceptar-la o rebutjar-la. Si no contestes en 24 hores, la Sol·licitud caducarà i perdràs l'oportunitat.\n\n2.- Si acceptes la Sol·licitud de Reserva, hauràs d'omplir el mètode de pagament i fer un pagament en línea segur utilitzant la teva targeta.\n\n3.- Un cop fet el pagament, la Reserva quedarà confirmada. Badi guardarà l'import de la Reserva. Si no reportes cap incidència, els diners seran transferits 48 hores després de la data d'entrada.";
+
+"Booking.Info.Seeker.Send" = "Si envies una Sol·licitud de Reserva...";
+"Booking.Info.Seeker.Send.Content" = "1.- Primer completa les teves dades de contacte i pagament. És imprescindible per transferir l'import de la Reserva el dia establert.\n\n2.- No et descuidis d'indicar la data d'entrada i l'import de la Reserva.\n\n3.- Envia una Sol·licitud de Reserva perquè l'Anunciant pugui confirmar-la o rebutjar-la.";
+
+"Booking.Info.Seeker.First.Subtitle" = "Què passa després?";
+"Booking.Info.SeekerFirst.Content" = "L'Anunciant ha d'acceptar o rebutjar la Sol·licitud o caducarà passades 24 hores. Durant aquest temps, pots enviar més Sol·licituds de Reserva.\nLa primera que s'accepti serà la finalment confirmada. En el cas que tinguessis més Sol·licituds, aquestes quedaran cancel·lades.";
+
+"Booking.Info.Seeker.Second.Subtitle" = "Com sé que el procés de Reserva ha finalitzat?";
+"Booking.Info.Seeker.Second.Content" = "Quan el procés de Reserva acabi, l'estat serà un dels següents:\n\nReserva Confirmada: l'Anunciant ha acceptat la Sol·licitud i badi guardarà l'import de la Reserva. L'habitació quedarà bloquejada i reservada. La transferència es realitzarà passades 48 hores de la data d'entrada.\n\nSol·licitud Rebutjada: l'Anunciant ha rebutjat la Reserva i podràs començar el procés de nou.\n\nSol·licitud Caducada: la sol·licitud no s'ha respost i podràs començar el procés de nou.\n\nSol·licitud Inviable: L'Anunciant ja ha reservat l'habitació a un altre usuari.";
+
+"Booking.Info.Seeker.Third.Subtitle" = "Què passa un cop arriba el dia d'entrada?";
+"Booking.Info.Seeker.Third.Content" = "Quan la data d'entrada arribi, tindràs 24 hores per revisar la teva nova habitació i informar de qualsevol incidència que trobis al nostre equip d'atenció al client.\n\nSi no informes sobre cap incidència, l'import es transferirà automàticament passades 24 hores del dia d'entrada.\n\nSi informes sobre una incidència, l'equip d'atenció al client analitzarà cada situació directa i individualment. Les 24 hores vinents es dedicaran a resoldre el problema:\n\n\U2022  Si el problema queda resolt, els diners s'enviaran a l'Anunciant passades 24 hores. (48 hores després de la data d'entrada).\n\n\U2022  Si el problema no s'ha pogut resoldre, l'import et serà retornat en la seva totalitat.";
+
+"Booking.Info.Seeker.Fourth.Subtitle" = "Política de cancel·lació:";
+"Booking.Info.Seeker.Fourth.Content" = "Si l'Anunciant cancel·la la Reserva, tindràs un reemborsament del 100% de l'import total.\n\nSi tu cancel·les la Reserva:\n\n\U2022  11 dies abans de la data d'entrada, no s'aplicarà cap càrrec i tindràs un reemborsament del 100%.\n\n\U2022  Entre els dies 10 i 6 abans de la data d'entrada, tindràs un reemborsament del 50% de l'import final.\n\n\U2022  Dins dels 5 dies anteriors a la data d'entrada, transferirem l'import total a l'Anunciant.\n\nIgualment, en cas de cancel·lació contactarem amb tu.";
+
+"Booking.Info.Lister.Title" = "Hi ha dues maneres de reservar una habitació: enviant una Sol·licitud de Reserva o rebre'n una.";
+"Booking.Info.Lister.Receive" = "Si rebs una Sol·licitud de Reserva...";
+"Booking.Info.Lister.Receive.Content" = "1.- Un cop rebis una Sol·licitud de Reserva, tindràs 24 hores per acceptar-la o rebutjar-la. Si no contestes en 24 hores, la Sol·licitud caducarà i perdràs l'oportunitat.\n\n2.- Si acceptes la Sol·licitud de Reserva, hauràs d'emplenar la teva informació de contacte i el teu compte bancari. És necessari per transferir-te l'import de la Reserva el dia establert. \n\n3.- Un cop fet el pagament, la Reserva quedarà confirmada. Badi, guardarà l'import de la Reserva fins 48 hores després de la data d'entrada.";
+
+"Booking.Info.Lister.Send" = "Si envies una Sol·licitud de Reserva...";
+"Booking.Info.Lister.Send.Content" = "1.- Primer, completa les teves dades de contacte i compte bancari. És imprescindible per transferir l'import de la Reserva el dia establert.\n\n2.- No et descuidis d'indicar la data d'entrada i l'import de la Reserva.\n\n3.- Envia la Sol·licitud de Reserva perquè el futur company de pis pugui acceptar-la o rebutjar-la.";
+
+"Booking.Info.Lister.First.Title" = "Què passa després?";
+"Booking.Info.Lister.First.Content" = "El futur company de pis ha d'acceptar o rebutjar la Sol·licitud o caducarà passades 24 hores. Durant aquest temps, pots enviar més Sol·licituds de Reserva. La primera que s'accepti serà la confirmada. En el cas que tinguessis més Sol·licituds, aquestes quedaran cancel·lades.";
+"Booking.Info.Lister.Second.Title" = "Com sé que el procés de Reserva ha finalitzat?";
+"Booking.Info.Lister.Second.Content" = "Quan el procés de Reserva acabi, l'estat serà un dels següents:\n\nReserva Confirmada: El futur company de pis ha acceptat la Sol·licitud i badi guardarà l'import de la Reserva. L'habitació quedarà bloquejada i reservada. La transferència es realitzarà passades 48 hores de la data d'entrada.\n\nSol·licitud Rebutjada: El futur company de pis ha rebutjat la Reserva i podràs començar el procés de nou.\n\nSol·licitud Caducada: la sol·licitud no s'ha respost i podràs començar el procés de nou.\n\nSol·licitud Inviable: El futur company de pis ja ha reservat una altra habitació.";
+"Booking.Info.Lister.Third.Title" = "Política de cancel·lació:";
+"Booking.Info.Lister.Third.Content" = "Si el futur company de pis cancel·la la Reserva:\n\n\U2022 Dins dels 5 dies anteriors a la data d'entrada, et tornarem el 100% de l'import.\n\n\U2022 Entre els dies 10 i 6 abans de la data d'entrada, tindràs un reemborsament del 50% de l'import final.\n\n\U2022  11 dies abans de la data d'entrada, no s'aplicarà cap càrrec.\n\nIgualment, en cas de cancel·lació contactarem amb tu.";
+
+"Booking.Info.Chat" = "contacta amb nosaltres";
+
+
+"Booking.Proposal.SendMultiple.Reminder.Title" = "Recordatori";
+"Booking.Proposal.SendMultiple.Reminder.Lister.Message" = "Estàs a punt d'enviar una altra Sol·licitud de Reserva. La primera Sol·licitud acceptada serà la que quedarà reservada i pagada al teu compte.";
+"Booking.Proposal.SendMultiple.Reminder.Seeker.Message" = "Sembla que ja tens Sol·licituds de Reserva actives. Tingues en compte que un cop acceptada una Sol·licitud de Reserva tant per tu com per l'Anunciant, l'import de la Reserva es transferirà a l'Anunciant i la resta de Sol·licituds quedaran cancel·lades.";
+
+"Booking.Tutorial.First.Title" = "Descobreix les noves Reserves!";
+"Booking.Tutorial.First.Subtitle" = "Reserva la teva habitació a l'instant amb Badi.";
+"Booking.Tutorial.Second.Title" = "Super segur";
+"Booking.Tutorial.Second.Subtitle" = "No pateixis pels teus diners. Badi s'encarrega de totes les transaccions!";
+"Booking.Tutorial.Third.Title" = "Ràpid i fàcil!";
+"Booking.Tutorial.Third.Subtitle" = "Xateja, envia Sol·licituds i confirma la teva nova habitació o el teu nou company de pis.";
+"Booking.Tutorial.Fourth.Title" = "100% Gratis!";
+"Booking.Tutorial.Fourth.Subtitle" = "Envia tantes Sol·licituds de Reserva com vulguis, és tot de franc!";
+"Booking.Tutorial.Button" = "Entesos!";
+
+"Booking.Chat.Ad.Text" = "Reserva la teva habitació amb Badi";
+"Booking.Chat.Ad.Button" = "Obté més info";
+
+// Social connections
+"Social.Connections.Title" = "Social Connections";
+"Social.Connections.Amount" = "Social Connections amb %@";
+
+"Social.Paths.Title" = "Així és com %@ \nconnecta amb %@:";
+"Social.Paths.Me" = "Jo";
+
+// Neighbourhoods
+// Madrid
+"Neighbourhood.ChIJRzHcPCsmQg0R_0fI8f8DR-Y" = "Diversitat cultural en el tradicional centre històric.";
+"Neighbourhood.ChIJz7ZjFH4oQg0RYS0zuSBBoxQ" = "El centre de la ciutat, animat a tota hora.";
+"Neighbourhood.ChIJ8ek8h2QoQg0RTBJi44fo6qA" = "Estil alternatiu, tendes vintage, bars de moda i cafès bohemis.";
+"Neighbourhood.ChIJzfooVGkoQg0RUZNtUtm0hII" = "Espais verds just al costat del centre de la ciutat.";
+"Neighbourhood.ChIJjXE4gW8vQg0RospLN-fgw1E" = "Arquitectura moderna a la bora del riu.";
+"Neighbourhood.ChIJ-TdI70IoQg0RLu_2APbEemw" = "Nits animades i ben comunicat.";
+
+// Barcelona
+"Neighbourhood.ChIJ--Ln3n-ipBIRcvCCQOH6ACY" = "Parcs tranquils sense deixar la ciutat.";
+"Neighbourhood.ChIJ4Q9lYYWipBIRgvCCQOH6ACY" = "Una cultura oberta plena de llocs per prendre l'aperitiu.";
+"Neighbourhood.ChIJDwUiqL2ipBIRI6kV4Db90bQ" = "Boutiques, i els bars més de moda.";
+"Neighbourhood.ChIJ2b6UOeGipBIRGvrMS1jtefQ" = "Cultura i modernitat s'ajunten en el centre històric.";
+"Neighbourhood.ChIJqf86DGKipBIRIOyOP4f4xrE" = "Bars tranquils i mercats.";
+"Neighbourhood.ChIJmyCPhtuipBIRHIgYpfufcN0" = "La llar de l'obra mestra de Gaudí, cèntrica amb una vibrant atmosfera.";
+
+// Paris
+"Neighbourhood.ChIJ6VVDJrN65kcRQBuUaMOCCwU" = "Museus en abundància, espais verds i fileres de restaurants.";
+"Neighbourhood.ChIJEcgELkNu5kcRjVQFUIvkPMY" = "Artístic i autèntic, cèntric amb ambient de poble.";
+"Neighbourhood.ChIJ9WBuGRRw5kcRMBuUaMOCCwU" = "Tranquil·litat i història amagades del clamor de París.";
+"Neighbourhood.ChIJf8gcz69v5kcRYEpIvGqyH-4" = "Arquitectura tradicional en un barri de moda.";
+"Neighbourhood.ChIJ59fvwcht5kcRcBuUaMOCCwU" = "Espais verds, bars tranquils i diversitat cultural.";
+"Neighbourhood.ChIJxSr71vZt5kcR8BqUaMOCCwU" = "Nits animades, plenes de bars i restaurants.";
+"Neighbourhood.ChIJPStI0CVu5kcRUBqUaMOCCwU" = "El luxós centre, llar del mundialment famós museu.";
+"Neighbourhood.ChIJ_WhMlTxu5kcRYBqUaMOCCwU" = "Un vibrant barri comercial barrejat amb àrees antigues que passen desapercebudes.";
+"Neighbourhood.ChIJw0-tXgRu5kcRcBqUaMOCCwU" = "L'àrea medieval és la casa silenciosa d'una gran quantitat de museus.";
+"Neighbourhood.ChIJo8SoIv1x5kcRgBqUaMOCCwU" = "Nits plenes de vida i cultura, llar de Notre-Dame.";
+"Neighbourhood.ChIJb_T3b-9x5kcRkBqUaMOCCwU" = "Llar del famós barri del llatí, amb un centre universitari divers.";
+"Neighbourhood.ChIJGcU48NBx5kcRoBqUaMOCCwU" = "Relaxat, amb espais verds i carrers antics.";
+"Neighbourhood.ChIJWWRTZChw5kcRsBqUaMOCCwU" = "Arquitectura clàssica parisenca, un brillant mix de restaurants, cafès i bars.";
+"Neighbourhood.ChIJdWkEFsZv5kcRwBqUaMOCCwU" = "Llar del llegendari bulevard, un pròsper veïnat.";
+"Neighbourhood.ChIJvdxBeEdu5kcR0BqUaMOCCwU" = "Vida nocturna animada al centre de la cultura clàssica de la ciutat.";
+"Neighbourhood.ChIJTbMkrQxu5kcR4BqUaMOCCwU" = "Un barri  autèntic al centre de la ciutat.";
+"Neighbourhood.ChIJR9fXt4xy5kcRABuUaMOCCwU" = "Grans espais verds al costat del riu.";
+"Neighbourhood.ChIJgwVOTCdy5kcREBuUaMOCCwU" = "Ric en diversitat cultural amb nits animades.";
+"Neighbourhood.ChIJT0ClqLNx5kcRIBuUaMOCCwU" = "Tranquil i residencial, complet amb el seu propi mercat popular a peu de carrer.";
+"Neighbourhood.ChIJ6_zai45t5kcRgBuUaMOCCwU" = "Pau i tranquil·litat en general, però amb clubs populars de música.";
+
+// London
+"Neighbourhood.ChIJqdKqVc0CdkgRgGe-JsaFEQQ" = "Ben comunicat, parcs enormes barrejats amb increïbles gratacels.";
+"Neighbourhood.ChIJ3ydEeZgDdkgRcGe-JsaFEQQ" = "Pubs clàssics i restaurants de moda, la llar de Borough Market.";
+"Neighbourhood.ChIJt1zJSGgEdkgRsEAeRjCuDgo" = "A la vora del riu, en constant moviment.";
+"Neighbourhood.ChIJBYyO7-8cdkgRLG8Z2Fn7scU" = "Bars hipsters amb espais verds i llargs canals.";
+"Neighbourhood.ChIJPZprGOwadkgR4Ga-JsaFEQQ" = "Vibrant, provocador i vintage.";
+"Neighbourhood.ChIJ5Tvr7V0bdkgRyWXsGMuF8FQ" = "Sempre de moda, carrers plens de precioses cases.";
+"Neighbourhood.ChIJX4XfTlUDdkgRwISR0ciFEQo" = "Vistes icòniques al cor de Londres.";
+"Neighbourhood.ChIJkcYYXrKl2EcR0Ge-JsaFEQQ" = "Diversitat cultural i un fort sentit de comunitat.";
+"Neighbourhood.ChIJT29HcDkXdkgR4Gfsoi2uDgQ" = "Els espais verds oberts li donen una sensació de poble.";
+"Neighbourhood.ChIJIfhvfFqu2EcR8Ge-JsaFEQQ" = "Perfecte per a famílies, els preus de les llars són assequibles.";
+"Neighbourhood.ChIJq7AET3IRdkgRoH-R0ciFEQo" = "Casa del famós estadi de Wembley, amb una comunitat culturalment diversa.";
+"Neighbourhood.ChIJUYUsD96q2EcRcGnsoi2uDgQ" = "Frondoses afores, el somni d'un viatger en el sud-est de Londres.";
+"Neighbourhood.ChIJW_bCdKUAdkgREGjsoi2uDgQ" = "Un animat centre de ciutat, amb llars més assequibles.";
+"Neighbourhood.ChIJD2fuc4gSdkgRIGjsoi2uDgQ" = "Carrers frondosos i cases atractives, \"reina dels afores\".";
+"Neighbourhood.ChIJ7Y9uo9MYdkgRgGnsoi2uDgQ" = "Cost de vida baix, ben connectat.";
+"Neighbourhood.ChIJJc-4yymo2EcRwqZo5HwjGEk" = "Mercats amb encant i vistes de la ciutat, perfecte per menjar tradicional britànic. ";
+"Neighbourhood.ChIJwzfTXMEPdkgRAGfsoi2uDgQ" = "Mercats de proximitat i camins a prop del riu.";
+"Neighbourhood.ChIJZ1JpkPAbdkgREGfsoi2uDgQ" = "Ambient residencial, bona comunicació amb transports públics.";
+"Neighbourhood.ChIJsdjk2n0TdkgRQGjsoi2uDgQ" = "Frontera nord-est de la ciutat, llar de la famosa escola Harrow.";
+"Neighbourhood.ChIJ1bfreqq72EcRUGjsoi2uDgQ" = "Lloguers raonables en una àrea que està millorant ràpidament, ben comunicat.";
+"Neighbourhood.ChIJzWR_V5NtdkgRkf7edrEjoRI" = "Viu al camp, treballa a Londres.";
+"Neighbourhood.ChIJNeMxAOgMdkgRWPTlACaTBHQ" = "Ple de parcs a l'aire lliure i apartaments més assequibles.";
+"Neighbourhood.ChIJQzlq8vcPdkgRMGfsoi2uDgQ" = "Jardins immaculats amb propi palau al cor de la ciutat.";
+"Neighbourhood.ChIJ0ycUEikKdkgR6r_eW1XvlAQ" = "Pobles tranquils amb gran varietat de tendes, perfecte per compradors entusiastes.";
+"Neighbourhood.ChIJmT6ce2sCdkgR4EAeRjCuDgo" = "Millorant ràpidament gràcies a les bones connexions de transport, l'habitatge és més econòmic.";
+"Neighbourhood.ChIJbRcY2h0GdkgRQonYqyp5Fx8" = "Llar del Wimbledon, pels amants del tenis.";
+"Neighbourhood.ChIJfRGCus6n2EcRYGfsoi2uDgQ" = "Increïble diversitat amb una atmósfera vibrant.";
+"Neighbourhood.ChIJcWrvVrqm2EcRoGjsoi2uDgQ" = "Perfecte per famílies i ben comunicat per trens.";
+"Neighbourhood.ChIJlwfWmnIMdkgRrCdnqjiWZjo" = "Sensació de poble en un dels barris més bonics de Londres.";
+"Neighbourhood.ChIJEZ61rPwHdkgRwGjsoi2uDgQ" = "Espais verds en abundància, just a la vora del sud-est del Gran Londres.";
+"Neighbourhood.ChIJkRAw9uEddkgR0Gjsoi2uDgQ" = "Des de teatres a centres culturals, coses per a tothom.";
+"Neighbourhood.ChIJg-qP_4kFdkgR0mhvpZwsJTc" = "Cafès tranquils i restaurants envoltats de grans parcs verds.";
+"Neighbourhood.ChIJxwN8mDUFdkgRoGfsoi2uDgQ" = "Presumeix de tenir els principals llocs d'interès de la ciutat.";
+
+// Legal
+"Legal.PopUp.Title" = "Et volem explicar una cosa...";
+"Legal.PopUp.Subtitle" = "Acabem d'actualitzar els nostres Termes i Condicions i la nostra Política de Privacitat per complir amb les noves lleis Europees de protecció de dades (RGPD). <b>Aquí</b> trobaràs una explicació clara de com tractem les teves dades a badi.\n\nRecorda que en acceptar podràs en tot moment gestionar el tipus d'informació que desitges que t'enviem i que podràs recuperar totes les teves dades, quan vulguis.";
+"Legal.PopUp.Cancel" = "Rebutjar";
+"Legal.PopUp.Accept" = "Acceptar";
+
+"Legal.Settings.Title" = "Privacitat";
+"Legal.Settings.Content" = "Volem que sàpigues com funciona exactament badi i perquè et demanem certa informació. Pots optar per no compartir els teus detalls a continuació. Per obtenir més informació, llegeix la nostra política de privacitat completa, <b>aquí</b>.";
+"Legal.Settings.Marketing.Title" = "Màrqueting";
+"Legal.Settings.Marketing.Content" = "A badi, sempre estem treballant en noves opcions i esperem que t'agradi saber d'elles. T'agradaria rebre informació de badi i dels nostres socis?";
+"Legal.Settings.Profiling.Title" = "Elaboració de perfil";
+"Legal.Settings.Progiling.Content" = "A més de les dades que ens proporciones, també unim les dades de perfils de tercers amb els detalls dels teus registres. Estàs d'acord amb això?";
+
+// Upload Photo
+"UploadPhoto.TitleAddSomePhotos" = "Afegeix algunes fotos";
+"UploadPhoto.UploadInOneGo" = "Puja totes les teves fotos d'una sola vegada!";
+"UploadPhoto.ClickBrowseTakePhoto" = "Fes clic aquí per cercar en les teves carpetes o fer una foto";
+"UploadPhoto.DragDrop" = "Mantén premut per moure les imatges";
+
+// Report
+"Report.User.Title" = "Por què vols denunciar a aquest usuari?";
+"Report.User.Subtitle" = "Els informes són 100% anònims";
+"Report.User.Button" = "Denuncia a aquest usuari";
+"Report.Room.Title" = "Per què vols denunciar aquesta habitació?";
+"Report.Room.Subtitle" = "No et preocupis! Ells no sabran que els has denunciat!";
+"Report.Room.Button" = "Reportar habitació";
+
+"Report.Reason.Spam" = "Spam";
+"Report.Reason.Fake" = "Fals";
+"Report.Reason.HolidayLet" = "Pensada per vacances";
+"Report.Reason.ExplicitContent" = "Contingut explícit";
+"Report.Reason.Duplicated" = "Duplicada";
+"Report.Reason.BadBehaviour" = "Mal comportament";
+"Report.Reason.Scam" = "Estafa";
+"Report.Reason.FakeProfile" = "Perfil fals";
+
+"Report.User.Success.Title" = "Aquest usuari ha sigut denunciat";
+"Report.User.Success.Subtitle" = "El nostre equip farà un seguiment i prendrà mesures si es necessari.";
+"Report.Room.Success.Title" = "Aquesta habitació ha sigut denunciada";
+"Report.Room.Success.Subtitle" = "El nostre equip farà un seguiment i prendrà mesures si es necessari.";

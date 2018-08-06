@@ -1,0 +1,6 @@
+{
+"NSLocationWhenInUseUsageDescription" = "Podrás encontrar habitaciones cerca de ti.";
+"NSCameraUsageDescription" = "Las imágenes podrán ser usadas como foto de perfil, para mostrar tu habitación y compartidas a través del chat.";
+"NSPhotoLibraryUsageDescription" = "Las imágenes podrán ser usadas como foto de perfil, para mostrar tu habitación y compartidas a través del chat.";
+}
+

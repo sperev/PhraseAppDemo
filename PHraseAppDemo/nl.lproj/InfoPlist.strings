@@ -1,0 +1,6 @@
+{
+    "NSLocationWhenInUseUsageDescription" = "Zodat je kamers in jouw buurt kunt vinden.";
+    "NSCameraUsageDescription" = "Foto's kunnen toegevoegd worden aan je gebruikersprofiel of de fotogalerij van de kamer en gedeeld worden via chat.";
+    "NSPhotoLibraryUsageDescription" = "Geselecteerde foto's kunnen toegevoegd worden aan je gebruikersprofiel of de fotogalerij van de kamer en gedeeld worden via chat.";
+}
+

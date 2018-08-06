@@ -1,0 +1,6 @@
+{
+    "NSLocationWhenInUseUsageDescription" = "Vous pourrez trouver des chambres à proximité de chez vous. ";
+    "NSCameraUsageDescription" = "Les photos peuvent être ajoutées à votre profil, à la galerie de photos ou partagées par chat.";
+    "NSPhotoLibraryUsageDescription" = "Les photos sélectionnées peuvent être ajoutées à votre profil, à la galerie de photos ou partagées par chat.";
+}
+

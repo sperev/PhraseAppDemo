@@ -1,0 +1,5 @@
+{
+    "NSLocationWhenInUseUsageDescription" = "So you will be able to find rooms close to you.";
+    "NSCameraUsageDescription" = "Photos taken can be added to your user profile, to the room photo gallery and shared via chat.";
+    "NSPhotoLibraryUsageDescription" = "Selected photos can be added to your user profile, to the room photo gallery and shared via chat.";
+}

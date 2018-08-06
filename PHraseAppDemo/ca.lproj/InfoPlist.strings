@@ -1,0 +1,6 @@
+{
+"NSLocationWhenInUseUsageDescription" = "Podràs trobar habitacions a prop teu.";
+"NSCameraUsageDescription" = "Les fotografies es poden afegir al vostre perfil d'usuari, a la galeria de fotos o es poden compartir a través del xat.";
+"NSPhotoLibraryUsageDescription" = "Les fotografies seleccionades es poden afegir al vostre perfil d'usuari, a la galeria de fotos o es poden compartir a través del xat.";
+}
+

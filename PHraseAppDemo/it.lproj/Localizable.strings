@@ -1,0 +1,1197 @@
+/*
+ Localizable.strings
+ Badi
+
+ Created by Jose Luis Lopez Redondo on 04/11/16.
+ Copyright © 2016 Badi. All rights reserved.
+ */
+
+// Common
+"Common.Ok" = "Ok";
+"Common.Done" = "Fatto";
+"Common.Cancel" = "Cancella";
+"Common.Yes" = "Sì";
+"Common.No" = "No";
+"Common.Edit" = "Modifica";
+"Common.Next" = "Continua";
+"Common.Update" = "Aggiorna";
+
+// Internet
+"Error.ConectivityShort" = "Non hai connessione a internet.";
+"Error.Conectivity" = "Sei offline, controlla la tua connessione a internet e riprova.";
+"Error.SaveImage" = "Salvataggio dell'immagine sul rullino non riuscito";
+
+// Validation errors
+"Validation.AllFieldsNeeded" = "Per favore completa tutti i campi";
+"Validation.InvalidEmail" = "L'indirizzo email deve essere valido";
+"Validation.InvalidPassword" = "La password deve avere almeno 6 caratteri e contenere lettere e numeri.";
+"Validation.TooYoung" = "Devi avere almeno 18 anni per usare questa app.";
+"Validation.UploadInProgress" = "Per favore, attendi che la foto si sia caricata completamente prima di aggiornare il tuo profilo.";
+"VerificationError.InvalidCode" = "Ops! Il codice di verifica non coincide.";
+"Validation.PriceRange" = "L'importo richiesto deve essere tra  %d%@ e %d%@";
+
+// API Errors
+"APIError.InvalidToken" = "Ops, c'è stato un problema con l'autenticazione. Per favore riprova e se l'errore persiste contatta il supporto clienti.";
+"APIError.InvalidContext" = "Ops, devi essere autenticato per eseguire questa operazione!";
+"APIError.InvalidOperation" = "Ops, non puoi accedere a questa sezione. Per favore contatta il supporto clienti.";
+"APIError.ResourceNotFound" = "Ops, questo contenuto non è disponibile. Per favore contatta il supporto clienti.";
+"APIError.ForbiddenOperation" = "Ops, non hai i privilegi necessari per eseguire questa operazione! Per favore contatta il supporto clienti.";
+"APIError.InvalidBody" = "";
+"APIError.InvalidParams" = "Uno o più campi sono mancanti o invalidi. Per favore, riprova.";
+"APIError.InvalidRecord" = "Ops, c'è stato un errore con uno o più campi inviati. Riprova più tardi o contatta il supporto clienti.";
+"APIError.InvalidFacebookToken" = "Ops, c'è stato un errore sconosciuto con Facebook. Riprova più tardi o contatta il supporto clienti.";
+"APIError.InvalidSmsRequest" = "Ops, non è stato possibile processare la richiesta di verifica. Riprova più tardi o contatta il supporto clienti.";
+"APIError.ConcurrentVerification" = "Hai già richiesto un SMS di verifica. Se non lo ricevi entro 5 minuti, riprova.";
+"APIError.UnknownSmsException" = "Ops,  c'è stato un errore sconosciuto con il servizio di verifica via SMS. Riprova più tardi o contatta il supporto clienti.";
+"APIError.NoMatchLoginType" = "Ops, non ho trovato nessun utente con questa email e login. Sei certo di non esserti registrato con un altro metodo (es. Facebook o G+)?";
+"APIError.EmailNotFound" = "Ops, non ho trovato nessun utente con questo indirizzo e-mail.";
+"APIError.EmailExists" = "Ops, questo indirizzo email esiste già";
+"APIError.InvorrectPassword" = "Ops, la password è incorretta.";
+"APIError.UnknownException" = "Ops, c'è stato un errore sconosciuto. Riprova più tardi o contatta il supporto clienti.";
+
+"APIError.FacebookLoginExists" = "Ops! Il tuo account Facebook esiste già";
+"APIError.GoogleLoginExists" = "Ops! Il tuo account Google esiste già";
+"APIError.NoMatchPasswordConfirmation" = "Ops! Sembra che le due password non coincidano.";
+"APIError.RequestAlreadyAnswered" = "Ops! Questa richiesta ha già avuto una risposta";
+"APIError.RequestNonArchivable" = "Ops! Non è possibile archiviare questa richiesta";
+"APIError.RoomIsFrozen" = "Ops! Questa stanza non può essere aggiornata";
+"APIError.UserWithNoPaymentData" = "Ops! Manca il metodo di pagamento";
+"APIError.UserWithNoPayoutData" = "Ops! Mancano i dettagli del pagamento";
+"APIError.BookingProposalInProgress" = "Ops! Hai già inviato una richiesta di prenotazione per questa stanza. Non è possibile inviarne un'altra mentre hai una richiesta in attesa";
+"APIError.InvalidPostalCode" = "Ops! Il codice postale e il Paese del tuo conto non corrispondono. Per favore, controllali";
+"APIError.InvalidAccountNumber" = "Oops, c'è stato un problema con il numero del tuo conto corrente. Per favore controllalo, se l'errore persiste contatta il servizio clienti.";
+"APIError.InvalidAccountCountry" = "Ops!  Il tuo conto corrente non appartiene al Paese che hai indicato. Per favore, controlla il numero del conto corrente";
+"APIError.CantLeaveChat" = "Ops! Non è possibile abbandonare la chat perché c'è una prenotazione in comune. Se vuoi abbandonarla, per favore, contatta il servizio clienti";
+"APIError.CantBlockChat" = "Ops! Non è possibile bloccare la chat perché c'è una prenotazione in comune. Se vuoi abbandonarla, per favore, contatta il servizio clienti";
+"APIError.ResourceAlreadyUsed" = "Ops! Questi dettagli di contatto sono già utilizzati da un altro utente.";
+
+"APIError.BookingProposalCreationForbidden" = "Ops! Questo utente non è più disponibile.";
+"APIError.BookingProposalAnswerForbidden" = "Ops! Non puoi rispondere alla tua richiesta di prenotazione";
+"APIError.BookingProposalAlreadyAnswered" = "Ops! Hai già risposto a questa richiesta di prenotazione";
+
+"APIError.UserAlreadyReported.Title" = "Ops, hai già segnalato questo utente...";
+"APIError.UserAlreadyReported.Message" = "Non preoccuparti, il nostro team troverà una soluzione se necessario.";
+"APIError.RoomAlreadyReported.Title" = "Ops, hai già segnalato questa stanza...";
+"APIError.RoomAlreadyReported.Message" = "Non preoccuparti, il nostro team troverà una soluzione se necessario.";
+
+// Stripe
+"APIError.Stripe.InvalidNumber" = "Il numero della carta di credito non è valido.";
+"APIError.Stripe.InvalidExpiryMonth" = "Il mese di scadenza della carta di credito non è valido.";
+"APIError.Stripe.InvalidExpiryYear" = "L'anno di scadenza della carta di credito non è valido.";
+"APIError.Stripe.InvalidCvc" = "Il codice di sicurezza della carta di credito non è valido.";
+"APIError.Stripe.InvalidSwipeData" = "I dettagli della carta di credito non sono corretti.";
+"APIError.Stripe.IncorrectNumber" = "Il numero della carta di credito non è valido.";
+"APIError.Stripe.ExpiredCard" = "La carta di credito è scaduta.";
+"APIError.Stripe.IncorrectCvc" = "Il codice di sicurezza della carta di credito non è corretto.";
+"APIError.Stripe.IncorrectZip" = "Non è possibile verificare il codice postale della carta di credito.";
+"APIError.Stripe.CardDeclined" = "La carta di credito non è stata accettata.";
+"APIError.Stripe.Missing" = "Non è stata introdotta nessuna carta di credito.";
+"APIError.Stripe.ProcessingError" = "Si è verificato un errore durante l'elaborazione dei dati della carta di credito.";
+
+// Other errors
+"GPlacesError.Detail" = "Ops, non abbiamo trovato nulla con questo indirizzo. Per favore riprova con una ricerca più specifica.";
+"LocationError.Current" = "Ops, non abbiamo accesso alla tua posizione attuale. Forse non ci hai dato il permesso. Per farlo, vai su Impostazioni > Badi e Attiva i servizi di localizzazione.";
+"Warning.CameraPermissions" = "Non possiamo accedere alla fotocamera, clicca qui per andare nelle Impostazioni e darci il permesso.";
+"Warning.AlbumPermissions" = "Non possiamo accedere alle tue foto, clicca qui per andare nelle Impostazioni e darci il permesso.";
+
+// Login
+"Social.Title.First" = "Benvenuto su badi";
+"Social.Subtitle.First" = "Registrati gratuitamente e trova il coinquilino AMAZING per te!";
+"Social.Title.Second" = "Cerca";
+"Social.Subtitle.Second" = "Cerca stanze o coinquilini in base al tuo stile di vita.";
+"Social.Title.Third" = "Connetti";
+"Social.Subtitle.Third" = "Trova i tuoi futuri coinquilini e parla con loro.";
+"Social.Title.Fourth" = "Prenota";
+"Social.Subtitle.Fourth" = "Conferma la prenotazione con la nostra assicurazione sulla prenotazione.";
+
+"Access.WontPublish" = "Non pubblicheremo nulla senza il tuo permesso";
+"Access.Facebook" = "Continua con Facebook";
+"Access.Google" = "Continua con Google";
+"Access.Email" = "Continua con email";
+"Login.LoginTitle" = "Accedi";
+"Login.LoginAction" = "Accedi";
+"Login.RegisterAction" = "Registrati";
+"Login.ForgetAction" = "Invia";
+"Login.TermsAndPrivacy" = "Procedendo, accetto i <b>Termini e Condizioni </b>";
+"Login.GoToLogin" = "Sei già registrato su badi? Login";
+
+"Login.Email" = "email";
+"Login.Password" = "password";
+"Login.PasswordRules" = "6 caratteri, lettere e numeri";
+"Login.Show" = "mostra";
+"Login.Hide" = "nascondi";
+"Login.ForgetPasswordButton" = "Dimenticato la password?";
+"Login.ForgetPassword.Title" = "Recupera password";
+"Login.ForgetPassword.Subtitle" = "Inserisci l'indirizzo email che hai utilizzato all'atto della registrazione per ricevere la tua nuova password.";
+"Login.ForgetPassword.Success.Title" = "Ultimo passo";
+"Login.ForgetPassword.Success.Subitle" = "La tua nuova password ti è stata inviata via email";
+
+"Login.FailedPopUp.Title" = "Accesso non riuscito…";
+"Login.FailedPopUp.Subtitle" = "Sembra che tu non abbia effettuato la registrazione nello stesso modo con il quale stai tentando di accedere. Riprova con il procedimento corretto per effettuare l’accesso o leggi l'email che ti abbiamo appena inviato.";
+"Login.FailedPopUp.ButtonTitle" = "Capito!";
+
+// Lister Onboarding
+"Onboarding.Title1" = "Pubblica l’annuncio della tua stanza gratuitamente";
+"Onboarding.Body1" = "Ricevi le richieste nello stesso giorno e affitta la tua stanza velocemente!";
+"Onboarding.Title2" = "Trova il coinquilino perfetto";
+"Onboarding.Body2" = "Ricevi consigli riguardo coinquilini che hanno i tuoi stessi interessi e stesso stile di vita.";
+"Onboarding.Title3" = "Trovato? Inizia a chattare subito";
+"Onboarding.Body3" = "Accetta i candidati e parla con loro mediante la nostra chat privata e sicura.";
+"Onboarding.Title4" = "Prenota la tua stanza senza commissioni";
+"Onboarding.Body4" = "Ricevi pagamenti sicuri ed evita le cancellazioni all’ultimo minuto.";
+"Onboarding.Button" = "Inizia!";
+
+// Search
+"Search.Title" = "Dove vorresti vivere?";
+"Search.TypeLocation" = "Specifica una città o località";
+"Search.UserLocation" = "Cerca nelle vicinanze";
+"Search.FindYourRoom" = "Cerca la tua stanza ";
+"Search.Featured" = "Città in primo piano";
+"Search.GotARoom" = "Hai una stanza libera?";
+"Search.Neighbourhoods.title" = "I quartieri più cool";
+"Search.Neighbourhoods.subtitle" = "della %@";
+
+// Rooms
+"Rooms.Map" = "mappa";
+"Rooms.List" = "lista";
+"Rooms.Searching" = "cerca in quest'area";
+"Rooms.RedoSearch" = "mostra più stanze";
+"Rooms.CurrentLocation" = "Mia posizione attuale";
+"Rooms.MapArea" = "Area della mappa selezionata";
+"Rooms.Meters" = "m";
+"Rooms.Kilometers" = "km";
+"Rooms.Filter" = "Filtri";
+
+"Rooms.Month" = "mese";
+"Rooms.Day" = "giorno";
+"Rooms.Hour" = "ora";
+
+"Rooms.Today" = "oggi";
+"Rooms.Yesterday" = "ieri";
+"Rooms.ThisWeek" = "questa settimana";
+"Rooms.OverAWeekAgo" = "oltre una settimana fa";
+"Rooms.WeekAgo" = "1 settimana fa";
+"Rooms.WeeksAgo" = "%d settimane fa";
+"Rooms.Owned" = "Mia stanza";
+"Rooms.Request" = "Invia richiesta";
+"Rooms.Share" = "Condividi";
+"Rooms.RequestSent" = "Richiesta inviata";
+"Rooms.EmptyResult" = "Ops!\nNessuna camera corrisponde a questi criteri.\nProva a cercare in un'altra area o modifica i filtri applicati.";
+
+"Rooms.ComingSoon.Title" = "Ci siamo quasi...";
+"Rooms.ComingSoon.Subtitle" = "Presto atterreremo in Italia! Torna qui tra qualche giorno per incontrare il coinquilino perfetto in questo bellissimo paese.";
+"Rooms.ComingSoon.FirstButton" = "Fantastico!";
+"Rooms.ComingSoon.SecondButton" = "";
+"Rooms.List.Footer" = "Vuoi vedere altre stanze? Cerca in un'altra area o prova a modificare i filtri selezionati.";
+
+// Filters
+"Filter.Title" = "Filtri";
+"Filter.Clear" = "Cancella tutto";
+"Filter.Available" = "Disponibile";
+"Filter.Now" = "Ora";
+"Filter.From" = "Scegli la data";
+"Filter.MaxPrice" = "Prezzo massimo mensile";
+"Filter.MaxPrice.Subtitle" = "(Valuta paese)";
+"Filter.Gender.Title" = "Genere dei Badi";
+"Filter.Gender.Subtitle" = "(attualmente nell'appartamento)";
+"Filter.Gender.AllFemale" = "tutte donne";
+"Filter.Gender.AllMale" = "tutti uomini";
+"Filter.Gender.Both" = "entrambi";
+"Filter.Roomates.Title" = "Numero totale dei Badi";
+"Filter.Roomates.Subtitle" = "(attualmente nell'appartamento)";
+"Filter.Roomates.Max" = "massimo";
+"Filter.Roomates.Min" = "minimo";
+"Filter.EmptyPrice" = "-";
+"Filter.BedType" = "Tipo di letto";
+"Filter.RoomAmenities" = "Caratteristiche della stanza";
+"Filter.FriendlyRules" = "Regole di casa";
+"Filter.GeneralAmenities" = "Caratteristiche generali";
+"Filter.Apply" = "Applica";
+
+// Room
+"Room.ShareText.Seeker" = "Guarda che stanza ho trovato con @badi_it #FindYourPlace";
+"Room.ShareText.Seeker.WithCity" = "Guarda che stanza ho trovato a %@ con @badi_it #FindYourPlace";
+"Room.ShareText.Lister" = "Ho una stanza libera a casa mia. Conoscete qualcuno interessato? Potete vederla su @badi_it";
+"Room.ShareText.Booking" = "Vuoi prenotare la mia stanza? Fallo con @badi_it";
+
+// Room detail
+"RoomDetail.Day" = "giorno";
+"RoomDetail.Days" = "giorni";
+"RoomDetail.Week" = "settimana";
+"RoomDetail.Weeks" = "settimane";
+"RoomDetail.Month" = "mese";
+"RoomDetail.Months" = "mesi";
+"RoomDetail.From" = "Dal";
+"RoomDetail.To" = "al";
+
+"RoomDetail.YearsOld" = "anni";
+
+"RoomDetail.RoomSettingsButton" = "Opzioni Stanza";
+"RoomDetail.SendRequestButton" = "Invia Richiesta";
+"RoomDetail.SeeAll" = "vedi tutte";
+
+"RoomDetail.PropertyType" = "Spazio pubblicato";
+"RoomDetail.PropertyType.PrivateRoom" = "Stanza privata";
+"RoomDetail.PropertyType.SharedRoom" = "Stanza condivisa";
+"RoomDetail.PropertyType.EntirePlace" = "Intera proprietà";
+
+"RoomDetail.BedType" = "Tipo di letto";
+
+"RoomDetail.Flatmates" = "Coinquilini";
+
+"RoomDetail.PreferredFlatmate" = "Coinquilino preferito";
+
+"RoomDetail.Availability" = "Disponibilità";
+"RoomDetail.MinStay" = "Soggiorno minimo";
+"RoomDetial.Location" = "Posizione";
+"RoomDetail.Description" = "Descrizione";
+"RoomDetail.Amenities" = "Caratteristiche";
+"RoomDetail.HouseRules" = "Regole della casa";
+"RoomDetail.Published" = "Inserita";
+"RoomDetail.Published.By" = "da";
+
+"RoomDetail.Action.Title" = "Sei sicuro?";
+"RoomDetail.Action.Unpost.Subtitle" = "Perché vuoi rimuoverla?";
+"RoomDetail.Action.Delete.Subtitle" = "Perché vuoi cancellarla?";
+"RoomDetail.Action.Rent" = "L'ho affittata :)";
+"RoomDetail.Action.Hide" = "Voglio nasconderla";
+"RoomDetail.Action.DontRent" = "Non voglio affittarla";
+
+"RoomDetail.Report.Title" = "Segnalazione";
+"RoomDetail.Report.ActionButton.First" = "Utente";
+"RoomDetail.Report.ActionButton.Second" = "Stanza";
+
+"RoomDetail.Booking.Tip.Title" = "Adesso puoi Prenotare la tua stanza in tutta sicurezza, velocemente e gratis con Badi";
+"RoomDetail.Booking.Tip.Secure" = "Paga in sicurezza";
+"RoomDetail.Booking.Tip.Fast" = "Semplice e veloce";
+"RoomDetail.Booking.Tip.Free" = "Gratis al 100%";
+"RoomDetail.Booking.Tip.Subitle" = "Pagamenti sicuri con Stripe";
+
+"RoomDetail.Edition.Alert.Title" = "Modifica Annunci";
+"RoomDetail.Edition.Alert.Message" = "Non puoi modificare i dettagli della tua inserzione quando hai prenotazioni attive. Termina la tue attività di prenotazione in corso per verificare lo stato delle tue prenotazioni.";
+
+"RoomDetail.BillsIncluded" = "Bollette comprese";
+"RoomDetail.BillsNotIncluded" = "Bollette non comprese";
+
+"RoomDetail.Flatmate.Age" = "Età";
+"RoomDetail.Flatmate.YearsOld" = "anni";
+"RoomDetail.Flatmate.Gender" = "Genere";
+"RoomDetail.Flatmate.CurrentSituation" = "Situazione attuale";
+
+"RoomDetail.Flatmate.Gender.Male" = "Uomo";
+"RoomDetail.Flatmate.Gender.Female" = "Donna";
+"RoomDetail.Flatmate.Gender.DontMind" = "È uguale";
+"RoomDetail.Flatmate.Occupation.Working" = "Lavora";
+"RoomDetail.Flatmate.Occupation.Studying" = "Studia";
+"RoomDetail.Flatmate.Occupation.DontMind" = "È uguale";
+
+//Social connections
+"SocialConnections.Title" = "Social Connections";
+"SocialConnections.SeeConnectionsOtherProfile" = "Vieni a conoscere le tue Social Connections";
+"SocialConnections.SeeConnections" = "Scopri le tue connessioni con %@";
+"SocialConnections.NoConnectionsBoth" = "Ops! Sembra che tu e %@ non abbiate alcuna connessione in comune al momento...";
+"SocialConnections.NoConnectionsOther" = "Ops! Sembra che %@ non stia ancora usando questa funzione...";
+"SocialConnections.NoConnectionsYou" = "Inserisci i tuoi account social per scoprire le tue connessioni con %@";
+"SocialConnections.NoConnectionsDirectFriends" = "Perfetto! Tu e %@ siete amici.";
+"SocialConnections.NoConnectionsMyProfile" = "Inserisci i tuoi account social per scoprire le tue connessioni";
+"SocialConnections.SeeAll" = "vedi tutte";
+"SocialConnections.Alert.Title" = "Sfrutta le tue Social Connections";
+"SocialConnections.Alert.Subtitle" = "Scopri quali persone ti connettono a potenziali utenti Badi e assicurati che siano adatti a te!";
+"SocialConnections.Alert.Button" = "Connetti";
+"SocialConnections.Alert.ButtonWitouhtAction" = "Capito!";
+"SocialConnections.NoConnectionsYet" = "Ci stiamo districando fra i tuoi possibili conoscenti, torna fra un minuto per scoprire le tue connessioni!";
+
+// Room rental
+"RoomStatus.Published" = "pubblicata";
+"RoomStatus.Unpublished" = "non pubblicata";
+"RoomStatus.Rented" = "affittata";
+"RoomStatus.Booked" = "prenotata";
+
+"RoomRent.Title" = "A chi l'hai affittata?";
+"RoomRent.NotAbove" = "Non in elenco?";
+"RoomRent.NotThroughBadi" = "Non l'ho affittata con Badi";
+
+"RoomRent.Republish.Title" = "Pianifica un promemoria";
+"RoomRent.Republish.Content" = "Quando sarà nuovamente disponibile per l'affitto?\nTi invieremo un promemoria";
+"RoomRent.Republish.No" = "No, grazie";
+"RoomRent.Republish.Date" = "Scegli una data";
+
+"RoomDelete.Title" = "Sei sicuro/a?";
+"RoomDelete.Subtitle" = "Stai per cancellare questa stanza.";
+
+"BedType.Sofa" = "divano letto";
+"BedType.Single" = "letto singolo";
+"BedType.Double" = "letto matrimoniale";
+"BedType.No" = "nessun letto";
+
+"Amenity.Title" = "Caratteristiche";
+"Amenity.Tv" = "TV";
+"Amenity.Wifi" = "Wifi";
+"Amenity.AirConditioner" = "aria condizionata";
+"Amenity.AC" = "Aria condizionata";
+"Amenity.Parking" = "Parcheggio";
+"Amenity.SmokerFriendly" = "Accetta fumatori";
+"Amenity.PetFriendly" = "Animali domestici";
+"Amenity.Elevator" = "Ascensore";
+"Amenity.Heating" = "Riscaldamento";
+"Amenity.WashingMachine" = "Lavatrice";
+"Amenity.Dryer" = "Asciugatrice";
+"Amenity.Doorman" = "Portiere";
+"Amenity.CouplesAccepted" = "Accetta coppie";
+"Amenity.Furnished" = "Ammobiliato";
+"Amenity.Pool" = "Piscina";
+"Amenity.OwnBathroom" = "Bagno privato";
+"Amenity.Terrace" = "Balcone";
+"Amenity.Window" = "Affaccio esterno";
+"Amenity.Dishwasher" = "Lavastoviglie";
+"Amenity.Wheelchair" = "Accesso per carrozzine";
+"Amenity.Garden" = "Giardino";
+"Amenities.Add" = "Aggiungi caratteristiche";
+"Amenities.SeeAll" = "Vedi tutto";
+
+// Room status actions
+"RoomStatusAction.Publish" = "Mostra";
+"RoomStatusAction.Unpublish" = "Nascondi";
+"RoomStatusAction.Detele" = "Rimuovi";
+"RoomStatusAction.Edit" = "Modifica";
+"RoomStatusAction.Share" = "Condividi";
+"RoomStatusAction.MarkRented" = "Indica come Affittata";
+"RoomStatusAction.Cancel" = "Cancella";
+
+"RoomDetailStatus.Rented" = "Affittata";
+"RoomDetailStatus.Unpublished" = "Nascondi";
+"RoomDetailStatus.Booked" = "Prenotata";
+
+// Seeker rooms
+"SeekerRooms.Title" = "Richieste";
+"SeekerRooms.Invitations" = "ricevute";
+"SeekerRooms.Requests" = "inviate";
+"SeekerRooms.Invitations.Empty.Title" = "Casella vuota";
+"SeekerRooms.Invitations.Empty.Subtitle" = "Se un badi è interessato al tuo profilo riceverai il suo invito qui.";
+"SeekerRooms.Requests.Empty.Title" = "Non hai ancora inviato alcuna richiesta";
+"SeekerRooms.Requests.Empty.Subtitle" = "Non essere timido e inizia a inviare Richieste.";
+
+// Language
+"Language.Arabic" = "Arabo";
+"Language.Indonesian" = "Indonesiano";
+"Language.Chinese" = "Cinese";
+"Language.Czech" = "Ceco";
+"Language.Danish" = "Danese";
+"Language.German" = "Tedesco";
+"Language.Greek" = "Greco";
+"Language.English" = "Inglese";
+"Language.Esperanto" = "Esperanto";
+"Language.Spanish" = "Spagnolo";
+"Language.French" = "Francese";
+"Language.Hindi" = "Hindi";
+"Language.Italian" = "Italiano";
+"Language.Japanese" = "Giapponese";
+"Language.Corean" = "Coreano";
+"Language.Hungarian" = "Ungherese";
+"Language.Dutch" = "Olandese";
+"Language.Norwegian" = "Norvegese";
+"Language.Polish" = "Polacco";
+"Language.Portuguese" = "Portoghese";
+"Language.Romanian" = "Romeno";
+"Language.Russian" = "Russo";
+"Language.Finnish" = "Finlandese";
+"Language.Swahili" = "Swahili";
+"Language.Swedish" = "Svedese";
+"Language.Thai" = "Tailandese";
+"Language.Turkish" = "Turco";
+"Language.Vietnamese" = "Vietnamita";
+"Language.Catalan" = "Catalano";
+"Language.Euskera" = "Basco";
+"Language.Galician" = "Galiziano";
+
+// Gender
+"Gender.Male" = "uomo";
+"Gender.Female" = "donna";
+"Gender.Male.Pronoun" = "lui";
+"Gender.Female.Pronoun" = "lei";
+
+// Ocupation
+"Ocupation.Student" = "studente";
+"Ocupation.Worker" = "lavoratore";
+"Ocupation.StudentWorker" = "studente e lavoratore";
+
+"Ocupation.Student.PreUniversity" = "Studi pre-universitari";
+"Ocupation.Student.University" = "Laurea";
+"Ocupation.Student.Master" = "Master";
+"Ocupation.Student.PhD" = "Dottorato";
+
+"Ocupation.Worker.Beauty" = "Bellezza";
+"Ocupation.Worker.BussinessAndManagement" = "Affari, consulenza e gestione";
+"Ocupation.Worker.Charity" = "Beneficenza e lavoro volontario";
+"Ocupation.Worker.CreativeArtsAndDesign" = "Arti creative e design";
+"Ocupation.Worker.CustomerService" = "Servizio clienti";
+"Ocupation.Worker.Education" = "Istruzione";
+"Ocupation.Worker.Entertainment" = "Intrattenimento";
+"Ocupation.Worker.Finance" = "Finanza";
+"Ocupation.Worker.Health" = "Salute";
+"Ocupation.Worker.HR" = "Risorse umane";
+"Ocupation.Worker.IT" = "Informatica";
+"Ocupation.Worker.Marketing" = "Marketing";
+"Ocupation.Worker.PublicServices" = "Servizi pubblici";
+"Ocupation.Worker.Law" = "Legge";
+"Ocupation.Worker.Logistics" = "Logistica";
+"Ocupation.Worker.RealState" = "Immobiliare";
+"Ocupation.Worker.ResearchAndDevelopment" = "Ricerca e sviluppo";
+"Ocupation.Worker.Retail" = "Rivendita";
+"Ocupation.Worker.Sales" = "Vendite";
+"Ocupation.Worker.Tourism" = "Turismo";
+
+// Profile
+"Profile.RequestedYourRoom" = "ha richiesto la tua stanza";
+"Profile.Verified" = "verificato";
+"Profile.Trusted" = "fidato";
+"Profile.VerifyProfile.Title" = "Verifica il tuo profilo";
+"Profile.VerifyProfile.Subtitle" = "Verifica il tuo profilo per renderlo più visibile.";
+"Profile.FriendsInCommon" = "Amici in comune";
+"Profile.AboutMe" = "Chi sono";
+"Profile.Languages" = "Lingue";
+"Profile.InterestsInCommon" = "Interessi comuni su Facebook";
+"Profile.ReportUser.Indication" = "Segnalaci la cattiva condotta di questa persona";
+"Profile.ReportUser" = "Segnala utente";
+"Profile.Edit" = "modifica profilo";
+"Profile.Current.Study" = "Studente";
+"Profile.Current.Work" = "Lavoratore";
+
+"ProfileView.Tags.Title" = "Personalità e interessi";
+
+//Trusted user
+"Profile.VerifyAccount.Tip" = "Verifica il tuo conto per diventare un Utente Fidato";
+"Profile.TrustedUserInProgress" = "Le tue informazioni sono state inviate con successo e saranno verificate in 4-5 giorni. Una volta avvenuta la verifica diventerai un utente fidato! ";
+"Payment.TrustedUserText" = "Completa le tue informazioni di Contatto e Conto per diventare un Utente Fidato. Ciò ti permetterà di accettare le prenotazioni e rendere sicure le tue transazioni. Le tue informazioni saranno verificate in 4-5 giorni. ";
+
+// Profile report
+"Report.ErrorEmailNotAvailable" = "Non hai configurato un indirizzo email su questo dispositivo. Per inviarci una segnalazione è necessario avere un indirizzo email attivo.";
+"Report.ErrorPhoneNotAvailable" = "Sembra non ci sia nessun numero di telefono configurato per questo dispositivo. Per poter realizzare una chiamata devi averne uno.";
+
+// Profile edit
+"Profile.Title" = "Il mio Profilo";
+"Profile.Name" = "Nome";
+"Profile.Name.Placeholder" = "Inserisci il tuo nome";
+"Profile.Surname" = "Cognome";
+"Profile.Surname.Placeholder" = "Inserisci il tuo cognome";
+"Profile.DateOfBirth" = "Data di nascita";
+"Profile.DateOfBirth.Placeholder" = "Inserisci la tua data di nascita";
+"Profile.Gender.Title" = "Scegli il tuo sesso";
+"Profile.Gender.Male" = "uomo";
+"Profile.Gender.Female" = "donna";
+"Profile.Occupation.Title" = "Raccontaci cosa fai";
+"Profile.Occupation.Student" = "studio";
+"Profile.Occupation.Worker" = "lavoro";
+"Profile.Occupation.Both" = "entrambi";
+"Profile.Occupation.View.Both" = "Studio e Lavoro";
+"Profile.Languages.Title" = "Che lingue parli?";
+"Profile.Languages.Content" = "Aggiungi le tue lingue";
+"Profile.AboutMe.Title" = "Qualcos'altro che vorresti raccontarci?";
+"Profile.AboutMe.Limit" = "massimo 600 caratteri";
+"Profile.Update" = "Aggiorna profilo";
+"Profile.Description" = "Racconta qualcosa di più su di te (opzionale)";
+"Profile.Languages" ="Lingue";
+"Profile.Fields.Optional" = "(opzionale)";
+"Profile.Study.Title" = "Dicci cosa studi";
+"Profile.Study.Placeholder" = "Seleziona i tuoi studi";
+"Profile.Work.Title" = "Cosa fai nella vita?";
+"Profile.Work.Placeholder" = "Seleziona il campo in cui lavori";
+
+"Profile.Tags.Title" = "Parlaci un po' di te";
+"Profile.Tag.Personality.Title" = "Che carattere hai?";
+"Profile.Tag.Lifestyle.Title" = "Che tipo di vita conduci?";
+"Profile.Tag.Music.Title" = "Che musica ascolti?";
+"Profile.Tag.Sport.Title" = "Che sport ti piacciono?";
+"Profile.Tag.Movie.Title" = "Che generi di film ti piacciono?";
+
+"ProfileTag.Tag.Personality.Title" = "Personalità";
+"ProfileTag.Tag.Lifestyle.Title" = "Tipo di vita";
+"ProfileTag.Tag.Music.Title" = "Musica";
+"ProfileTag.Tag.Sport.Title" = "Sport";
+"ProfileTag.Tag.Movie.Title" = "Generi di film";
+
+// Profile picture
+"Profile.Picture.Select" = "Seleziona sorgente";
+"Profile.Picture.Album" = "Album";
+"Profile.Picture.Camera" = "Fotocamera";
+"Profile.Picture.Edit" = "carica";
+
+// Profile language
+"Profile.Language.Title" = "Parlo...";
+"Profile.Language.Update" = "Aggiorna";
+
+// Profile verify
+"Profile.Verify.Action" = "Verifica";
+"Profile.Verify.AlternativeAction" = "Ho già un codice";
+"Profile.Confirm.Action" = "Invia codice";
+"Profile.Confirm.InputPlaceholder" = "codice";
+
+"Profile.Verify.PhoneTitle" = "Verifica telefono";
+"Profile.Verify.PhoneContent" = "Inserisci il tuo numero telefonico e conferma la tua identità con il codice che ti invieremo via SMS.";
+"Profile.Verify.PhoneInputPlaceholder" = "Nazione";
+"Profile.Verify.PhoneSecondInputPlaceholder" = "Numero";
+"Profile.Confirm.PhoneContent" = "Inserisci il codice di verifica che ti abbiamo inviato via SMS.";
+
+"Profile.Verify.MailTitle" = "Verifica email";
+"Profile.Verify.MailContent" = "Scrivi il tuo indirizzo email e conferma la tua identità con il codice che ti invieremo.";
+"Profile.Verify.MailInputPlaceholder" = "email";
+"Profile.Confirm.MailContent" = "Inserisci il codice di verifica che ti abbiamo inviato via email.";
+
+"Tags.Title" = "Parlaci un po' di te";
+"Tags.Subtitle" = "Puoi scegliere fino a 10 opzioni per categoria.";
+
+// Settings
+"Setting.Title" = "Impostazioni";
+"Setting.Invite" = "Invita un amico";
+"Setting.Rate" = "Recensisci questa app";
+"Setting.Partner" = "Collabora con noi";
+"Setting.Support" = "Supporto e Aiuto";
+"Setting.Switch" = "Passa a";
+"Setting.Logout" = "Esci";
+"Setting.Contact" = "Chatta con noi";
+"Setting.Report" = "Segnala un bug";
+"Setting.TermsAndConditions" = "Termini e Condizioni";
+"Setting.Faqs" = "Domande Frequenti";
+"Setting.Delete" = "Cancella account";
+"Setting.Delete.MyID" = "Il mio ID:";
+"Setting.PaymentData" = "Il mio conto";
+"Setting.Privacy" = "Privacy";
+
+// Invite
+"Invite.Text" = "Quando ho provato Badi, ti ho pensato. L'app ti permette di affittare o cercare stanze in appartamenti condivisi e trovare i tuoi nuovi coinquilini. Penso che ti piacerà 😉";
+
+// Partner
+"Partner.EmailTitle" = "Ho una proposta di collaborazione per Badi";
+"Partner.EmailBody" = "";
+"Partner.Receiver" = "partnerships@badi.com";
+
+// Report
+"ReportError.EmailTitle" = "C'è qualcosa che non va...";
+"ReportError.Receiver" = "feedback@badi.com";
+"ReportError.Model" = "Modello dispositivo";
+"ReportError.OS" = "Versione OS";
+"ReportError.AppVersion" = "Versione App";
+"ReportError.AppBuild" = "App Build";
+"ReportError.UserId" = "ID Utente";
+
+// Delete
+"Delete.EmailTitle" = "Per favore cancella il mio account";
+"Delete.EmailBody" = "Il mio ID:";
+"Delete.Receiver" = "info@badi.com";
+
+// User type
+"UserType.Seeker" = "Cerco una stanza";
+"UserType.Lister" = "Affitto una stanza";
+
+// Lister rooms
+"ListerRoom.Title" = "Le mie Stanze";
+"ListerRoom.ListRoom" = "Pubblica una Stanza";
+"ListerRoom.ListRoomDescription" = "Per ritornare alla modalità \"Cerco una stanza\", vai al tuo profilo e scegli il pulsante con la doppia freccia";
+
+// Posted rooms
+"PostedRooms.Title" = "Trova un Badi";
+"PostedRooms.EmptyContent" = "Pubblica o crea una stanza per ricevere richieste e suggerimenti.";
+"PostedRooms.EmptyFooter" = "Vai alle Mie Inserzioni";
+
+// Requests
+"Request.Status.Pending" = "In attesa";
+"Request.Status.Accepted" = "Accettata";
+"Request.Status.Rejected" = "Rifiutata";
+"Request.Status.NonAvailable" = "Stanza non disponibile";
+"Request.Status.Expired" = "Scaduta";
+"Request.NewRequest" = "Nuova Richiesta";
+"Request.NewRequests" = "Nuove Richieste";
+"Request.CardTitle" = "ha richiesto la tua stanza";
+"Request.ButtonNo" = "Rifiuta";
+"Request.ButtonYes" = "Accetta e chatta";
+"Request.Title" = "richieste";
+"Request.Placeholder" = "Controlla qui per vedere le richieste dei badi interessati alla tua stanza.";
+
+// Invitations
+"Invitation.NewInvitation" = "Nuovo Invito";
+"Invitation.NewInvitations" = "Nuovi Inviti";
+"Invitation.AcceptedMessage" = "Hai accettato l'invito, clicca qui per chattare con il futuro coinquilino.";
+"Invitation.Empty.Title" = "Casella vuota";
+"Invitation.Empty.Subtitle" = "Se un coinquilino è interessato al tuo profilo, riceverai un invito in questa sezione.";
+"Invitation.Aprove" = "Accetta";
+"Invitation.Reject" = "Rifiuta";
+"Alert.FirstInvitation.Title" = "Congratulazioni! Hai appena ricevuto la tua prima richiesta da un'Inserzionista";
+"Alert.FirstInvitation.Subtitle" = "Accettala per iniziare a chattare o Rifiutala se non pensi di avere un match.";
+"Alert.FirstInvitation.Button" = "Capito!";
+
+// Recommendations
+"Recommendation.Success" = "Invito inviato correttamente. Quando verrà accettato, potrai chattare con l'utente.";
+"Recommendation.CardTitle" = "Consigliato/a";
+"Recommendation.ButtonNo" = "Ignora";
+"Recommendation.ButtonYes" = "Invita";
+"Recommendation.Placeholder" = "Controlla qui per vedere i badi suggeriti sulla base del tuo profilo e dei tuoi interessi.";
+"Recommendation.Title" = "suggerimenti";
+
+//Trusted user alert
+"Alert.TrustedUser.Title" = "Utente Fidato";
+"Alert.TrustedUser.Subtitle" = "Questo utente ha tutte le informazioni relative al conto verificate ed è pronto per prenotare una stanza";
+
+
+// Room create
+"RoomCreate.Title" = "Aggiungi Stanza";
+"RoomCreate.TitleEdit" = "Modifica Stanza";
+"RoomCreate.TitlePictures" = "Foto";
+"RoomCreate.Pictures" = "Foto di qualità + Quantità = Più opportunità!";
+"RoomCreate.Picture.Cover" = "Immagine di copertina";
+"RoomCreate.Picture.Sort" = "Trascina per riordinare";
+"RoomCreate.TitleAbout" = "Dettagli Stanza";
+"RoomCreate.Title.Placeholder" = "Titolo stanza";
+"RoomCreate.Title.Limit" = "massimo 35 caratteri";
+"RoomCreate.Location.Wont" = "(Non mostreremo la tua posizione esatta)";
+"RoomCreate.Location.Placeholder" = "Posizione";
+"RoomCreate.Price" = "Prezzo mensile";
+"RoomCreate.BillsIncluded" = "Le bollette sono comprese";
+"RoomCreate.TitleAvailable" = "Disponibile";
+"RoomCreate.From" = "Dal";
+"RoomCreate.To" = "al";
+"RoomCreate.MinimumStay" = "Soggiorno minimo (mesi)";
+"RoomCreate.TitleRoomates" = "Numero di coinquilini";
+"RoomCreate.DoYouHaveFlatmates" = "Hai qualche coinquilino?";
+"RoomCreate.Roomates.Included" = "Includiti nel totale";
+"RoomCreate.Roomates.Female" = "donne";
+"RoomCreate.Roomates.Male" = "uomini";
+"RoomCreate.TitleBadis" = "Badi";
+"RoomCreate.EditBadis" = "modifica badi";
+"RoomCreate.TitleBed" = "Tipo di letto";
+"RoomCreate.TitleAmenities" = "Caratteristiche";
+"RoomCreate.SelectAmenities" = "Scegli le caratteristiche";
+"RoomCreate.SeeAllAmenities" = "vedi tutte";
+"RoomCreate.TitleDescription" = "Descrizione";
+"RoomCreate.Description.Placeholder" = ""; // Not used yet
+"RoomCreate.Description.MaxLenght" = "Massimo 3000 caratteri";
+"RoomCreate.ListRoomButton" = "Aggiungi stanza";
+"RoomCreate.EditRoomButton" = "Salva le modifiche";
+"RoomCreate.Available.Now" = "adesso";
+"RoomCreate.Available.Today" = "Oggi";
+"RoomCreate.Available.Undefined" = "nessuna data";
+"RoomCreate.Available.ChoseDate" = "scegli una data";
+"RoomCreate.Error.MultipleImageUpload" = "Stiamo caricando l'immagine. Per favore attendi il completamento prima di caricare la seguente.";
+"RoomCreate.Error.CantMove" = "Stiamo caricando l'immagine. Per favore attendi il completamento prima di riordinarle .";
+"RoomCreate.Error.ImageUploading" = "Si prega di attendere. Quando la foto verrà caricata, il tuo annuncio sarà pronto per la pubblicazione!";
+"RoomCreate.ListSuccessPopup.Title" = "Il tuo annuncio è pubblico!";
+"RoomCreate.ListSuccessPopup.Subtitle" = "Ben fatto! Per raggiungere ancora più badi condividi subito il tuo annuncio.";
+"RoomCreate.ListSuccessPopup.FirstButton" = "Condividi";
+"RoomCreate.ListSuccessPopup.SecondButton" = "Più tardi";
+
+"RoomCreate.VerifyPhone.Title" = "Verifica il tuo telefono";
+"RoomCreate.VerifyPhone.Subtitle" = "In questo modo garantiamo la tua sicurezza e costruiamo fiducia nella nostra comunità. La tua informazione rimarrà privata e non sarà mai condivisa.";
+"RoomCreate.VerifyPhone.Button" = "Verifica Telefono";
+
+"RoomCreate.ContinueButton" = "Continua";
+"RoomCreate.LocationStep.Title" = "Step 1: Posizione";
+"RoomCreate.LocationStep.CitySection.Title" = "Città";
+"RoomCreate.LocationStep.AddressSection.Title" = "Indirizzo";
+"RoomCreate.LocationStep.Wont" = "Non preoccuparti, non mostreremo la posizione esatta. Questo serve solo per dare un'idea della zona a chi cerca una stanza.";
+"RoomCreate.LocationStep.CityPlaceholder" = "Inserisci una città";
+"RoomCreate.LocationStep.AddressPlaceholder" = "Via, numero";
+"RoomCreate.LocationStep.CityExample" = "es: Londra, UK";
+"RoomCreate.LocationStep.AddressExample.spain" = "es: Muntaner, 24";
+"RoomCreate.LocationStep.AddressExample.france" = "es: 24 Rue Saint-martin";
+"RoomCreate.LocationStep.AddressExample.uk" = "es: 24 Hanbury Street";
+"RoomCreate.LocationStep.AddressExample.italy" = "ex: Via Lombardi, 24";
+"RoomCreate.LocationStep.AddressExample.default" = "Nome casa o edificio, via e numero";
+
+"RoomCreate.PropertyStep.Title" = "Step 2: Appartamento";
+"RoomCreate.PropertyStep.FlatMatesTitle" = "Chi ci vive al momento?";
+"RoomCreate.PropertyStep.AmenitiesTitle" = "Scegli le caratteristiche";
+"RoomCreate.PropertyStep.TypeTitleWhatDoYouWantToList" = "Cosa vuoi pubblicare?";
+"RoomCreate.PropertyStep.RulesTitle" = "Ci sono regole specifiche nella casa?";
+"RoomCreate.RoomStep.Title" = "Step 3: Stanza";
+"RoomCreate.RoomStep.BedTitle" = "Scegli il tipo di letto";
+"RoomCreate.RoomStep.AvailabilityTitle" = "Quando è disponibile la stanza?";
+"RoomCreate.RoomStep.PriceTitle" = "Quant'è l'affitto mensile?";
+"RoomCreate.RoomStep.PerMonth" = "mese";
+"RoomCreate.PhotoStep.Title" = "Step 4: Foto";
+"RoomCreate.PhotoStep.Remaining" = "%i caratteri rimanenti";
+"RoomCreate.PhotoStep.Minimum" = "Minimo %i caratteri";
+"RoomCreate.PhotoStep.TitleSectionTitle" = "Dai un titolo alla tua inserzione";
+"RoomCreate.PhotoStep.TitleSectionPlaceholder" = "Scrivi un titolo che si faccia notare";
+"RoomCreate.PhotoStep.DescriptionSectionTitle" = "Raccontaci altro...";
+"RoomCreate.PhotoStep.DescriptionSectionPlaceholder" = "...cosa ti piace del tuo quartiere? Cosa apprezzi in un coinquilino? Facci sapere!";
+
+"RoomCreate.FlatmateStep.Title" = "Fase 5: Coinquilini";
+"RoomCreate.FlatmateStep.Gender.Title" = "Con chi preferiresti abitare?";
+"RoomCreate.FlatmateStep.Gender.Male" = "Uomo";
+"RoomCreate.FlatmateStep.Gender.Female" = "Donna";
+"RoomCreate.FlatmateStep.Gender.DontMind" = "È uguale";
+"RoomCreate.FlatmateStep.Occupation.Title" = "E la sua situazione attuale?";
+"RoomCreate.FlatmateStep.Occupation.Working" = "Lavora";
+"RoomCreate.FlatmateStep.Occupation.Studying" = "Studia";
+"RoomCreate.FlatmateStep.Occupation.DontMind" = "È uguale";
+"RoomCreate.FlatmateStep.Age.Title" = "Qual è la fascia d'età che preferisci?";
+"RoomCreate.FlatmateStep.Age.yearsOld" = "anni";
+
+"RoomType.PrivateRoom" = "Stanza privata";
+"RoomType.SharedRoom" = "Stanza condivisa";
+"RoomType.EntirePlace" = "Intera proprietà";
+
+// Badis
+"AddBadis.Title" = "Aggiungi Badi";
+"AddBadis.AddButton" = "aggiungi Badi";
+"AddBadis.RemoveButton" = "rimuovi";
+"AddBadis.TypeName" = "Scrivi il nome qui";
+"AddBadis.Error.Title" = "Ops!";
+"AddBadis.Error.Subtitle" = "Sembra che il tuo Badi non sia qui";
+"AddBadis.CantFind" = "Non trovi i tuoi coinquilini?";
+"AddBadis.Invite" = "Invita Coinquilini";
+
+// Address search
+"AddressSearch.Search.Title" = "Dove vorresti vivere?";
+"AddressSearch.RoomCreate.Title" = "Dove si trova l'appartamento?";
+"AddressSearch.MyLocation" = "Mia posizione attuale";
+"AddressSearch.MyCity" = "Rileva la tua Città";
+"AddressSearch.SelectLocation" = "Salva posizione";
+
+// Chat
+"Chat.Popup.Title" = "Hai una nuova chat con\n %@ %d !";
+"Chat.Popup.AcceptAction" = "Chatta ora";
+"Chat.Popup.CancelAction" = "Più tardi";
+"Chat.Title" = "Chat";
+"Chat.ErrorTitle" = "Non riesco a caricare i dettagli della chat :( \nPremi Ricarica per riprovare";
+"Chat.Refresh" = "Ricarica";
+"Chat.Empty.Title" = "Non hai ancora chat aperte";
+"Chat.Empty.Subtitle" = "Non aspettare che vengano a bussarti alla porta, trova una stanza che ti piace e invia una richiesta!";
+"Chat.TypeMessage" = "Scrivi il tuo messaggio...";
+"Chat.Map.CurrentLocation" = "Posizione attuale";
+"Chat.Action.Delete" = "Rimuovi";
+"Chat.Action.Block" = "Blocca";
+"Chat.Action.Unblock" = "Sblocca";
+"Chat.UnknownMessage" = "Non è possibile mostrare questo tipo di messaggio";
+
+"Chat.BookingMessage.New" = "Ti ho inviato una Prenotazione! Ti invito ad accettare per confermare la prenotazione";
+"Chat.BookingMessage.Accepted" = "Stanza Prenotata! La Prenotazione è stata confermata e diventerete coinquilini in poco tempo! ";
+"Chat.BookingMessage.Rejected" = "La Prenotazione è stata Rifiutata :(";
+"Chat.BookingMessage.Expired" = "La Prenotazione è Scaduta :(";
+"Chat.BookingMessage.Request" = "Voglio prenotare la tua stanza! Per favore, inviami una Richiesta di Prenotazione :-)";
+"Chat.BookingMessage.NotPossible" = "La Prenotazione non è possibile :(";
+"Chat.BookingMessage.AboutToExpire" = "Tra meno di 4 ore la Prenotazione scadrà!";
+
+// Push
+"push_user_match" = "Nuovo match! Hai un match con%@";
+"push_user_request" = "Nuova richiesta! %@ vuole affittare la tua stanza e chattare con te!";
+"push_user_invitation" = "Nuova richiesta! %@, che ha una stanza da affittare, vuole chattare con te!";
+"push_republish" = "🗓 È arrivato il gran giorno! La tua stanza è ancora disponibile? Ricordati di pubblicarla su Badi!";
+"push_warning_unpublished" = "🙁 Ops! La tua stanza è stata rimossa per non aver risposto alle Richieste. Ci piacerebbe che tu la pubblicassi di nuovo, basta un secondo!";
+"push_warning_pending_requests" = "📨 Toc toc! Ci sono utenti alla tua porta. Clicca qui per rispondere alle loro richieste.";
+// Booking push
+"push_booking_proposal_created" = "🛎  Hai una richiesta di prenotazione da parte di %@! 😀  Sbrigati! Confermala prima che scada.";
+"push_booking_check_in_previous_day" = "Domani è il gran giorno! Ti auguriamo una fantastica prima giornata";
+"push_booking_proposal_expired" = "⌛️ La richiesta di prenotazione a  %@ è scaduta ";
+"push_booking_proposal_rejected" = "La richiesta di prenotazione a %@ è stata rifiutata 😪";
+"push_booking_proposal_accepted" = "Stanza prenotata! Presto diventerete coinquilini! ";
+"push_payout_created" = "L'importo della prenotazione per la tua stanza  %@ è stato trasferito. Riceverai il denaro in 2 o 3 giorni lavorativi";
+"push_room_booked_to_rented" = "Abbiamo modificato lo stato della tua stanza %@ da Prenotata ad Affittata";
+"push_booking_proposal_about_to_expire" = "La Richiesta di Prenotazione di %@ scadrà in meno di 4 ore. Sbrigati ad accettarla! ";
+
+// Complete profile
+"CompleteProfile.Popup.Title" = "Completa il tuo profilo";
+"CompleteProfile.Popup.Subtitle" = "Badi si occupa di persone. Presentati agli altri badi!";
+"CompleteProfile.Popup.FirstButton" = "Completa profilo";
+"CompleteProfile.Popup.SecondButton" = "Non ora";
+
+// Location search
+"LocationSearch.TypeLocation" = "Inserisci una città o una località";
+"LocationSearch.TypeAddress" = "Inserisci l'indirizzo";
+"LocationSearch.TypeACity" = "Inserisci una città";
+"LocationSearch.NotFound.Title" = "Ops!";
+"LocationSearch.NotFound.Subtitle" = "Non trovo questa località";
+
+// Force update
+"ForceUpdate.Title" = "Nuova versione";
+"ForceUpdate.Subtitle" = "È disponibile una nuova versione della nostra app. Visita lo store per scaricarla.";
+"ForceUpdate.Button.Store" = "Vai allo store";
+"ForceUpdate.Button.Later" = "Più tardi";
+
+// Tips
+"Tip.ListRoom.Title" = "Hai una stanza libera?";
+"Tip.ListRoom.Subtitle" = "Pubblica la tua stanza e connettiti con i tuoi futuri coinquilini";
+"Tip.SwitchTab.Title" = "Vuoi tornare alla modalità \"Cerco una stanza\"?";
+"Tip.SwitchTab.Subtitle" = "Se vai sul tuo profilo puoi cambiare la modalità e cercare le stanze";
+"Tip.SwitchNav.Title" = "Passa alla modalità \"Cerco una stanza\":";
+"Tip.SwitchNav.Subtitle" = "Premi questo pulsante per tornare alla modalità \"Cerco una stanza\" e cercare camere";
+"Tip.FindBadi.Title" = "Trova un Badi";
+"Tip.FindBadi.Subtitle" = "Qui troverai suggerimenti e richieste di Badi interessati alla tua stanza.";
+"Tip.FindBadi.FirstButton" = "Capito!";
+"Tip.FindBadi.SecondButton" = "";
+
+"Tip.RequestBooking.Title" = "Hai già conosciuto il tuo Badi ideale?";
+"Tip.RequestBooking.Subtitle" = "Invia una Richiesta di Prenotazione per assicurarti l'affitto della stanza. Sicuro, facile e veloce.";
+"Tip.SendBooking.Title" = "Hai già conosciuto il tuo Badi ideale?";
+"Tip.SendBooking.Subtitle" = "Prenota questa stanza per garantire il tuo affitto. Sicuro, facile e veloce.";
+
+// Rate the app
+"RateApp.Title" = "Ti piace l'app?";
+"RateApp.Subtitle" = "Dai una valutazione così ci aiuti a migliorare. Grazie ;)";
+"RateApp.Later" = "Ricordamelo più tardi";
+"RateApp.Ok" = "Ok!";
+
+// Address type
+"AddressType.Region" = "Zona";
+"AddressType.Country" = "Nazione";
+"AddressType.Establishment" = "Attività";
+"AddressType.City" = "Città";
+"AddressType.Neighborhood" = "Quartiere";
+"AddressType.Street" = "Strada";
+"AddressType.District" = "Area";
+"AddressType.TransitStation" = "Stazione di transito";
+
+// URLs
+"Url.FAQ" = "https://intercom.help/badi/italiano";
+"Url.T&C" = "https://badi.com/blog/it/condizioni-generali-utilizzo/";
+"Url.PrivacyPolicy" = "https://badi.com/blog/it/privacy-policy/";
+"Url.T&C.Booking" = "https://badi.com/blog/it/condizioni-di-prenotazione/";
+"Url.Stripe.Terms" = "https://stripe.com/connect-account/legal";
+
+// Payment
+"Payment.Title.PersonalData" = "Dettagli Contatto";
+"Payment.Title.Bank" = "Numero conto corrente";
+"Payment.Subtitle.Bank" = "Per ricevere l'importo devi impostare un metodo di pagamento.";
+"Payment.Title.Address" = "Indirizzo";
+"Payment.Title.ResidenceCountry" = "Conto bancario";
+"Payment.Element.Phone" = "Telefono verificato:";
+"Payment.Element.Email" = "Contatto email:";
+"Payment.Element.CreditCard" = "Numero della carta";
+"Payment.Element.Iban" = "IBAN 1111 2222 3333 4444";
+"Payment.Element.Iban.BottomHint" = "Badi effettua i pagamenti all'incirca 48 ore dopo la data d'ingresso prevista dell'inquilino. Il tempo affinché l'importo sia depositato sul tuo conto dipende dal tuo metodo di pagamento.";
+"Payment.Element.Name" = "Nome:";
+"Payment.Element.Surname" = "Cognome:";
+"Payment.Element.Birthdate" = "Data di nascita:";
+"Payment.Element.ResidenceCountry" = "Seleziona il tuo Paese";
+"Payment.Element.ResidenceCountry.Hint" = "Questo deve essere il tuo Paese di Residenza (Paese dove possiedi il tuo conto corrente)";
+"Payment.Element.City" = "Città di residenza:";
+"Payment.Element.PostalCode" = "Codice postale:";
+"Payment.Element.Address" = "Indirizzo completo:";
+"Payment.Element.Country" = "Paese:";
+"Payment.Title.Account" = "Il mio conto";
+"Payment.Title.Account.InProgress" = "Dettagli del Conto";
+"Payment.Title.CreditCard" = "Metodo di pagamento";
+"Payment.Element.CreditCard.Hint" = "Numero della carta";
+"Payment.Element.Iban.Hint" = "Numero IBAN";
+"Payment.Element.CreditCard.Disclaimer" = "Nell'inserire i dati di questa carta di credito sono d'accordo e accetto i termini e le condizioni di Stripe";
+"Payment.Button.Save" = "Salva";
+"Payment.Placeholder.Verify" = "Verifica";
+"Payment.Element.Account.Hint" = "Numero di conto:";
+"Payment.Element.SortCode.Hint" = "Codice Bancario:";
+"Payment.Element.AccountNumber" = "Numero di Conto:";
+
+"Payment.Alert.CountryNotAvailable" = "Questo Paese non è ancora presente";
+"Payment.Alert.CountryConfirm.Title" = "Conferma il Paese";
+"Payment.Alert.CountryConfirm.Description" = "Una volta che hai selezionato il Paese non potrai più modificarlo e il tuo conto sarà associato al Paese selezionato.";
+
+// Booking
+"RoomRent.Booking.Title" = "Riserva la stanza a ...";
+"RoomRent.Booking.NotThroughBadi" = "Riserva a qualcuno che non è in Badi";
+
+"Booking.Chat.Description.Pending.Sent" = "In attesa di conferma \n(max 24h)";
+"Booking.Chat.Description.Pending.Received" = "Hai ricevuto una Richiesta di Prenotazione! Accettala prima che scada";
+"Booking.Chat.Description.Booked" = "Stanza Prenotata!\nData d'ingresso%@";
+"Booking.Chat.Description.Allowed" = "Invia una Richiesta di prenotazione a %@ per prenotare la stanza";
+
+"Deposit.RoomDetail.Allowed" = "Prenota la tua stanza a un Badi ed evita sorprese dell'ultimo minuto!";
+"Deposit.RoomDetail.Expired" = "La tua ultima Richiesta di Prenotazione è scaduta";
+"Deposit.RoomDetail.Rejected" = "La tua ultima Richiesta di Prenotazione è stata rifiutata :-( Puoi provare di nuovo";
+"Booking.RoomDetail.ViewActivity" = "Mostra attività prenotazioni";
+
+"Booking.Activity.Title" = "Attività prenotazione";
+"Booking.Activity.Answer" = "Rispondi";
+
+"Booking.Activity.Status.Pending" = "Risposta in attesa";
+"Booking.Activity.Status.Accepted" = "Prenotatata";
+"Booking.Activity.Status.Rejected" = "Prenotazione rifiutata";
+"Booking.Activity.Status.Expired" = "Prenotazione scaduta";
+"Booking.Activity.Status.NotPossible" = "Non possibile";
+
+"Booking.Activity.Subtitle.Accepted" = "Data d'ingresso:";
+"Booking.Activity.Subtitle.Pending.LessThanOne" = "meno di un'ora";
+"Booking.Activity.Subtitle.Pending.Singular" = "ora a disposizione per rispondere";
+"Booking.Activity.Subtitle.Pending.Plural" = "ore a disposizione per rispondere";
+"Booking.Activity.Subtitle.NotPossible" = "Già affittata";
+
+"Deposit.Chat.Action.Pending.Lister" = "Dettagli Prenotazione";
+"Deposit.Chat.Action.Pending.Seeker" = "Visualizza Richiesta";
+"Deposit.Chat.Action.Accepted" = "Dettagli Prenotazione";
+"Deposit.Chat.Action.Allowed.Lister" = "Prenota Stanza";
+"Deposit.Chat.Action.Allowed.Seeker" = "Prenota Stanza";
+"Deposit.Chat.Disclaimer" = "     Per la tua sicurezza, comunica attraverso la chat e realizza i pagamenti attraverso la nostra piattaforma";
+
+// Booking proposal request
+"BookingProposalRequest.Title" = "Richiesta di Prenotazione";
+"BookingProposalRequest.Lister.Subtitle" = "Invia prima la Richiesta, così l'affittuario può confermare o rifiutare la prenotazione della stanza.";
+"BookingProposalRequest.Lister.SecondSubtitle" = "\U2022  La stanza sarà prenotata SOLO quando l'affittuario ACCETTERÀ e PAGHERÀ.\n\n\U2022  Badi tratterrà l'importo di Prenotazione fino a 48 ore dopo la data d'ingresso.\n\n\U2022  L'affittuario deve accettare o rifiutare la richiesta, o non sarà più valida dopo 24 ore.";
+
+"BookingProposalRequest.Seeker.Subtitle" = "Invia prima la Richiesta, così l'Inserzionista può confermare o rifiutare la prenotazione della stanza.";
+"BookingProposalRequest.Seeker.SecondSubtitle" = "\U2022 La stanza è prenotata SOLO quando l'inserzionista ACCETTA la Prenotazione\n\n\U2022 Badi tratterà l'importo della Prenotazione fino a 48 ore dopo la data di ingresso\n\n\U2022 L'inserzionista deve accettare o rifiutare la Richiesta, o scadrà dopo 24 ore.";
+
+"BookingProposalRequest.MyAccount" = "Dettagli del mio conto:";
+"BookingProposalRequest.Date" = "Data d'ingresso:";
+"BookingProposalRequest.Date.Empty" = "Scegli la data";
+"BookingProposalRequest.Amount" = "Importo di prenotazione:";
+
+"BookingProposalRequest.Free" = "Costo del servizio: non c'è! Badi è gratuito al 100%";
+"BookingProposalRequest.Info" = "Hai bisogno di maggiori informazioni? <u>Vedi le informazioni di prenotazione </u>";
+"BookingProposalRequest.Lister.Example.First" = "Protezione dei tuoi dati personali";
+"BookingProposalRequest.Lister.Example.Second" = "Pagamento della prenotazione garantito al 100%";
+"BookingProposalRequest.Lister.Example.Third" = "Ricevi notifiche del pagamento in corso";
+
+"BookingProposalRequest.Seeker.Example.First" = "Protezione dei tuoi dati personali";
+"BookingProposalRequest.Seeker.Example.Second" = "Pagamento online sicuro";
+"BookingProposalRequest.Seeker.Example.Third" = "Hai 48 ore per verificare la tua stanza dopo la data d'ingresso";
+"BookingProposalRequest.Seeker.Example.Fourth" = "100% rimborsabile in caso di cancellazione";
+"BookingProposalRequest.Terms" = "Inviando una Richiesta di Prenotazione, accetti i nostri <b>Accordi sui Servizi</b> e <b>Accordi sul Conto Connesso Stripe </b>";
+
+"BookingProposalRequest.Button" = "Invia Richiesta di Prenotazione";
+
+// Booking request
+"BookingRequest.Chat.Pending" = "Richiesta di Prenotazione";
+"BookingRequest.Chat.Booked" = "Prenotatata";
+"BookingRequest.RoomAddress" = "Indirizzo stanza:";
+"BookingRequest.EntryDate" = "Data d'ingresso:";
+"BookingRequest.BookingAmount" = "Prenotazione";
+"BookingRequest.BookingFee" = "Costi servizio (100% gratis)";
+"BookingRequest.TotalAmount" = "Importo totale";
+"BookingRequest.Lister" = "Inserzionista:";
+"BookingRequest.Seeker" = "Affittuario:";
+"BookingRequest.Info.MoreInfo" = "Hai bisogni di maggiori informazioni <u>Vedi le informazioni di prenotazione</u>";
+"BookingRequest.Info.Example.First" = "Protezione dei tuoi dati personali";
+"BookingRequest.Info.Example.Second" = "Pagamento online sicuro.";
+"BookingRequest.Info.Example.Third" = "24h per controllare la tua stanza dopo la data d'ingresso";
+"BookingRequest.Info.Example.Fourth" = "100% rimborsabile in caso di cancellazione ESTERNA";
+"BookingRequest.Info.Example.Lister.First" = "Protezione dei tuoi dati personali";
+"BookingRequest.Info.Example.Lister.Second" = "Pagamento della prenotazione garantito al 100%";
+"BookingRequest.Info.Example.Lister.Third" = "Ricevi notifiche del pagamento in corso";
+
+"BookingRequest.Request.Title" = "Richiesta di Prenotazione";
+"BookingRequest.Request.Initial.Seeker.Subtitle" = "A %@interessa affittare la stanza e vuole confermare la prenotazione.";
+"BookingRequest.Request.Initial.Seeker.SecondSubtitle" = "\U2022 Hai 24 ore di tempo per accettare o rifiutare la richiesta di Prenotazione prima della sua scadenza. Sbrigati per essere il primo ad accettare e pagare la prenotazione\n\n\U2022 La stanza sarà prenotata SOLO se accetti la richiesta e confermi il pagamento della prenotazione\n\n\U2022 Badi TRATTIENE l'importo della prenotazione fino a 24 ore dopo la data d'ingresso";
+
+"BookingRequest.Request.Initial.Lister.Subtitle" = "%@ è interessato ad affittare la tua stanza e vuole confermare una prenotazione";
+"BookingRequest.Request.Initial.Lister.SecondSubtitle" = "\U2022 Devi accettare o rifiutare la Richiesta, o scadrà dopo 24 ore \n\n\U2022 La stanza sarà prenotata SOLO se accetti la richiesta e confermi le tue informazioni sul conto\n\n\U2022 Badi TRATTIENE l'importo fino a 48 ore dopo la data d'ingresso";
+"BookingRequest.Request.Action.Reject" = "Rifiuta";
+"BookingRequest.Request.Action.Accept" = "Accetta";
+
+"BookingRequest.PaymentInfo.Title" = "Dettagli Pagamento";
+"BookingRequest.PaymentInfo.Subtitle" = "Inserisci il tuo metodo di pagamento e le informazioni di contatto per un pagamento sicuro con Badi";
+
+"BookingRequest.Payment.Seeker.Title" = "Pagamento";
+"BookingRequest.Payment.Lister.Title" = "Conferma di Prenotazione";
+"BookingRequest.Payment.Seeker.Subtitle" = "Paga per confermare la prenotazione. Tratterremo il tuo pagamento per 24 ore fino alla data d'ingresso.";
+"BookingRequest.Payment.Lister.Subtitle" = "Conferma tutti i dettagli di Prenotazione e Accetta la Prenotazione per terminare il processo.";
+"BookingRequest.Payment.Seeker.Agreement" = "Pagando, accetti i nostri  <b>Accordi sui Servizi</b> e <b>Accordi sul Conto Connesso Stripe</b>";
+"BookingRequest.Payment.Lister.Agreement" = "Accettando la Prenotazione, accetti i nostri <b>Accordi sui Servizi </b> e <b>Accordi sul Conto Connesso Stripe</b>";
+"BookingRequest.Payment.Seeker.Button" = "Paga & Conferma";
+"BookingRequest.Payment.Lister.Button" = "Accetta la Prenotazione";
+"BookingRequest.Confirmation.Title" = "Confermata";
+"BookingRequest.Confirmation.Subtitle" = "La stanza è stata correttamente prenotata\n ID Prenotazione : %@";
+"BookingRequest.Confirmation.ThirdTitle.Lister" = "Nota che nel caso in cui avessi più prenotazioni attive relative a questa stanza, saranno cancellate.";
+"BookingRequest.Confirmation.ThirdTitle.Seeker" = "Eventuali altre prenotazioni attive per questa stanza sono state cancellate";
+"BookingRequest.Confirmation.Bottom" = "Ti abbiamo inviato la conferma di prenotazione tramite email";
+"BookingRequest.Waiting.Title" = "In attesa di Conferma";
+"BookingRequest.Waiting.Subtitle" = "La tua Richiesta di Prenotazione è stata inviata";
+
+"BookingRequest.Waiting.ThirdTitle.Lister" = "L'affittuario avrà 24 ore per accettare o rifiutare la tua richiesta. La stanza sarà prenotata SOLO quando l'affittuario accetterà e completerà il pagamento.";
+"BookingRequest.Waiting.ThirdTitle.Seeker" = "L' Inserzionista ha 24 ore di tempo per accettare o rifiutare la tua prenotazione. La stanza sarà prenotata SOLO quando l'inserzionista conferma la Prenotazione.";
+"BookingRequest.Rejected.Title" = "Richiesta Rifiutata";
+
+"BookingRequest.Rejected.Subtitle" = "%@ ha rifiutato la tua Richiesta di Prenotazione :-(";
+"BookingRequest.Expired.Title" = "Richiesta Scaduta";
+"BookingRequest.Expired.Subtitle" = "La tua Richiesta di Prenotazione è scaduta :-(";
+"BookingRequest.NotPossible.Title" = "Prenotazione Non Possibile";
+"BookingRequest.NotPossible.Subtitle" = "Questo utente non è più disponibile a prenotare";
+"BookingRequest.MissingAccount.Text" = "Per favore, completa tutti i campi per poter effettuare il bonifco dell'importo della prenotazione nella data prestabilita.";
+"BookingRequest.MissingAccount.Button" = "Il mio Conto";
+"BookingRequest.ChatMessage" = "Hai un nuovo messaggio relativo alla prenotazione";
+
+// Help
+"Booking.Help.Title" = "Hai domande?";
+"Booking.Help.Subtitle" = "Se hai bisogno di assistenza con la prenotazione, contattaci: siamo qui per aiutarti.";
+"Booking.Help.Email" = "booking@badi.com";
+"Booking.Help.Faq" = "Hai bisogno di maggiori informazioni? Visita le <u>FAQ</u>";
+
+// Info
+"Booking.Info.Title" = "Dettagli Prenotazione";
+"Booking.Info.What" = "Cos'è?";
+"Booking.Info.What.First.Title" = "Se hai una stanza...";
+"Booking.Info.What.First.Content" = "La prenotazione è un metodo sicuro per garantire l'importo totale o parziale del primo mese d'affitto.\n\nAccettando la richiesta di prenotazione l'affittuario accetta di trasferirsi nella data prestabilita.\n\nRilassati ed evita sorprese dell'ultimo minuto!";
+"Booking.Info.What.Second.Title" = "Se stai cercando una stanza...";
+"Booking.Info.What.Second.Content" = "La prenotazione è un metodo sicuro per garantire la disponibilità della stanza.\n\nAccettando la Prenotazione, l'inserzionista concorda di riservare la stanza fino alla data d'ingresso. \n\nRilassati ed evita sorprese dell'ultimo minuto!";
+
+"Booking.Info.How" = "Come funziona?";
+"Booking.Info.Seeker.Title" = "Ci sono due modi per prenotare una stanza: inviando una Richiesta di Prenotazione o ricevendone una.";
+"Booking.Info.Seeker.Receive" = "Se ricevi una Richiesta di Prenotazione...";
+"Booking.Info.Seeker.Receive.Content" = ".1.- Quando ricevi una richiesta di prenotazione, hai 24 ore di tempo per accettarla o rifiutarla. Se non rispondi entro 24 ore, la richiesta scadrà e perderai l'occasione.\n\n2.- Se ACCETTI la Richiesta di Prenotazione, dovrai inserire il tuo metodo di pagamento e procedere ad un pagamento online sicuro utilizzando la tua carta.\n\n3.- A pagamento avvenuto, la prenotazione sarà confermata. Badi TRATTIENE l'importo della Prenotazione. Se non ci sono segnalazioni, il denaro sarà trasferito 48 ore dopo la data d'ingresso.";
+
+"Booking.Info.Seeker.Send" = "Se invii una Richiesta di Prenotazione…";
+"Booking.Info.Seeker.Send.Content" = "1.- Per prima cosa completa le tue informazioni personali e le informazioni sul conto. È necessario per pagare l'importo quando l'Inserzionista accetta la Richiesta di Prenotazione.\n\n2.- Ricordati di indicare la data d'ingresso e l'importo della prenotazione all'interno della Richiesta di Prenotazione.\n\n3.- Invia la Richiesta di Prenotazione all'Inserzionista, il quale ha 24 ore a disposizione per confermarla o rifiutarla.";
+
+"Booking.Info.Seeker.First.Subtitle" = "Cosa accade dopo?";
+"Booking.Info.SeekerFirst.Content" = "L' inserzionista deve accettare o rifiutare la Richiesta o scadrà dopo 24 ore. Durante questo tempo, puoi inviare altre richieste di prenotazione.\nLa prima accettata verrà confermata. In caso di richieste multiple, quando una viene accettata le altre vengono cancellate.";
+
+"Booking.Info.Seeker.Second.Subtitle" = "Come faccio a sapere quando il processo di Prenotazione è completato?";
+"Booking.Info.Seeker.Second.Content" = "Quando la richiesta di prenotazione terminerà, lo status sarà uno dei seguenti.\n\nPrenotazione Confermata: l'Inserzionista accetta la Richiesta e Badi TRATTIENE l'Importo della Prenotazione. La stanza sarà bloccata e prenotata. Il  trasferimento del pagamento avviene dopo 48 ore dalla data di inizio.\n\nRichiesta Rifiutata: l' Inserzionista rifiuta la Prenotazione e puoi ricominciare un nuovo processo.\n\nRichiesta Scaduta: la Richiesta non ha avuto risposta.\n\nRichiesta Non Possibile: l'Inserzionista ha già prenotato la stanza per un altro utente. ";
+
+"Booking.Info.Seeker.Third.Subtitle" = "Cosa succede quando arriva la data d'ingresso?";
+"Booking.Info.Seeker.Third.Content" = "A partire dalla data d'ingresso, avrai 24 ore per controllare la tua nuova stanza e far presente al nostro servizio clienti qualsiasi tipo di problema incontrato.\n\nSe non sporgi nessun reclamo, il denaro sarà trasferito 24 ore dopo la data d'ingresso.\n\nSe sporgi un reclamo, il servizio clienti analizzerà la situazione direttamente ed individualmente. Risolveranno il problema entro 24 ore.\n\n\U2022 Se il problema è risolto, il denaro sarà inviato all'inserzionista dopo queste 24 ore (48 ore dopo la data d'ingresso).\n\n\U2022 Se il problema non può essere risolto, l'importo ti sarà completamente rimborsato.";
+
+"Booking.Info.Seeker.Fourth.Subtitle" = "Termini di cancellazione:";
+"Booking.Info.Seeker.Fourth.Content" = "Se l'Inserzionista cancella la Prenotazione verrai rimborsato del 100% dell'importo totale.\n\nSe cancelli la Prenotazione:\n\n\U2022 oltre 11 giorni prima della data d'ingresso nessun addebito verrà effettuato e sarai rimborsato del 100%.\n\n\U2022 Tra i 10 e i 6 giorni prima della data d'ingresso, riceverai un 50% di rimborso sull'importo totale.\n\n\U2022 Entro 5 giorni prima della data d'ingresso, trasferiremo l'intero importo all'inserzionista.\n\nIn ogni caso, se avviene una cancellazione ci metteremo in contatto con te.";
+
+"Booking.Info.Lister.Title" = "Ci sono due modi per prenotare una stanza: inviando una Richiesta di Prenotazione o ricevendone una.";
+"Booking.Info.Lister.Receive" = "Se ricevi una Richiesta di Prenotazione...";
+"Booking.Info.Lister.Receive.Content" = "1.- Quando ricevi una richiesta di Prenotazione, hai 24 ore di tempo per accettarla o rifiutarla. Se non rispondi entro 24 ore, la richiesta scadrà e perderai l'opportunità.\n\n2.- Se ACCETTI la richiesta di Prenotazione, dovrai completare le tue informazioni personali e le informazioni sul conto. Questo è necessario per trasferirti l'importo della prenotazione nella data concordata. \n\n3.- Una volta Accettata, la prenotazione è confermata. Badi TRATTIENE l'importo della Prenotazione sino a 48 ore dopo la data d'ingresso.";
+
+"Booking.Info.Lister.Send" = "Se invii una Richiesta di Prenotazione…";
+"Booking.Info.Lister.Send.Content" = "1.- Completa prima le tue informazioni personali e le informazioni sul conto. È necessario per il trasferimento dell'importo della prenotazione nella data concordata.\n\n2.- Controlla di aver inserito la DATA D'INGRESSO e l'IMPORTO DELLA PRENOTAZIONE.\n\n3.- Invia la Richiesta di Prenotazione così che l'affittuario possa confermarla o rifiutarla.";
+
+"Booking.Info.Lister.First.Title" = "Cosa accade dopo?";
+"Booking.Info.Lister.First.Content" = "Il potenziale inquilino deve accettare o rifiutare la Richiesta, o la stessa scadrà dopo 24 ore. Durante questo tempo, puoi inviare altre richieste di prenotazione. \n\n\La prima accettata sarà confermata. Nota che nel caso di richiesta multiple, una volta che una viene accettata le altre saranno cancellate.";
+"Booking.Info.Lister.Second.Title" = "Come faccio a sapere quando il processo di prenotazione è completato?";
+"Booking.Info.Lister.Second.Content" = "Quando il processo di Prenotazione termina, lo status sarà uno dei seguenti:\n\nPrenotazione Confermata: l'Affittuario accetta la Richiesta e Badi TRATTIENE l'importo della Prenotazione. La stanza sarà bloccata e prenotata. Il pagamento sarà trasferito dopo 48 ore dalla data d'ingresso.\n\nRichiesta Rifiutata: la Richiesta è stata rifiutata e puoi iniziare un nuovo processo.\n\nRichiesta Scaduta: la Richiesta non ha ottenuto risposta e puoi iniziare un nuovo processo.\n\nRichiesta Non Possibile: il potenziale inquilino ha già prenotato un'altra stanza per qualcun altro.";
+"Booking.Info.Lister.Third.Title" = "Termini di cancellazione:";
+"Booking.Info.Lister.Third.Content" = "Se l'Inquilino cancella la prenotazione:\n\n\U2022 Entro 5 giorni prima della data di ingresso, riceverai un rimborso del 100% del totale della prenotazione \n\n\U2022 Tra i 10 e i 6 giorni prima della data di ingresso, riceverai un 50% di rimborso sull'importo della prenotazione\n\n\U2022 Oltre 11 giorni prima della data di ingresso non sarà applicato alcun addebito \n\nIn ogni caso, se la cancellazione avviene ci metteremo in contatto con te.";
+
+"Booking.Info.Chat" = "chatta con noi";
+
+
+"Booking.Proposal.SendMultiple.Reminder.Title" = "Promemoria";
+"Booking.Proposal.SendMultiple.Reminder.Lister.Message" = "Stai per inviare un'altra Richiesta di Prenotazione. La prima Richiesta accettata sarà quella che verrà prenotata e pagata al tuo conto bancario.";
+"Booking.Proposal.SendMultiple.Reminder.Seeker.Message" = "Sembra che tu abbia già richieste di prenotazione attive. Ricorda che non appena una richiesta di prenotazione viene accettata da te o dall'inserzionista, l'importo della tua prenotazione andrà direttamente a quell'inserzionista e tutte le altre richieste di prenotazione saranno annullate.";
+
+"Booking.Tutorial.First.Title" = "Lancio del sistema di Prenotazione!";
+"Booking.Tutorial.First.Subtitle" = "Prenota la tua stanza in un batter d'occhio con Badi.";
+"Booking.Tutorial.Second.Title" = "La sicurezza prima di tutto";
+"Booking.Tutorial.Second.Subtitle" = "Non preoccuparti per il pagamento. Badi gestisce le transazioni per te.";
+"Booking.Tutorial.Third.Title" = "Semplice e veloce!";
+"Booking.Tutorial.Third.Subtitle" = "Chatta, invia richieste e conferma la tua nuova stanza o coinquilino.";
+"Booking.Tutorial.Fourth.Title" = "Gratis al 100%!";
+"Booking.Tutorial.Fourth.Subtitle" = "Invia tutte le Richieste di Prenotazione che vuoi, è gratis!";
+"Booking.Tutorial.Button" = "Capito!";
+
+"Booking.Chat.Ad.Text" = "Prenota la tua stanza in tutta sicurezza con Badi";
+"Booking.Chat.Ad.Button" = "Maggiori informazioni";
+
+// Social connections
+"Social.Connections.Title" = "Social Connections";
+"Social.Connections.Amount" = "Social Connections con %@";
+
+"Social.Paths.Title" = "Ecco come %@\nti connette a %@:";
+"Social.Paths.Me" = "Io";
+
+// Neighbourhoods
+// Madrid
+"Neighbourhood.ChIJRzHcPCsmQg0R_0fI8f8DR-Y" = "Diversità culturale nel centro storico.";
+"Neighbourhood.ChIJz7ZjFH4oQg0RYS0zuSBBoxQ" = "Il centro della città sempre pieno di vita, non dorme mai.";
+"Neighbourhood.ChIJ8ek8h2QoQg0RTBJi44fo6qA" = "Stile alternativo, negozi vintage, bar dal tocco hippy e sempre alla moda.";
+"Neighbourhood.ChIJzfooVGkoQg0RUZNtUtm0hII" = "Spazi verdi proprio accanto al centro della città.";
+"Neighbourhood.ChIJjXE4gW8vQg0RospLN-fgw1E" = "Ricco di modernità.";
+"Neighbourhood.ChIJ-TdI70IoQg0RLu_2APbEemw" = "Serate all’insegna del divertimento e trasporti ben collegati.";
+
+// Barcelona
+"Neighbourhood.ChIJ--Ln3n-ipBIRcvCCQOH6ACY" = "Parchi tranquilli senza allontanarsi dalla città.";
+"Neighbourhood.ChIJ4Q9lYYWipBIRgvCCQOH6ACY" = "Numerosi locali per il brunch con un mix di culture.";
+"Neighbourhood.ChIJDwUiqL2ipBIRI6kV4Db90bQ" = "Boutique con uno stile tutto loro e molto cool.";
+"Neighbourhood.ChIJ2b6UOeGipBIRGvrMS1jtefQ" = "Cultura e modernità si fondono nella città vecchia.";
+"Neighbourhood.ChIJqf86DGKipBIRIOyOP4f4xrE" = "Bar con un'atmosfera rilassata.";
+"Neighbourhood.ChIJmyCPhtuipBIRHIgYpfufcN0" = "La casa del capolavoro di Gaudí, centro con un'atmosfera vivace.";
+
+// Paris
+"Neighbourhood.ChIJ6VVDJrN65kcRQBuUaMOCCwU" = "Musei a bizzeffe tra spazi verdi e ristoranti a non finire.";
+"Neighbourhood.ChIJEcgELkNu5kcRjVQFUIvkPMY" = "Artistico e autentico, centro che vi farà sentire a casa.";
+"Neighbourhood.ChIJ9WBuGRRw5kcRMBuUaMOCCwU" = "Tranquillità e storia nascosto dal fragore di Parigi.";
+"Neighbourhood.ChIJf8gcz69v5kcRYEpIvGqyH-4" = "Architettura tipica in un quartiere alla moda.";
+"Neighbourhood.ChIJ59fvwcht5kcRcBuUaMOCCwU" = "Spazi verdi, bar con un’aria tranquilla e diversità culturale.";
+"Neighbourhood.ChIJxSr71vZt5kcR8BqUaMOCCwU" = "Vita notturna vivace, ricca di bar e ristoranti.";
+"Neighbourhood.ChIJPStI0CVu5kcRUBqUaMOCCwU" = "Il lussuoso centro, sede del Museo conosciuto da tutto il mondo.";
+"Neighbourhood.ChIJ_WhMlTxu5kcRYBqUaMOCCwU" = "Un quartiere dinamico d'affari con un mix di zone antiche spesso inosservate.";
+"Neighbourhood.ChIJw0-tXgRu5kcRcBqUaMOCCwU" = "La zona medievale è il riparo tranquillo con alcuni musei.";
+"Neighbourhood.ChIJo8SoIv1x5kcRgBqUaMOCCwU" = "Notti divertenti e cultura a bizzeffe, sede di Notre-Dame.";
+"Neighbourhood.ChIJb_T3b-9x5kcRkBqUaMOCCwU" = "Sede del famoso quartiere latino, il cuore dell’università diverso dal solito.";
+"Neighbourhood.ChIJGcU48NBx5kcRoBqUaMOCCwU" = "Rilassati nei grandi giardini e perditi nelle strade caratteristiche.";
+"Neighbourhood.ChIJWWRTZChw5kcRsBqUaMOCCwU" = "Classica architettura parigina, un mix strepitoso di ristoranti, caffetterie e bar.";
+"Neighbourhood.ChIJdWkEFsZv5kcRwBqUaMOCCwU" = "Sede del leggendario Boulevard, un quartiere vigoroso.";
+"Neighbourhood.ChIJvdxBeEdu5kcR0BqUaMOCCwU" = "Vita notturna sempre accesa nel centro della cultura classica della città.";
+"Neighbourhood.ChIJTbMkrQxu5kcR4BqUaMOCCwU" = "Un quartiere originale nel centro della città.";
+"Neighbourhood.ChIJR9fXt4xy5kcRABuUaMOCCwU" = "Spazi verdi proprio accanto al fiume.";
+"Neighbourhood.ChIJgwVOTCdy5kcREBuUaMOCCwU" = "Ricca di diversità culturale in una dinamica vita notturna.";
+"Neighbourhood.ChIJT0ClqLNx5kcRIBuUaMOCCwU" = "Tranquillo e residenziale, con un proprio mercato.";
+"Neighbourhood.ChIJ6_zai45t5kcRgBuUaMOCCwU" = "Pace e tranquillità, ma con club di musica popolare.";
+
+// London
+"Neighbourhood.ChIJqdKqVc0CdkgRgGe-JsaFEQQ" = "Ben collegato, vasti parchi con grattacieli infiniti.";
+"Neighbourhood.ChIJ3ydEeZgDdkgRcGe-JsaFEQQ" = "Pub classici e ristoranti alla moda, la sede del Borough Market.";
+"Neighbourhood.ChIJt1zJSGgEdkgRsEAeRjCuDgo" = "Dal fiume, in costante movimento.";
+"Neighbourhood.ChIJBYyO7-8cdkgRLG8Z2Fn7scU" = "Bar hipster con spazi verdi e lunghi canali.";
+"Neighbourhood.ChIJPZprGOwadkgR4Ga-JsaFEQQ" = "Vivace e deciso, vintage.";
+"Neighbourhood.ChIJ5Tvr7V0bdkgRyWXsGMuF8FQ" = "Sempre alla moda, strade piene di belle case.";
+"Neighbourhood.ChIJX4XfTlUDdkgRwISR0ciFEQo" = "Panorama emblematico nel cuore di Londra.";
+"Neighbourhood.ChIJkcYYXrKl2EcR0Ge-JsaFEQQ" = "Diversità culturale e un forte senso di unione.";
+"Neighbourhood.ChIJT29HcDkXdkgR4Gfsoi2uDgQ" = "Grandi spazi verdi.";
+"Neighbourhood.ChIJIfhvfFqu2EcR8Ge-JsaFEQQ" = "Perfetto per le famiglie, prezzi delle casa convenienti.";
+"Neighbourhood.ChIJq7AET3IRdkgRoH-R0ciFEQo" = "Sede del famoso stadio di Wembley, società culturalmente diversificata.";
+"Neighbourhood.ChIJUYUsD96q2EcRcGnsoi2uDgQ" = "Sobborgo rigoglioso, nel sud-est di Londra.";
+"Neighbourhood.ChIJW_bCdKUAdkgREGjsoi2uDgQ" = "Un centro della città allegro, prezzi delle case più convenienti.";
+"Neighbourhood.ChIJD2fuc4gSdkgRIGjsoi2uDgQ" = "Strade alberate e bellissime case, \"La Regina dei sobborghi\".";
+"Neighbourhood.ChIJ7Y9uo9MYdkgRgGnsoi2uDgQ" = "Costo della vita in città più basso, ben collegato.";
+"Neighbourhood.ChIJJc-4yymo2EcRwqZo5HwjGEk" = "Affascinanti mercati e vista mozzafiato della città.";
+"Neighbourhood.ChIJwzfTXMEPdkgRAGfsoi2uDgQ" = "Mercati biologici e passeggiate lungo il fiume.";
+"Neighbourhood.ChIJZ1JpkPAbdkgREGfsoi2uDgQ" = "Atmosfera residenziale, ottimi collegamenti di trasporto.";
+"Neighbourhood.ChIJsdjk2n0TdkgRQGjsoi2uDgQ" = "Confine nordoccidentale della città, sede della famosa scuola di Harrow.";
+"Neighbourhood.ChIJ1bfreqq72EcRUGjsoi2uDgQ" = "Affitto a prezzi accessibili in una zona in continua crescita, ben collegato.";
+"Neighbourhood.ChIJzWR_V5NtdkgRkf7edrEjoRI" = "Vivi in campagna, lavora a Londra.";
+"Neighbourhood.ChIJNeMxAOgMdkgRWPTlACaTBHQ" = "Ricco di parchi e appartamenti più convenienti.";
+"Neighbourhood.ChIJQzlq8vcPdkgRMGfsoi2uDgQ" = "Giardini incontaminati e il suo proprio palazzo nel cuore della città.";
+"Neighbourhood.ChIJ0ycUEikKdkgR6r_eW1XvlAQ" = "Perfetta per gli appassionati dello shopping.";
+"Neighbourhood.ChIJmT6ce2sCdkgR4EAeRjCuDgo" = "Ottimi collegamenti di trasporto e buon rapporto qualità-prezzo.";
+"Neighbourhood.ChIJbRcY2h0GdkgRQonYqyp5Fx8" = "Sede di Wimbledon, per tutti gli amanti del tennis.";
+"Neighbourhood.ChIJfRGCus6n2EcRYGfsoi2uDgQ" = "Atmosfera diversa con un tocco unico.";
+"Neighbourhood.ChIJcWrvVrqm2EcRoGjsoi2uDgQ" = "Perfetto per le famiglie, ben collegato con il treno.";
+"Neighbourhood.ChIJlwfWmnIMdkgRrCdnqjiWZjo" = "Uno dei quartieri più belli di Londra.";
+"Neighbourhood.ChIJEZ61rPwHdkgRwGjsoi2uDgQ" = "Spazi verdi interminabili, sul bordo della Southwest Greater London.";
+"Neighbourhood.ChIJkRAw9uEddkgR0Gjsoi2uDgQ" = "Dai teatri ai centri culturali, di tutto per tutti.";
+"Neighbourhood.ChIJg-qP_4kFdkgR0mhvpZwsJTc" = "Bar per rilassarsi e ristoranti che circondano grandi parchi verdi.";
+"Neighbourhood.ChIJxwN8mDUFdkgRoGfsoi2uDgQ" = "Vanta i più importanti punti della città.";
+
+// Legal
+"Legal.PopUp.Title" = "Volevamo farti sapere che...";
+"Legal.PopUp.Subtitle" = "Abbiamo aggiornato i nostri Termini e Condizioni e la Normativa sulla Privacy per rispettare le nuove leggi dell’Unione Europea sulla protezione dei dati (GDPR). <b>Qui</b> potrai trovare una spiegazione dettagliata riguardo la gestione dei tuoi dati su badi.\n\nRicorda che accettando le condizioni qui di seguito, potrai gestire il tipo di informazione che vorresti ricevere da noi e inoltre potrai recuperare i tuoi dati come e quando vuoi.";
+"Legal.PopUp.Cancel" = "Rifiuta";
+"Legal.PopUp.Accept" = "Accetta";
+
+"Legal.Settings.Title" = "Privacy";
+"Legal.Settings.Content" = "Vogliamo informarti riguardo le condizioni di uso di badi e perché vengono richiesti alcuni dati. Puoi decidere di non condividere i tuoi dati qui sotto. Per maggiori informazioni, leggi tutta l’informativa sulla privacy <b>qui</b>.";
+"Legal.Settings.Marketing.Title" = "Marketing";
+"Legal.Settings.Marketing.Content" = "Qui a badi, lavoriamo sempre alla costante ricerca di nuove funzionalità e speriamo tu voglia rimanere sempre aggiornato. Ti piacerebbe ricevere informazioni riguardo badi e i nostri colleghi?";
+"Legal.Settings.Profiling.Title" = "Profilo";
+"Legal.Settings.Progiling.Content" = "Oltre alle informazioni da te fornite, potremmo condividere i dati del tuo profilo e della tua registrazione con terze parti. Sei d’accordo?";
+
+// Upload Photo
+"UploadPhoto.TitleAddSomePhotos" = "Aggiungi alcune foto";
+"UploadPhoto.UploadInOneGo" = "Carica tutte le tue foto in una volta!";
+"UploadPhoto.ClickBrowseTakePhoto" = "Fai clic qui per sfogliare l'album o per scattare una foto";
+"UploadPhoto.DragDrop" = "Tieni premuto per spostare le immagini";
+
+// Report
+"Report.User.Title" = "Perché vuoi segnalare questo utente?";
+"Report.User.Subtitle" = "Le segnalazioni sono anonime al 100%";
+"Report.User.Button" = "Segnala utente";
+"Report.Room.Title" = "Perché vuoi segnalare questa stanza?";
+"Report.Room.Subtitle" = "Non preoccuparti, non sapranno che li hai segnalati";
+"Report.Room.Button" = "Segnala stanza";
+
+"Report.Reason.Spam" = "Spam";
+"Report.Reason.Fake" = "Falso";
+"Report.Reason.HolidayLet" = "Vacanze permesse";
+"Report.Reason.ExplicitContent" = "Contenuto esplicito";
+"Report.Reason.Duplicated" = "Duplicato";
+"Report.Reason.BadBehaviour" = "Comportamento scorretto";
+"Report.Reason.Scam" = "Truffa";
+"Report.Reason.FakeProfile" = "Profilo falso";
+
+"Report.User.Success.Title" = "Questo utente è stato segnalato";
+"Report.User.Success.Subtitle" = "Il nostro team sta lavorando per te, interverrà se necessario";
+"Report.Room.Success.Title" = "Questa stanza è stata segnalata";
+"Report.Room.Success.Subtitle" = "Il nostro team sta lavorando per te, interverrà se necessario";
