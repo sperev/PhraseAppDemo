@@ -1,0 +1,14 @@
+phraseapp:
+  access_token: "3d7e6598d955bfcab09f232a99c37af1b9459df5692ac4c28a17793"
+  project_id: "5c05692a2a995c0c45c0c3cbfcab1"
+  file_format: "strings"
+  push:
+    sources:
+    - file: "./PHraseAppDemo/Base.lproj/Localizable.strings"
+      params:
+        file_format: strings
+  pull:
+    targets:
+    - file: "./PHraseAppDemo/es.lproj/Localizable.strings"
+      params:
+        file_format: strings
