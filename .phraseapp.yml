@@ -7,7 +7,7 @@ phraseapp:
     - file: "./PHraseAppDemo/Base.lproj/Localizable.strings"
       params:
         file_format: strings
-        locale_id: en
+        locale_id: Base
   pull:
     targets:
     - file: "./PHraseAppDemo/<locale_code>.lproj/Localizable.strings"
